@@ -42,7 +42,7 @@ One **indicator** of malaria infection is parasitaemia, or the presence of malar
 
 Here is a **forest plot** from Radeva-Petrova et al. [-@radevapetrova:2014] that shows the results of 10 studies (8 trials) that compared cases of parasitaemia among 3,663 pregnant women who were randomized to an **intervention group** (*n*=2,053) that received some preventive antimalarial drug or to a control group (*n*=1,610) that received a **placebo** (or nothing). 
 
-```{r malariaforest, fig.cap="Source: Radeva-Petrova et al. (2014), http://bit.ly/1U3q2Oj", echo=F}
+```{r malariaforest, fig.cap="Source: Radeva-Petrova et al. (2014), http://bit.ly/2hwwpOI", echo=F}
 knitr::include_graphics("images/rpforest.png", dpi = NA)
 ```
 
