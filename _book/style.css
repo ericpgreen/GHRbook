@@ -1,0 +1,313 @@
+.kable_wrapper {
+  border-spacing: 20px 0;
+  border-collapse: separate;
+  border: none;
+  margin: auto;
+}
+.kable_wrapper > tbody > tr > td {
+  vertical-align: top;
+}
+p.caption {
+  color: #777;
+  margin-top: 10px;
+  padding: 0px 0px 40px 0px;
+}
+p code {
+  white-space: inherit;
+}
+pre {
+  word-break: normal;
+  word-wrap: normal;
+}
+pre code {
+  white-space: inherit;
+}
+
+.figure {
+  margin-top: 40px;
+}
+
+.rmdcomment {
+  padding: 1em 1em 1em 4em;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background: #1f9ac9;
+  position:relative;
+  color: white;
+}
+
+  .rmdcomment:before {
+    content: "\f075";
+    font-family: FontAwesome;
+    left:10px;
+    position:absolute;
+    top:0px;
+    font-size: 45px;
+    color: white;
+ }
+
+ .rmdcomment a:link {text-decoration: underline !important; font-weight:bold !important; color:white !important;}
+ .rmdcomment a:visited {text-decoration: underline !important; font-weight:bold !important; color:white !important;}
+ .rmdcomment a:hover {text-decoration: underline !important; font-weight:bold !important; color:white !important;}
+
+
+ .rmdasterisk {
+  padding: 1em 1em 1em 4em;
+  margin-bottom: 10px;
+  background: #f5f5f5;
+  position:relative;
+}
+
+  .rmdasterisk:before {
+    content: "\f069";
+    font-family: FontAwesome;
+    left:10px;
+    position:absolute;
+    top:0px;
+    font-size: 45px;
+ }
+
+ .rmdbookmark {
+  padding: 1em 1em 1em 4em;
+  margin-bottom: 10px;
+  background: #f5f5f5;
+  position:relative;
+}
+
+  .rmdbookmark:before {
+    content: "\f02e";
+    font-family: FontAwesome;
+    left:10px;
+    position:absolute;
+    top:0px;
+    font-size: 45px;
+ }
+
+  .rmdkey {
+  padding: 1em 1em 1em 4em;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background: #f5f5f5;
+  position:relative;
+}
+
+  .rmdkey:before {
+    content: "\f084";
+    font-family: FontAwesome;
+    left:10px;
+    position:absolute;
+    top:0px;
+    font-size: 45px;
+ }
+
+   .rmdlifering {
+  padding: 1em 1em 1em 4em;
+  margin-bottom: 10px;
+  background: #f5f5f5;
+  position:relative;
+}
+
+  .rmdlifering:before {
+    content: "\f1cd";
+    font-family: FontAwesome;
+    left:10px;
+    position:absolute;
+    top:0px;
+    font-size: 45px;
+ }
+
+ .rmdtip {
+  padding: 1em 1em 1em 4em;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background: #E7A34D;
+  position:relative;
+  color:white;
+}
+
+  .rmdtip:before {
+    content: "\f06b";
+    font-family: FontAwesome;
+    left:10px;
+    position:absolute;
+    top:0px;
+    font-size: 45px;
+    color:white;
+ }
+
+ .rmdtip a:link {text-decoration: underline !important; font-weight:bold !important; color:white !important;}
+ .rmdtip a:visited {text-decoration: underline !important; font-weight:bold !important; color:white !important;}
+ .rmdtip a:hover {text-decoration: underline !important; font-weight:bold !important; color:white !important;}
+
+  .rmdlightbulb {
+  padding: 1em 1em 1em 4em;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background: #f5f5f5;
+  position:relative;
+}
+
+  .rmdlightbulb:before {
+    content: "\f0eb";
+    font-family: FontAwesome;
+    left:10px;
+    position:absolute;
+    top:0px;
+    font-size: 45px;
+ }
+
+ .rmdpuzzle {
+  padding: 1em 1em 1em 4em;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background: #82A46A;
+  position:relative;
+  color:white;
+}
+
+  .rmdpuzzle:before {
+    content: "\f12e";
+    font-family: FontAwesome;
+    left:10px;
+    position:absolute;
+    top:0px;
+    font-size: 45px;
+    color:white;
+ }
+
+ .rmdpuzzle a:link {text-decoration: underline !important; font-weight:bold !important; color:white !important;}
+ .rmdpuzzle a:visited {text-decoration: underline !important; font-weight:bold !important; color:white !important;}
+ .rmdpuzzle a:hover {text-decoration: underline !important; font-weight:bold !important; color:white !important;}
+
+ .rmdthumb {
+  padding: 1em 1em 1em 4em;
+  margin-bottom: 10px;
+  background: #f5f5f5;
+  position:relative;
+}
+
+  .rmdthumb:before {
+    content: "\f087";
+    font-family: FontAwesome;
+    left:10px;
+    position:absolute;
+    top:0px;
+    font-size: 45px;
+ }
+
+.rmdbook {
+  padding: 1em 1em 1em 4em;
+  margin-bottom: 10px;
+  background: #f5f5f5;
+  position:relative;
+}
+
+  .rmdbook:before {
+    content: "\f02d";
+    font-family: FontAwesome;
+    left:10px;
+    position:absolute;
+    top:0px;
+    font-size: 45px;
+ }
+
+
+ .rmdquestion {
+  padding: 1em 1em 1em 4em;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background: #f5f5f5;
+  position:relative;
+}
+
+  .rmdquestion:before {
+    content: "\f059";
+    font-family: FontAwesome;
+    left:10px;
+    position:absolute;
+    top:0px;
+    font-size: 45px;
+ }
+
+
+ .rmdplay {
+  padding: 3em 1em 1em 3em;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background: #bb0000;
+  position:relative;
+}
+
+  .rmdplay:before {
+    content: "\f16a";
+    font-family: FontAwesome;
+    left:10px;
+    position:absolute;
+    top:-10px;
+    font-size: 55px;
+    color:white;
+ }
+
+
+.rmdplay2 {
+  padding: 1em 1em 1em 4em;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background: #bb0000;
+  position:relative;
+  color:white;
+}
+
+  .rmdplay2:before {
+    content: "\f16a";
+    font-family: FontAwesome;
+    left:10px;
+    position:absolute;
+    top:0px;
+    font-size: 45px;
+    color:white;
+ }
+
+ .rmdexercise {
+  padding: 1em 1em 1em 4em;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background: #f5f5f5;
+  position:relative;
+}
+
+  .rmdexercise:before {
+    content: "\f044";
+    font-family: FontAwesome;
+    left:10px;
+    position:absolute;
+    top:0px;
+    font-size: 45px;
+ }
+
+ .rmdshiny {
+  padding: 1em 1em 1em 4em;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background: #6781CF;
+  position:relative;
+  color:white;
+}
+
+  .rmdshiny:before {
+    content: "\f080";
+    font-family: FontAwesome;
+    left:10px;
+    position:absolute;
+    top:0px;
+    font-size: 45px;
+    color:white;
+ }
+
+ .rmdshiny a:link {text-decoration: underline !important; font-weight:bold !important; color:white !important;}
+ .rmdshiny a:visited {text-decoration: underline !important; font-weight:bold !important; color:white !important;}
+ .rmdshiny a:hover {text-decoration: underline !important; font-weight:bold !important; color:white !important;}
+
+li.part span {
+  opacity: 1;
+}
