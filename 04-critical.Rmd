@@ -19,7 +19,7 @@ knitr::include_url("https://www.youtube.com/embed/Z_yiUf3f92s")
 
 ## Be Skeptical of News Reports and Press Releases
 
-Much of what we learn about scientific results from the media comes in the form of click bait, such as [this article in Discover Magazine](http://blogs.discovermagazine.com/seriouslyscience/2016/07/27/your-next-mosquito-repellant-could-be-made-from-chicken-odor/#.V6HRqJMrLwc) titled "Want to avoid malaria? Just wear a chicken." Not surprisingly, this study did not actually require people to wear chickens?[^jaleta]
+Much of what we learn about scientific results from the media comes in the form of click bait, such as [this article in Discover Magazine](http://blogs.discovermagazine.com/seriouslyscience/2016/07/27/your-next-mosquito-repellant-could-be-made-from-chicken-odor/#.V6HRqJMrLwc) titled "Want to avoid malaria? Just wear a chicken." Not surprisingly, this study did not actually require people to wear chickens?
 
 Instead, Jaleta et al. [-@jaleta:2016] placed [CDC mini-light traps](http://www.cdc.gov/museum/history/mosquito.html) at the foot of a bed in each of 11 homes in an Ethiopian village. They introduced 11 "treatments" over 11 days in a [Latin Square](https://en.wikipedia.org/wiki/Latin_square) experimental design and recorded the number of mosquitoes caught in the traps overnight. One of the treatments indeed used a live chicken, but no human participants were asked to carry it around or let it crawl into bed. Interestingly, a blood meal analysis suggested that *Anopheles arabiensis* avoids biting chickens, and keeping a live chicken in a nearby cage resulted in a significant reduction in the number of mosquitoes caught in the traps. Odor compounds specific to the air around chickens also achieved this result.
 
