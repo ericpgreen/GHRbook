@@ -21,14 +21,6 @@ knitr::include_url("http://giphy.com/embed/o0vwzuFwCGAFO",
 
 ## Start with Systematic Reviews and Meta-Analyses
 
-```{block, type='rmdplay'}
-```
-
-```{r ch2systematic, echo=F}
-knitr::include_url("https://warpwire.duke.edu/w/BFYBAA/")
-```
-[PDF slide deck](https://drive.google.com/open?id=0Bxn_jkXZ1lxuU2lYSXZ4NWpndEE)
-
 Repeat after me:
 
 > I will not start my research by Googling "malaria." 
@@ -69,15 +61,25 @@ The first way to assess heterogeneity is to consider the plots. Do the confidenc
 
 #### Example {-}
 
-For example, consider the meta-analysis by Radeva-Petrova et al. [-@radevapetrova:2014]. The authors reviewed 17 studies of the effects of chemoprevention on pregnant women living in malaria-endemic areas. With their review, they set out to answer this basic question: > Do women who take antimalarial medication during pregnancy have a lower risk of getting infected with malaria, and thus a lower risk of experiencing the bad health outcomes associated with malaria?
+For example, consider the meta-analysis by Radeva-Petrova et al. [-@radevapetrova:2014]. The authors reviewed 17 studies of the effects of chemoprevention on pregnant women living in malaria-endemic areas. With their review, they set out to answer this basic question: 
 
-One **indicator** of malaria infection is parasitemia, or the presence of malaria parasites in the blood. If chemoprevention has some preventive effect, less parasitemia should be observed among women exposed to the medication (i.e., treatment). Few interventions are 100% effective, so scientists often talk about reductions in the risk of bad outcomes like malaria.The forest plot shown in Figure \@ref(fig:malariaforest) displays the results of 10 studies (8 trials) of cases of parasitemia among 3,663 pregnant women who were randomized to an **intervention group** (*n*=2,053) that received a preventive antimalarial drug or to a control group (*n*=1,610) that received a **placebo** (no drug). 
+> Do women who take antimalarial medication during pregnancy have a lower risk of getting infected with malaria, and thus a lower risk of experiencing the bad health outcomes associated with malaria?
+
+One **indicator** of malaria infection is parasitemia, or the presence of malaria parasites in the blood. If chemoprevention has some preventive effect, less parasitemia should be observed among women exposed to the medication (i.e., treatment). Few interventions are 100% effective, so scientists often talk about reductions in the risk of bad outcomes like malaria.
+
+The forest plot shown in Figure \@ref(fig:malariaforest) displays the results of 10 studies (8 trials) of cases of parasitemia among 3,663 pregnant women who were randomized to an **intervention group** (*n*=2,053) that received a preventive antimalarial drug or to a control group (*n*=1,610) that received a **placebo** (no drug). 
 
 ```{r malariaforest, fig.cap="Source: Radeva-Petrova et al. (2014), http://bit.ly/1U3q2Oj", echo=F}
 knitr::include_graphics("images/rpforest.png", dpi = NA)
 ```
 
-Details about each study are reported in separate rows in this figure. The study by Shulman et al. [-@shulman:1999] in row 6 found that 30 of the 567 women in the intervention group tested positive for parasitemia (i.e., malaria). Comparing this number to 199 of the 564 woman in the control group yields a risk ratio of 0.15, i.e., (30/567)/(199/564) = 0.15. In other words, the chemoprevention reduced the risk of parasitemia by 85%. This is a huge effect size!The effect size for each study is presented in the far-right column and is depicted graphically in the size of the point estimate square. All point estimates fall to the left of the line of no effect (<1), thus indicating a favorable effect of the chemoprevention intervention, i.e., reduced risk of parasitemia. A risk ratio of 1 would indicate no difference in risk, and a ratio >1 would mean the risk was higher among the intervention group, thus favoring the control group (with no treatment). The overall (pooled) effect size is 0.39, or a 61% reduction in the risk of parasitemia.Calculating this pooled effect size is not as simple as averaging the effects of the 10 studies because the studies were not given equal weight, as shown in the "weight" column. For instance, Greenwood et al. [-@greenwood:1989] had a sample size of only 34 children (i.e., 21+13=34). As a result, the effect size estimate is very noisy. The 95% confidence interval is very large and crosses 1. Consequently, the weight of this study is only 6.7%, which is lower than the others. Simply put, studies with weaker research designs, such as this one, have less weight in the pooled analysis.A single forest plot provides a summary of the best available evidence and an estimate of the overall effect size, along with uncertainty intervals. A Google search cannot begin to offer that!
+Details about each study are reported in separate rows in this figure. The study by Shulman et al. [-@shulman:1999] in row 6 found that 30 of the 567 women in the intervention group tested positive for parasitemia (i.e., malaria). Comparing this number to 199 of the 564 woman in the control group yields a risk ratio of 0.15, i.e., (30/567)/(199/564) = 0.15. In other words, the chemoprevention reduced the risk of parasitemia by 85%. This is a huge effect size!
+
+The effect size for each study is presented in the far-right column and is depicted graphically in the size of the point estimate square. All point estimates fall to the left of the line of no effect (<1), thus indicating a favorable effect of the chemoprevention intervention, i.e., reduced risk of parasitemia. A risk ratio of 1 would indicate no difference in risk, and a ratio >1 would mean the risk was higher among the intervention group, thus favoring the control group (with no treatment). The overall (pooled) effect size is 0.39, or a 61% reduction in the risk of parasitemia.
+
+Calculating this pooled effect size is not as simple as averaging the effects of the 10 studies because the studies were not given equal weight, as shown in the "weight" column. For instance, Greenwood et al. [-@greenwood:1989] had a sample size of only 34 children (i.e., 21+13=34). As a result, the effect size estimate is very noisy. The 95% confidence interval is very large and crosses 1. Consequently, the weight of this study is only 6.7%, which is lower than the others. Simply put, studies with weaker research designs, such as this one, have less weight in the pooled analysis.
+
+A single forest plot provides a summary of the best available evidence and an estimate of the overall effect size, along with uncertainty intervals. A Google search cannot begin to offer that!
 
 ```{block, type='rmdshiny'}
 Exploring meta-analysis
@@ -89,7 +91,9 @@ knitr::include_app("https://globalhealthresearch.shinyapps.io/meta-analysis-app/
 
 ### SYSTEMATIC REVIEW
 
-How did Radeva-Petrova et al. [-@radevapetrova:2014] find these studies in the first place? Through a **systematic review** of the literature. Most, if not all, meta-analyses are completed as part of a systematic review of the literature. Every systematic review is a type of literature review, but not every literature review is a systematic review, even if it is done *systematically.*
+How did Radeva-Petrova et al. [-@radevapetrova:2014] find these studies in the first place? Through a **systematic review** of the literature. 
+
+Most, if not all, meta-analyses are completed as part of a systematic review of the literature. Every systematic review is a type of literature review, but not every literature review is a systematic review, even if it is done *systematically.*
 
 ```{r reviewcircles, fig.cap="Literature reviews, systematic reviews, and meta-analyses", echo=F}
 knitr::include_graphics("images/reviewcircles.png", dpi = NA)
@@ -193,7 +197,9 @@ knitr::include_graphics("images/bias.png")
 
 ##### Discussion and conclusions{-}
 
-The discussion section provides a short summary of the findings, commentary on the quality of the evidence, and thoughts about what the review adds to the existing literature on the topic. The discussion tends to be short relative to the size of the overall review. The discussion section is often followed by a brief statement of the authors' conclusions. Here, the authors frame the overall results in terms of their implications for practice and research. 
+The discussion section provides a short summary of the findings, commentary on the quality of the evidence, and thoughts about what the review adds to the existing literature on the topic. The discussion tends to be short relative to the size of the overall review. 
+
+The discussion section is often followed by a brief statement of the authors' conclusions. Here, the authors frame the overall results in terms of their implications for practice and research. 
 
 Radeva-Petrova et al. [-@radevapetrova:2014] conclude:
 
@@ -253,7 +259,13 @@ A reasonable initial approach is to find a few recent articles to get a quick se
 Customize your Google Scholar experience by clicking on the gear icon. Enable use of a bibliography manager, and click on "Library links" to add your library to get links to full text.
 ```
 
-An article's **keywords** provide a good starting point for any search. Not all journals print keywords, however, but if it does, they are usually listed directly following the abstract. Following the abstract and the keywords is the **Introduction**. Some journals, especially in the fields of medicine and public health, have very brief introduction sections that might not be of much help. The **Discussion** section, which usually directly follows the Results section, may also hold new search leads. Authors typically use the discussion to link the study results to the existing literature to demonstrate how the results add to what is already known.After the introduction and discussion sections, the **references** provide a plethora of useful information. First, the names of journals that publish studies in the field are always listed with their article titles. . If a certain journal appears commonly, a scan of the journal's table of contents for recent issues could be useful.[^hand]
+An article's **keywords** provide a good starting point for any search. Not all journals print keywords, however, but if it does, they are usually listed directly following the abstract. 
+
+Following the abstract and the keywords is the **Introduction**. Some journals, especially in the fields of medicine and public health, have very brief introduction sections that might not be of much help. 
+
+The **Discussion** section, which usually directly follows the Results section, may also hold new search leads. Authors typically use the discussion to link the study results to the existing literature to demonstrate how the results add to what is already known.
+
+After the introduction and discussion sections, the **references** provide a plethora of useful information. First, the names of journals that publish studies in the field are always listed with their article titles. . If a certain journal appears commonly, a scan of the journal's table of contents for recent issues could be useful.[^hand]
 
 [^hand]: This is referred to as "hand searching".
 
@@ -265,7 +277,9 @@ An article's **keywords** provide a good starting point for any search. Not all 
 
 ##### Planning and documenting the search{-}
 
-In both formal and informal systematic reviews, it is important to plan and document the search. Literature reviews do not need to be as thorough as systematic reviews, but the approach can be nicely overlaid. Consider the work of Radeva-Petrova et al. [-@radevapetrova:2014] for some inspiration.Every good systematic review includes a table or appendix like this one to make the method reproducible. In other words, running this search query at the same time on two different computers should yield the same results.
+In both formal and informal systematic reviews, it is important to plan and document the search. Literature reviews do not need to be as thorough as systematic reviews, but the approach can be nicely overlaid. Consider the work of Radeva-Petrova et al. [-@radevapetrova:2014] for some inspiration.
+
+Every good systematic review includes a table or appendix like this one to make the method reproducible. In other words, running this search query at the same time on two different computers should yield the same results.
 
 ```{r search, fig.cap="Source: Radeva-Petrova et al. (2014), http://bit.ly/1U3q2Oj", echo=F}
 knitr::include_graphics("images/search.png")
@@ -355,11 +369,15 @@ Of course, it would make more sense to search for "malaria AND pregnancy," inste
 
 The first two terms and last two terms are combined separately with `OR`. These combinations are then combined with `AND` (notice the use of parentheses to segment the operations), dropping the pool of results to 4,203 records. The `AND` operator will always maintain or decrease the number of results.  
 
-To limit the results humans, we can add `AND "humans"[MeSH Terms]` to the end.[^humans] Doing so drops the pool of results to 3,798. [^humans]: PubMed allows the researcher to limit results to humans or animals from the results page with one click, so it is not essential to use Boolean operators manually—PubMed does it automatically.
+To limit the results humans, we can add `AND "humans"[MeSH Terms]` to the end.[^humans] Doing so drops the pool of results to 3,798. 
+
+[^humans]: PubMed allows the researcher to limit results to humans or animals from the results page with one click, so it is not essential to use Boolean operators manually—PubMed does it automatically.
 
 `("malaria"[MeSH Terms] OR "malaria"[All Fields]) AND ("pregnancy"[MeSH Terms] OR "pregnancy"[All Fields]) AND "humans"[MeSH Terms]`
 
-Alternatively, the `NOT` operator could be used to limit the results to nonhumans, but `NOT` is not commonly used. Combining the components of the PICO questions and Boolean operators can be very useful. Consider the following research question: 
+Alternatively, the `NOT` operator could be used to limit the results to nonhumans, but `NOT` is not commonly used. 
+
+Combining the components of the PICO questions and Boolean operators can be very useful. Consider the following research question: 
 
 > Among pregnant women living in malaria-endemic areas, is chemoprevention more effective than a placebo at preventing parasitaemia?
 
@@ -371,7 +389,9 @@ Here's what we could do in plain English:
 * `AND` randomized controlled trial
 * `AND` parasitaemia
 
-At this writing, this search returned 513 records in PubMed. After the results have been honed adequately, the same search can be applied in another database, especially if the topic crosses disciplinary boundaries, like economics and health. Research librarians can provide invaluable leads to important databases.  
+At this writing, this search returned 513 records in PubMed. 
+
+After the results have been honed adequately, the same search can be applied in another database, especially if the topic crosses disciplinary boundaries, like economics and health. Research librarians can provide invaluable leads to important databases.  
 
 Oh hey, here's one now:
 
@@ -400,7 +420,9 @@ It is customary in a systematic review–and helpful in general reviews—to aug
 
 ##### Extracting data{-}
 
-Depending on the research objectives data can be systematically extracted from a study or set of studies, such as key facts related to study design, methods, and results. If it fulfills the objective, however, an annotated bibliography can be conducted in a much shorter time at a smaller scale. Where a true systematic review is used, a data extraction strategy is also needed. The PICO research question can help guide the identification of the minimum data to extract. Returning to the example of Radeva-Petrova et al. [-@radevapetrova:2014]:  
+Depending on the research objectives data can be systematically extracted from a study or set of studies, such as key facts related to study design, methods, and results. If it fulfills the objective, however, an annotated bibliography can be conducted in a much shorter time at a smaller scale. 
+
+Where a true systematic review is used, a data extraction strategy is also needed. The PICO research question can help guide the identification of the minimum data to extract. Returning to the example of Radeva-Petrova et al. [-@radevapetrova:2014]:  
 
 > Among pregnant women living in malaria-endemic areas, is chemoprevention more effective than a placebo at preventing parasitaemia?
 
@@ -418,13 +440,26 @@ Numerous software options exist for storing extracted data, but a simple spreads
 
 ## Use a Reference Manager
 
-The importance of using a software program for managing references cannot be overstated. The manual collation and assembly of a bibliography is simply a colossal waste of time.Several reference managers are available. [Zotero](https://www.zotero.org/) is free and open source. Some other options are not really free. With EndNote, for example, a university may make offer a free download for enrolled students, but the license expires upon graduation or soon becomes obsolete without a paid upgrade. Additionally, in global health, some colleagues may not have access to a program like EndNote, which makes collaboration challenging. For these reasons, Zotero is good choice.
+The importance of using a software program for managing references cannot be overstated. The manual collation and assembly of a bibliography is simply a colossal waste of time.
 
-Although a tutorial is beyond the scope of this chapter, some features that are common to many reference managers are helpful:* Easily imports references from databases like PubMed; moves from the search results to the reference manager instantly* Automatically retrieves full-text PDFs* Syncs PDFs to tablets and phones* Connects to word processing software; inserting references in papers is easy* Automatically creates bibliographies based on works cited* Instantly reformats in-text citations and references to different styles, such as APA, AMA, or Harvard* Shares collections by automatically sync-ing via the Cloud to facilitate collaboration.* Easily exports references to other reference managers
+Several reference managers are available. [Zotero](https://www.zotero.org/) is free and open source. Some other options are not really free. With EndNote, for example, a university may make offer a free download for enrolled students, but the license expires upon graduation or soon becomes obsolete without a paid upgrade. Additionally, in global health, some colleagues may not have access to a program like EndNote, which makes collaboration challenging. For these reasons, Zotero is good choice.
+
+Although a tutorial is beyond the scope of this chapter, some features that are common to many reference managers are helpful:
+
+* Easily imports references from databases like PubMed; moves from the search results to the reference manager instantly
+* Automatically retrieves full-text PDFs
+* Syncs PDFs to tablets and phones
+* Connects to word processing software; inserting references in papers is easy
+* Automatically creates bibliographies based on works cited
+* Instantly reformats in-text citations and references to different styles, such as APA, AMA, or Harvard
+* Shares collections by automatically sync-ing via the Cloud to facilitate collaboration.
+* Easily exports references to other reference managers
 
 ## Why Does Any of This Matter?
 
-Most of the time, literature searches are not conducted to perform a research-related systematic review. Mostly, literature searches offer the most expedient means of staying current with developments in a specific field and of illuminating gaps in the collective knowledge. Literature searches lead to FINER research questions: questions that are **I**nteresting, and **N**ovel, and **R**elevant. Literature also provides insight into how researchers of a specific topic or in a particular field conceptualize study designs, plan study measurement, and report results. Searches, quick data evaluations, and rapid integration of study summaries take practice. For researchers early in the process, using effective search strategies can save a great deal of time and energy.
+Most of the time, literature searches are not conducted to perform a research-related systematic review. Mostly, literature searches offer the most expedient means of staying current with developments in a specific field and of illuminating gaps in the collective knowledge. Literature searches lead to FINER research questions: questions that are **I**nteresting, and **N**ovel, and **R**elevant. Literature also provides insight into how researchers of a specific topic or in a particular field conceptualize study designs, plan study measurement, and report results. 
+
+Searches, quick data evaluations, and rapid integration of study summaries take practice. For researchers early in the process, using effective search strategies can save a great deal of time and energy.
 
 ## Share Feedback{-}
 
