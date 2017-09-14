@@ -4,7 +4,7 @@ knit: "bookdown::preview_chapter"
 
 # Critical Appraisal {#critical}
 
-All health professionals, whether you are a clinician treating patients, a public health official making policy recommendations, or a representative of a donor agency responsible for setting funding priorities, should make decisions based on evidence, not beliefs. The phase "evidence-based" first came into use in the 1990s, nearly two decades after Archie Cochrane highlighted how medical practice lagged behind what science in terms of "what works". Medical schools soon began teaching their students [**evidence-based medicine**](https://en.wikipedia.org/wiki/Evidence-based_medicine) (EBM), defined by @sackett:1996 as:
+All health professionals, whether you are a clinician treating patients, a public health official making policy recommendations, or a representative of a donor agency responsible for setting funding priorities, should make decisions based on evidence, not beliefs. The term "evidence-based" first came into use in the 1990s, nearly two decades after Archie Cochrane, the father of evidence-based medicine and namesake of of the Cochrane Reviews, wrote the book "Effectiveness and Efficiency: Random Reflections on Health Services" and pointed to the need for the medical field to learn from the highest quality studies. This struck a chord with the profession, and medical schools soon began teaching their students [**evidence-based medicine**](https://en.wikipedia.org/wiki/Evidence-based_medicine) (EBM), defined by @sackett:1996 as:
 
 > The conscientious, explicit and judicious use of current best evidence in making decisions about the care of the individual patient. It means integrating individual clinical expertise with the best available external clinical evidence from systematic research.
 
@@ -19,11 +19,13 @@ knitr::include_url("https://www.youtube.com/embed/Z_yiUf3f92s")
 
 ## Be Skeptical of News Reports and Press Releases
 
-Much of what we learn about scientific results from the media comes in the form of click bait, such as [this article in Discover Magazine](http://blogs.discovermagazine.com/seriouslyscience/2016/07/27/your-next-mosquito-repellant-could-be-made-from-chicken-odor/#.V6HRqJMrLwc) titled "Want to avoid malaria? Just wear a chicken." Not surprisingly, this study did not actually require people to wear chickens?
+Much of what we learn about scientific results from the media comes in the form of click bait, such as [this article in Discover Magazine](http://blogs.discovermagazine.com/seriouslyscience/2016/07/27/your-next-mosquito-repellant-could-be-made-from-chicken-odor/#.V6HRqJMrLwc) titled "Want to avoid malaria? Just wear a chicken." Not surprisingly, this study by Jaleta et al. [-@jaleta:2016] did not actually require people to wear chickens.
 
-Instead, Jaleta et al. [-@jaleta:2016] placed [CDC mini-light traps](http://www.cdc.gov/museum/history/mosquito.html) at the foot of a bed in each of 11 homes in an Ethiopian village. They introduced 11 "treatments" over 11 days in a [Latin Square](https://en.wikipedia.org/wiki/Latin_square) experimental design and recorded the number of mosquitoes caught in the traps overnight. One of the treatments indeed used a live chicken, but no human participants were asked to carry it around or let it crawl into bed. Interestingly, a blood meal analysis suggested that *Anopheles arabiensis* avoids biting chickens, and keeping a live chicken in a nearby cage resulted in a significant reduction in the number of mosquitoes caught in the traps. Odor compounds specific to the air around chickens also achieved this result.
+Instead, the authors placed [CDC mini-light traps](http://www.cdc.gov/museum/history/mosquito.html) at the foot of a bed in each of 11 homes in an Ethiopian village. They introduced 11 "treatments" over 11 days in a [Latin Square](https://en.wikipedia.org/wiki/Latin_square) experimental design and recorded the number of mosquitoes caught in the traps overnight. One of the treatments indeed used a live chicken, but no human participants were asked to carry it around or let it crawl into bed. 
 
-So despite the outlandish title, "Just wear a chicken", the news report got it mostly right. That's not always the case. If you turn on the news or read a university press release, you'll often find summaries and claims that go far beyond the conclusions of the original article. Science gives us a small glimpse of the "truth," but the measured and careful language of scientific articles does not always capture the attention of the public.
+Interestingly, a blood meal analysis suggested that *Anopheles arabiensis* avoids biting chickens, and keeping a live chicken in a nearby cage resulted in a significant reduction in the number of mosquitoes caught in the traps. Odor compounds specific to the air around chickens also achieved this result. So despite the outlandish title, "Just wear a chicken", the news report got it mostly right. 
+
+That's not always the case. If you turn on the news or read a university press release, you'll often find summaries and claims that go far beyond the conclusions of the original article. Science gives us a small glimpse of the "truth," but the measured and careful language of scientific articles does not always capture the attention of the public.
 
 ```{block, type='rmdcomment'}
 Another part of the problem is that good science writers are a scarce commodity. One of the best is Ben Goldacre, a British psychiatrist who runs the [EMB Data Lab](https://ebmdatalab.net/) at the [Centre for Evidence-Based Medicine](http://www.cebm.net/) at the University of Oxford. He wrote the *Guardian's* ["Bad Science"](https://www.theguardian.com/science/series/badscience) column for a decade, and he later published a [great book](http://amzn.to/2aKLGaQ) with the same title. His more recent work can be viewed at [AllTrials](http://www.alltrials.net/).
@@ -38,17 +40,13 @@ knitr::include_url("https://www.youtube.com/embed/0Rnq1NpHdmw")
 
 ## Peer-Reviewed Does Not Mean "Correct"
 
-**Peer review** is an important component of the scientific process, but it is not a guarantee of "truth" or validation of the results. So what is peer review?
-
-### IT STARTS WITH A JOURNAL SUBMISSION
-
-When original research upends years of conventional thinking and yields exciting and novel results, researchers (or their institutions) sometimes issue press releases to advertise or create news. Most scientists, however, prefer to reserve judgment or consider the results preliminary pending peer review. They would expect these results to be organized in a manuscript detailing the research design, data, methods, and results, and then submitted to an **academic or scholarly journal** for publication.
-
-Typically, each submission is screened by the journal's editor, a role often filled by a senior scientist in the journal’s field. If the editor thinks that the research is free of obvious fatal flaws and that the paper will be of interest the journal's readership, then the editor assigns it to an associate editor with some expertise on the topic to manage the peer-review process.
+**Peer review** is an important component of the scientific process, but it is not a guarantee of "truth" or validation of the results. Typically, the process begins when an author sends a manuscript to an **academic (i.e. scholarly) journal**. Typically, each submission is screened by the journal's editor, a role often filled by a senior scientist in the journal’s field. If the editor thinks that the research is free of obvious fatal flaws and that the paper will be of interest the journal's readership, then the editor assigns it to an associate editor with some expertise on the topic to manage the peer-review process. Some manuscripts never make it this far; the editor does a "desk reject" and the peer review process ends before it can even begin.
 
 ### WHO IS A PEER?
 
-To begin the peer-review process, an associate editor finds 3 or more scholars in the research field—peers of the authors—to review the paper and comment on the merits of the study. Some journals allow authors to recommend reviewers who might be a good fit for their research and to request that certain colleagues not be considered. Competition within a field, competition for funding resources, and the race to publish original research are a few of the reasons an author might wish to avoid having their unpublished research under the eyes of certain colleagues. The editorial team does not always respect the authors’ wishes, but finding appropriate reviewers is challenging, and they usually consider these suggestions. A "peer" can be:
+To begin the peer-review process, an associate editor often finds 2-4 (or more) scholars in the research field—peers of the authors—to review the paper and comment on the merits of the study. Some journals allow authors to recommend reviewers who might be a good fit for their research and to request that certain colleagues not be considered. Competition within a field, competition for funding resources, and the race to publish original research are a few of the reasons an author might wish to avoid having their unpublished research under the eyes of certain colleagues. The editorial team does not always respect an author's wishes, but finding appropriate reviewers is challenging, and they usually consider these suggestions. 
+
+There is no one model for who is considered a "peer". A peer can be: 
 
 * someone the same level, more junior, or more senior
 * someone who shares the same conceptual framework regarding the topic of study, or someone who takes a different view entirely
@@ -56,11 +54,11 @@ To begin the peer-review process, an associate editor finds 3 or more scholars i
 * someone who is a topic expert, or, when it's hard to find the right person, someone who does not have much background at all
 * someone who is a technical expert on the study methods, or someone who does not know the first thing about the chosen analytical approach
 
-Peer reviews themselves are most often conducted in a blinded fashion, that is, the author and the reviewer are not aware of each other’s identities. However, sometimes reviewers reveal themselves by recommending that the author cite a lot of their work. And sometimes it is easy to determine an authors’ or research group’s identity because their current work builds on previous studies or because various parts of their work have been presented at scientific conferences. The scientific community is a small world, especially in highly specialized fields.
+Peer review is most often conducted in a blinded fashion; that is, the author and the reviewer are not aware of each other’s identities. However, sometimes reviewers reveal themselves by recommending that the author cite a lot of their work. And sometimes it is easy to determine an author's or research group’s identity because their current work builds on previous studies or because various parts of their work have been presented at scientific conferences. The scientific community is a small world, especially in highly specialized fields.
 
 ### WHAT HAPPENS DURING THE REVIEW PROCESS?
 
-Once the manuscript of a research study arrives on a reviewer's desk, he or she will take a few weeks (or even months!) to recommend that the paper be rejected or accepted with minor or major revisions or no revisions at all. Some reviewers enumerate the perceived flaws in painstaking detail. Others give complicated comments that may be too vague to be helpful to the author or the editor.
+Once the manuscript of a research study arrives on a reviewer's desk, he or she will take a few weeks (or even months!) to recommend that the paper be rejected or accepted with minor or major revisions (or sometimes no revisions at all). Some reviewers enumerate the perceived flaws in painstaking detail. Others give short or vague feedback that may be of little help to the author or the editor.
 
 When the editorial team receives these reviews, they decide how the manuscript will proceed. Most academics are happy to get a "revise and resubmit" letter (also called an "R&R" letter). The editor usually gives an indication that the revised paper will have a good chance of publication when it revised, but there are no guarantees. Even after the original paper is revised it sometimes goes back out for further peer review, or the editor makes the decision to accept the revision without additional input.
 
@@ -72,13 +70,11 @@ The editor has a difficult task because reviewers often take different positions
 
 ### WHAT DOES NOT HAPPEN?
 
-A critical thing to note, however, is that reviewers almost never have access to a researcher’s data or analysis code. They base their decisions on the methods as they are reported, the results as they are presented, and the conclusions reached by the author in the discussion. At this stage, the data sources must be described, but they are not verified. So even if reviewers find possible flaws in the logic of the research, analysis mistakes and fraud go largely unchecked.[^gelman] 
+A critical thing to note, however, is that reviewers almost never have access to a researcher’s data or analysis code. They base their decisions on the methods as they are reported, the results as they are presented, and the conclusions reached by the author in the discussion. At this stage, the data sources must be described, but they are not verified. So even if reviewers find possible flaws in the logic of the research, analysis mistakes and fraud go largely unchecked.[^gelman] This lack of verification is why it is wrong to conclude that publication in a peer-reviewed journal means validation, or assurance of the correctness of the conclusions drawn. “Published” does not equal “correct.”[^errorspub] 
 
 [^gelman]: Andrew Gelman, a statistician at Columbia University writes a great (non–peer-reviewed) blog and comments regularly on the [limitations of peer review](http://andrewgelman.com/2016/02/01/peer-review-make-no-damn-sense/) and the need for more post-publication review.
 
-This lack of verification is why it is wrong to conclude that publication in a peer-reviewed journal means validation, or assurance of the correctness of the conclusions drawn. “Published” does not equal “correct.” Journalists can harbor this belief, and defensive authors sometimes promote it when their study's findings are challenged. Several resources “police” the world of scientific reporting, such as [**corrigendum**](https://en.wikipedia.org/wiki/Erratum) and the website [Retraction Watch](http://retractionwatch.com/), as well as retractions in the original journal.
-
-This lack of verification is why it is wrong for people to conclude that published in a peer-reviewed journal means validation, or assurance of the correctness of the conclusions drawn. “Published” does not equal “correct.” Journalists can harbor this belief, and defensive authors sometimes promote it when their study's findings are challenged. If it were true that `published==correct`, then we would have no need for [**corrigendum**](https://en.wikipedia.org/wiki/Erratum) and retractions—and the website [Retraction Watch](http://retractionwatch.com/) would be empty.
+[^errorspub]: Authors and journal editors sometimes learn about mistakes and decide to publish a [**corrigendum**](https://en.wikipedia.org/wiki/Erratum) or even retract the paper. See the website [Retraction Watch](http://retractionwatch.com/) for news on retracted studies.
 
 ### PEER REVIEW OF FUNDING PROPOSALS
 
@@ -112,7 +108,7 @@ This book focuses mainly on how to read and write sections 1 and 2, on how to ev
 
 ### INTRODUCTION SECTION
 
-A good *Introduction* explains the aim of the paper and puts the research question in context.[^hyp] In public health and medicine, this section is often very short compared to the introductions in other disciplines like economics. Even so, reviewers will often read the Introduction looking for references to key studies that could signal the authors are unaware of developments in the field.[^pubdate]
+A good *Introduction* explains the aim of the paper and puts the research question in context.[^hyp] In public health and medicine, this section is typically very short compared to the introductions in other disciplines like economics. Even so, reviewers will often read the Introduction looking for references to key studies that could signal the authors are unaware of developments in the field.[^pubdate]
 
 [^hyp]: If the paper adopts a hypothesis-testing framework, the hypothesis is often stated at the end of the Introduction or the beginning of the Methods section.
 
@@ -120,11 +116,11 @@ A good *Introduction* explains the aim of the paper and puts the research questi
 
 ### METHODS SECTION
 
-A good *Methods* section provides enough information to enable the reader to (attempt to) replicate the findings in a new study. Journal space constraints make this challenging, so authors often post supplemental materials online that provide additional details.[^supp] Even with supplemental materials, however, the author is commonly contacted for additional details and materials to actually attempt a replication.
+A good *Methods* section provides enough information to enable a reader to replicate the findings in a new study. Journal space constraints make this challenging, so authors often post supplemental materials online that provide additional details.[^supp] Even with supplemental materials, however, it may be necessary to contact an author for additional details and materials before attempting a replication.
 
 [^supp]: Supplemental materials are often published online "as is," meaning that the files are not typeset, edited, or peer reviewed.
 
-The organization of the *Methods* section varies by discipline, but generally it includes some information about the research design, subjects, materials or measures, data sources and procedures, and analysis strategy. The [**Equator Network**](http://www.equator-network.org/), which awkwardly stands for Enhancing the QUAlity and Transparency Of health Research, is a good resource for understanding modern reporting standards. When preparing a manuscript, most journals expect authors to include all the information outlined in this checklist that is relevant for the research design of the study being reported. 
+The organization of the *Methods* section varies by discipline and journal, but generally it includes some information about the research design, subjects, materials or measures, data sources and procedures, and analysis strategy. The [**Equator Network**](http://www.equator-network.org/), which awkwardly stands for Enhancing the QUAlity and Transparency Of health Research, is a good resource for understanding modern reporting standards. When preparing a manuscript, most journals expect authors to follow the appropriate checklist for the study design. 
 
 ```{block, type='rmdtip'}
 Include the completed checklist as an appendix with the article submission to head off reviewers who may complain about missing information that is definitely included.
@@ -247,11 +243,11 @@ knitr::include_graphics("images/compare.png")
 
 #### Can each finding be linked to data and procedures presented in the Methods{-}
 
-Every finding in the *Results* section should be linked to a methodology and source of data documented in the Methods section. Articles in medical journals are some of the shortest, so supplemental materials posted online may be needed to obtain a clearer sense of what the authors did and found. 
+Every finding in the *Results* section should be linked to a methodology and source of data documented in the *Methods* section. Articles in medical journals are some of the shortest, so supplemental materials posted online may be needed to obtain a clearer sense of what the authors did and found. 
 
 #### Is the analysis correct?{-}
 
-Without access to the data and any analysis code, which is still the norm for most publications, results cannot be independently verified. Even with such access, some analyses are so complex that only people with extensive training feel qualified to question the accuracy of the results.
+Without access to the data and any analysis code, which is still the norm for most publications, results cannot be independently verified. Even with such access, however, some analyses are so complex that only people with extensive training feel qualified to question the accuracy of the results. When reviewing a study with complex analyses, it may be necessary to consult with colleagues.
 
 ### DISCUSSION SECTION 
 
