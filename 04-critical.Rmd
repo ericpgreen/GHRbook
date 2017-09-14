@@ -40,11 +40,11 @@ knitr::include_url("https://www.youtube.com/embed/0Rnq1NpHdmw")
 
 ## Peer-Reviewed Does Not Mean "Correct"
 
-**Peer review** is an important component of the scientific process, but it is not a guarantee of "truth" or validation of the results. Typically, the process begins when an author sends a manuscript to an **academic (i.e. scholarly) journal**. Typically, each submission is screened by the journal's editor, a role often filled by a senior scientist in the journal’s field. If the editor thinks that the research is free of obvious fatal flaws and that the paper will be of interest the journal's readership, then the editor assigns it to an associate editor with some expertise on the topic to manage the peer-review process. Some manuscripts never make it this far; the editor does a "desk reject" and the peer review process ends before it can even begin.
+**Peer review** is an important component of the scientific process, but it is not a guarantee of "truth" or validation of the results. The review process begins when an author sends a manuscript to an **academic (i.e. scholarly) journal**. Typically, each submission is screened by the journal's editor, a role often filled by a senior scientist in the journal’s field. If the editor thinks that the research is free of obvious fatal flaws and that the paper will be of interest the journal's readership, then the editor assigns it to an associate editor with some expertise on the topic to manage the peer-review process. Some manuscripts never make it this far; the editor does a "desk reject" and the peer review process ends before it can even begin.
 
 ### WHO IS A PEER?
 
-To begin the peer-review process, an associate editor often finds 2-4 (or more) scholars in the research field—peers of the authors—to review the paper and comment on the merits of the study. Some journals allow authors to recommend reviewers who might be a good fit for their research and to request that certain colleagues not be considered. Competition within a field, competition for funding resources, and the race to publish original research are a few of the reasons an author might wish to avoid having their unpublished research under the eyes of certain colleagues. The editorial team does not always respect an author's wishes, but finding appropriate reviewers is challenging, and they usually consider these suggestions. 
+An associate editor then finds 2-4 (or more) scholars in the research field—peers of the authors—to review the paper and comment on the merits of the study. Some journals allow authors to recommend reviewers who might be a good fit for their research and to request that certain colleagues not be considered. Competition within a field, competition for funding resources, and the race to publish original research are a few of the reasons an author might wish to avoid having their unpublished research under the eyes of certain colleagues. The editorial team does not always respect an author's wishes, but finding appropriate reviewers is challenging, and they usually consider these suggestions. 
 
 There is no one model for who is considered a "peer". A peer can be: 
 
@@ -54,7 +54,7 @@ There is no one model for who is considered a "peer". A peer can be:
 * someone who is a topic expert, or, when it's hard to find the right person, someone who does not have much background at all
 * someone who is a technical expert on the study methods, or someone who does not know the first thing about the chosen analytical approach
 
-Peer review is most often conducted in a blinded fashion; that is, the author and the reviewer are not aware of each other’s identities. However, sometimes reviewers reveal themselves by recommending that the author cite a lot of their work. And sometimes it is easy to determine an author's or research group’s identity because their current work builds on previous studies or because various parts of their work have been presented at scientific conferences. The scientific community is a small world, especially in highly specialized fields.
+Peer review is most often conducted in a blinded fashion in which the author and the reviewer are not aware of each other’s identities. However, reviewers may reveal themselves inadvertently by recommending that the author cite a lot of their work. And sometimes it is easy to determine an author's or research group’s identity because their current work builds on previous studies or because various parts of their work have been presented at scientific conferences. The scientific community is a small world, especially in highly specialized fields.
 
 ### WHAT HAPPENS DURING THE REVIEW PROCESS?
 
@@ -104,11 +104,11 @@ Leek offers a helpful recommendation about how to approach a new paper:
 
 [^leek]: [Jeffrey Leek](http://jtleek.com/) is a member of the biostatistics faculty at The Johns Hopkins Bloomberg School of Public Health who teaches a number of very popular massive open online courses (MOOCs) on data science. He has written several books on data analysis and has created a few helpful guides like [this one on peer review](https://github.com/jtleek/reviews).  
 
-This book focuses mainly on how to read and write sections 1 and 2, on how to evaluate research results. To develop the ability to critique findings and plan a data analysis confidently, however, further background in analysis will be needed.
+The rest of the chapter explores the questions a reviewer might ask of a manuscript when conducting a peer review.
 
 ### INTRODUCTION SECTION
 
-A good *Introduction* explains the aim of the paper and puts the research question in context.[^hyp] In public health and medicine, this section is typically very short compared to the introductions in other disciplines like economics. Even so, reviewers will often read the Introduction looking for references to key studies that could signal the authors are unaware of developments in the field.[^pubdate]
+A good *Introduction* explains the aim of the paper and puts the research question in context.[^hyp] In public health and medicine, this section is typically very short compared to the introductions in other disciplines like economics. Even so, reviewers will often read the *Introduction* looking for references to key studies that signal the authors are knowledgeable of developments in the field.[^pubdate]
 
 [^hyp]: If the paper adopts a hypothesis-testing framework, the hypothesis is often stated at the end of the Introduction or the beginning of the Methods section.
 
@@ -116,7 +116,7 @@ A good *Introduction* explains the aim of the paper and puts the research questi
 
 ### METHODS SECTION
 
-A good *Methods* section provides enough information to enable a reader to replicate the findings in a new study. Journal space constraints make this challenging, so authors often post supplemental materials online that provide additional details.[^supp] Even with supplemental materials, however, it may be necessary to contact an author for additional details and materials before attempting a replication.
+A good *Methods* section provides enough information to enable a reader to replicate the findings in a new study. Journal space constraints make this challenging, so authors often post supplemental materials online that provide additional details.[^supp] Even with supplemental materials, however, it may be necessary to contact an author before attempting a replication.
 
 [^supp]: Supplemental materials are often published online "as is," meaning that the files are not typeset, edited, or peer reviewed.
 
@@ -128,7 +128,7 @@ Include the completed checklist as an appendix with the article submission to he
 
 #### Is the research design well-suited to answer the research question?{-}
 
-This book introduces common research designs in global health. There are many different designs that can potentially answer most research questions, but not all designs are created equal. A graphic like Figure \@ref(fig:loe) is commonly used in the EBM literature to convey this point. The meta-analyses and systematic reviews in **[Chapter 3](literature)** are 'studies of studies,' and they sit atop the evidence hierarchy. They enjoy this status because they synthesize the best available evidence. No one study is the final word on a research question, so it makes sense that a meta-analysis that pools results and accounts for variable study quality could potentially provide a better answer than any one study alone.  
+There are many different designs that can potentially answer most research questions, but not all designs are created equal. A graphic like Figure \@ref(fig:loe) is commonly used in the EBM literature to convey this point. The meta-analyses and systematic reviews in **[Chapter 3](literature)** are 'studies of studies,' and they sit atop the evidence hierarchy. They enjoy this status because they synthesize the best available evidence. No one study is the final word on a research question, so it makes sense that a meta-analysis that pools results and accounts for variable study quality could potentially provide a better answer than any one study alone.  
 
 ```{r loe, fig.cap="Levels of evidence", echo=F}
 knitr::include_graphics("images/levels.png")
@@ -138,9 +138,9 @@ However, the Cochrane Handbook for Systematic Reviews [-@cochrane] cautions rese
 
 ##### Is there a risk of bias and confounding?{-}
 
-Some study designs are better than others (at least *in theory*) because of their ability to address potential bias when conducted properly. As discussed in **[Chapter 2](science)**, the goal of scientific research is inference, and some error and uncertainty is always inherent. Consumers (and conductors) of research must accept this fact, and they must be willing to assess the extent to which a study's design and methods might lead away from the "truth." 
+Some study designs are better than others (at least *in theory*) because of their ability to address potential bias when conducted properly. As discussed in **[Chapter 2](science)**, the goal of scientific research is inference, and some error and uncertainty is always inherent. Consumers (and producers) of research must accept this fact, and they must be willing to assess the extent to which a study's design and methods might introduce errors that lead away from the "truth."
 
-Error can be either random and systematic. **Random error** adds noise (i.e., variability) to the data, but it does not affect the average. To revisit our previous example, I might step on a scale and see that I weigh 185.12. I step off and back on, and this time I weigh 185.13.[^weight] This random error results from the limitations of my scale. If I continue taking measurements, this random error will balance out. Random means that the readings are not systematically too high or too low.
+Error can be either random or systematic. **Random error** adds noise (i.e., variability) to the data, but it does not affect the average. To revisit our previous example, I might step on a scale and see that I weigh 185.12. I step off and back on, and this time I weigh 185.13.[^weight] This random error results from the limitations of my scale. If I continue taking measurements, this random error will balance out. Random means that the readings are not systematically too high or too low.
 
 [^weight]: This is my hypothetical example so I get to weigh whatever I want.
 
@@ -153,12 +153,12 @@ Error can be either random and systematic. **Random error** adds noise (i.e., va
 knitr::include_url("https://www.youtube.com/embed/EOXBlgMEqB0")
 ```
 
-Random error can be estimated (as discussed in **[Chapter 9](sampling)**), but typically, the extent to which bias affects the study results remains unknown. For this reason, this problem is often framed as a "risk of bias." 
+Random error can be estimated, but typically, the extent to which bias affects the study results remains unknown. For this reason, this problem is often framed as a "risk of bias." 
 
 In a nonrandomized design, the biggest risk of bias comes from potential **selection bias** [@cochrane]. Selection bias can take different forms. In the context of intervention research, selection bias represents pretreatment (i.e., baseline) differences between study groups. 
 
 ```{block, type='rmdcomment'}
-Webster et al. [-@webster:2003] conducted a case-control study with a non-randomized ( or observational) study design (discussed in **[Chapter 13](observational)** in Eastern Afghanistan to study the efficacy of bed nets as a tool for preventing malaria. Patients who presented at the study clinic with a fever were tested for malaria. Those who tested positive were classified as "cases," and the rest were classified as "controls." The researchers asked cases and controls about their bed-net use, education, income, and several other characteristics. They then compared bed-net users and nonusers on their odds of malaria (i.e., being classified as cases).
+Webster et al. [-@webster:2003] conducted a case-control study with a non-randomized (or observational) study design in Eastern Afghanistan to study the efficacy of bed nets as a tool for preventing malaria. Patients who presented at the study clinic with a fever were tested for malaria. Those who tested positive were classified as "cases," and the rest were classified as "controls." The researchers asked cases and controls about their bed-net use, education, income, and several other characteristics. They then compared bed-net users and nonusers on their odds of malaria (i.e., being classified as cases).
 
 Webster et al. [-@webster:2003] wanted to look at potential selection effects with this particular research design, so they also examined patients' use of chloroquine prior to attending the clinic. If a patient was classified as a control (negative blood film) but tested positive for chloroquine, the patient had received treatment for malaria prior to arriving at the clinic, meaning they really should have been classified as a case. 
 
@@ -193,31 +193,29 @@ The key word here is "typically." Many aspects of an experimental design can res
 * Attrition bias
 * Reporting bias
 
-These sources of bias are further discussed in **[Chapter 11](experimental)**.
-
-The takeaway at this point should be that every study has a potential for bias and, research consumers should assess the risks of bias that might challenge the validity of the reported results. This type of validity—asking, "are the study results 'correct'?"—is typically referred to as **internal validity** [@cochrane]. (External validity is covered near the end of this chapter.)
+The takeaway at this point should be that every study has a potential for bias and, research consumers should assess the risks of bias that might challenge the validity of the reported results. This type of validity—asking, "are the study results 'correct'?"—is typically referred to as **internal validity** [@cochrane].
 
 #### Who (or what) was the subject of study and how were these subjects recruited and/or selected?{-}
 
 Typically, a subsection of the *Methods* section describes participant recruitment and selection. What made someone eligible or ineligible to participate? Who was excluded, intentionally or not? Exclusion and inclusion criteria define the population of interest and inform the study's *generalizability*. 
 
-Furthermore, how were participants invited or selected? Was this process random, or did the researchers invite participants base on availability? The methods of sampling and selection have implications for the inferences that are possible regarding the population. This concept is covered in greater detail in **[Chapter 9](sampling)**.
+Furthermore, how were participants invited or selected? Was this process random, or did the researchers invite participants based on availability? The methods of sampling and selection have implications for the inferences that are possible regarding the population.
 
 #### What materials and/or measures were used in the course of the study?{-}
 
 Almost every study uses some type of materials or measures. Diagnostic studies, for instance, evaluate a diagnostic test or a piece of hardware that analyzes the test samples. Environmental studies often use sophisticated instruments to take atmospheric measurements. Studies like these provide specific details in the Methods section about the materials and equipment used.
 
-Study variables also need to be precisely defined. For instance, hyperparasitemia describes a condition of many malaria parasites in the blood. But what constitutes "many"? The World Health Organization (WHO) defines it as "a parasite density > 4% (~200,000/µL)" [@whomalaria:2015]. Does the study use this definition or another one?
+Study variables also need to be precisely defined. For instance, hyperparasitemia describes a condition of many malaria parasites in the blood. But what constitutes "many"? The World Health Organization (WHO) defines it as "a parasite density > 4% (~200,000/µL)" [@whomalaria:2015]. A manuscript should be precise with respect to how measurement is operationalized.
 
-In studies measuring social or psychological constructs such as anxiety, a definition of the concept of "anxiety" should be provided. Is an anxiety disorder diagnosed by a psychiatrist? If so, what is the basis for this diagnosis? Or is anxiety inferred from a participant's self-reported symptoms on a checklist or screening instrument? If so, what are the questions and how is the instrument scored? Such measurement issues are addressed in **[Chapter 8](measurement)**.
+This holds for studies measuring social or psychological constructs. For instance, in a study of anxiety, a definition of the concept of "anxiety" should be provided. Is an anxiety disorder diagnosed by a psychiatrist? If so, what is the basis for this diagnosis? Or is anxiety inferred from a participant's self-reported symptoms on a checklist or screening instrument? If so, what are the questions and how is the instrument scored?
 
 #### How was the study conducted and how were the data collected?{-}
 
-The data collection part of a *Methods* section should describe what happened after participants were recruited and enrolled. What happened first, second, third? If the study is observational, the procedures might be limited to data collection. Who collected the data, and how were they trained? Where were the data collected? For intervention studies, the data collection procedures describe how participants were randomized to study arms and what happened (or did not happen) in each arm. Were the participants, data collectors, and/or patients **blind** to the treatment assignment?
+The data collection part of a *Methods* section should describe what happened after participants were recruited and enrolled. What happened first, second, third? Who collected the data, and how were they trained? For intervention studies, the data collection procedures should describe how participants were randomized to study arms and what happened (or did not happen) in each arm. Were the participants, data collectors, and/or patients **blind** to the treatment assignment?
 
 #### How was the data analyzed?{-}
 
-If the study uses a hypothesis-testing framework (and not all do), then details about the study hypotheses are located in the *Introduction* or *Methods* section, depending on the journal. The *Methods* section should also detail how the analysis will be carried out. For example, in an intervention study, how was the effect size estimated? Did the study use ordinary least squares regression or logistic regression? The list goes on and on.
+If the study uses a hypothesis-testing framework (and not all do), then details about the study hypotheses are located in the *Introduction* or *Methods* section, depending on the journal. The *Methods* section should also detail how the analysis were carried out. For example, in an intervention study, how was the effect size estimated? Did the study use ordinary least squares regression or logistic regression? The list goes on and on.
 
 ```{block, type='rmdtip'}
 When preparing a manuscript, variables should be defined and analyses specified in the *Methods* section . In the *Results* section, data and findings are reported without a restatement of the methods or analysis approaches.
@@ -241,7 +239,7 @@ knitr::include_graphics("images/compare.png")
 
 ### RESULTS SECTION
 
-#### Can each finding be linked to data and procedures presented in the Methods{-}
+#### Can each finding be linked to data and procedures presented in the Methods?{-}
 
 Every finding in the *Results* section should be linked to a methodology and source of data documented in the *Methods* section. Articles in medical journals are some of the shortest, so supplemental materials posted online may be needed to obtain a clearer sense of what the authors did and found. 
 
@@ -253,21 +251,19 @@ Without access to the data and any analysis code, which is still the norm for mo
 
 #### Is each claim linked to a finding presented in the Results?{-}
 
-Each claim should be supported by results that are reported in the paper. If there is no link between a claim in the *Discussion* section and a finding in the *Results* section, the author may be "going beyond the data." For example, if results on the efficacy of a new treatment for malaria but do include any data on cost, then it would be inappropriate to claim that the treatment is *cost*-effective. Although it is legitimate to speculate a bit in the Discussion section based on documented findings, authors should be careful to label all speculation as such—and these hypothetical forays should never be included the article's Abstract.
+Each claim should be supported by results that are reported in the paper. If there is no link between a claim in the *Discussion* section and a finding in the *Results* section, the author may be "going beyond the data." For example, if a manuscript presents data on the efficacy of a new treatment for malaria but does not include any data on cost, then it would be inappropriate to claim that the treatment is *cost*-effective. Although it is legitimate to speculate a bit in the *Discussion* section based on documented findings, authors should be careful to label all speculation as such—and these hypothetical forays should never be included the article's *Abstract*.
 
 #### Is each claim justified?{-}
 
-Once a link is established between a claim and a set of results, the claim must be validated as representing a correct interpretation of these findings. In addition, the conclusions should be carefully assessed to make sure that the authors did not "go beyond the data" by making conclusions that are not supported by the analysis. For instance, if only weak or mixed evidence that a new program works has been provided, are the authors recommending a massive scale-up of the program? Or do the authors claim that a program is cost-effective without presenting data on actual costs?
+Reviewers must then consider each claim in relation to the results presented to evaluate whether the authors' arrived at the correct interpretation of the data presented. Did the authors come to a reasonable conclusion, or did they "go beyond the data" by making conclusions that are not supported by the analysis. For instance, if only weak or mixed evidence that a new program works has been provided, are the authors recommending a massive scale-up of the program? Do the authors claim that a program is cost-effective without presenting data on actual costs?
 
 #### Are the claims generalizable?{-}
 
 > Most [studies] are highly localized and paticularistic...Yet readers of [your study's] results are rarely concerned with what happened in that particular, past, local study. Rather, they usually aim to learn either about theoretical constructs of interest or about a larger policy.
 
-That's Shadish et al. [-@scc] writing about the importance of **generalizability** of research findings and claims. When a study is so highly localized that the results are unlikely to generalize to new people and places, we'd say that the study has low **external validity**.
+That's Shadish et al. [-@scc] writing about the importance of **generalizability** of research findings and claims. When a study is so highly localized that the results are unlikely to generalize to new people and places, we'd say that the study has low **external validity**. 
 
-One approach to promoting generalizability is to use formal probability sampling, which is discussed in **[Chapter 9](sampling)**. Randomly sampling participants from the population of interest is one way to increase the external validity of a study.  
-
-For example, Wanzira et al. [-@wanzira:2016] analyzed data from the 2014 Uganda Malaria Indicator Survey, a large national survey, and found that women who knew that sulfadoxine/pyrimethamine is a medication used to prevent malaria during pregnancy had greater odds of taking at least two doses than women who did not have this knowledge. Because the UMIS is nationally representative, the results could apply to Ugandan women who did not participate in the study. Would the results be generalizable to women in Tanzania? An argument could be made that they would. Would the results be generalizable to women in France? No, probably not; among other things, malaria is not an issue there.
+One approach to promoting generalizability is to randomly sample participants from the population of interest. For example, Wanzira et al. [-@wanzira:2016] analyzed data from the 2014 Uganda Malaria Indicator Survey, a large national survey, and found that women who knew that sulfadoxine/pyrimethamine is a medication used to prevent malaria during pregnancy had greater odds of taking at least two doses than women who did not have this knowledge. Because the UMIS is nationally representative, the results could apply to Ugandan women who did not participate in the study. Would the results be generalizable to women in Tanzania? An argument could be made that they would. Would the results be generalizable to women in France? No, probably not; among other things, malaria is not an issue there.
 
 #### Are the claims put in context?{-}
 
