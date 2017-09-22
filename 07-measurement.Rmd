@@ -4,11 +4,11 @@ knit: "bookdown::preview_chapter"
 
 # Measurement {#indicators}
 
-A good theory of change or logic model, the subject of the last chapter, can serve as a bridge to good measurement. This chapter describes key measurement concepts, such as how to identify study constructs and select or construct indicators of these constructs.
+A good theory of change or a good logic model, the subjects of the last chapter, can be a bridge to good measurement. This chapter describes key measurement concepts, such as how to identify study constructs and find or create indicators of these constructs.
 
 ## Terminology
 
-Regardless of the research design used, if the goal is to estimate the impact of a program/intervention/treatment/policy on **[blank]**, then **[blank]** is the outcome. But what is the difference between an outcome and an indicator? Between an indicator and an instrument? @glennerster:2013 provide helpful definitions of the terms most often used in discussions of measurement and data collection, which is expanded in the table below.
+@glennerster:2013 provide helpful definitions of the terms most often used in discussions of measurement and data collection. The following table expands on this work.
 
 <br>
 ```{r terms, echo=F}
