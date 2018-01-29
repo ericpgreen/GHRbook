@@ -18,7 +18,7 @@ Global health is the study and practice of "improving health and achieving equit
 
 Global health research is multidisciplinary and interdisciplinary by design [@merson:2011]. It is multidisciplinary in the sense that no one field can solve the great global health challenges of our time and interdisciplinary in the recognition that solutions can be reached through collaboration on new approaches that integrate ideas from different academic and clinical traditions. 
 
-Its multidisciplinary nature means that global health research is a vast, spralling enterprise that involves many **stakeholders**. Let's survey the landscape of global health research before establishing some fundamentals about scientific research.
+Its multidisciplinary nature means that global health research is a vast, sprawling enterprise that involves many **stakeholders**. Let's survey the landscape of global health research before establishing some fundamentals about scientific research.
 
 ```{block, type='rmdpuzzle'}
 The term "stakeholders" can refer to a wide range of people and organizations. Typically, it means **donors** (i.e., the public and private organizations that fund research programs), **policy makers** (i.e., government officials and bureaucrats at national or international bodies like the CDC or the WHO), and **program implementers** (e.g., organizations like Doctors Without Borders) that actually deliver services to **beneficiaries** (i.e., individuals, populations, or patients), and it even extends to **scholars** who study a particular topic or policy issue. 

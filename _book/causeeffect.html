@@ -7,7 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Global Health Research: Designs and Methods</title>
   <meta name="description" content="Online textbook about global health research methods">
-  <meta name="generator" content="bookdown 0.4 and GitBook 2.6.7">
+  <meta name="generator" content="bookdown 0.5.15 and GitBook 2.6.7">
 
   <meta property="og:title" content="Global Health Research: Designs and Methods" />
   <meta property="og:type" content="book" />
@@ -25,7 +25,7 @@
 <meta name="author" content="Eric P. Green">
 
 
-<meta name="date" content="2017-09-22">
+<meta name="date" content="2018-01-29">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -239,7 +239,7 @@
 <p>Do bed nets prevent malaria? Do vouchers increase access to treatment? Do cash transfers improve mental health? What these research questions share is a focus on <strong>causal impact</strong>—a difference in outcomes that can be attributed to a treatment, intervention, policy, or exposure. In many ways, as an applied field global health <em>is</em> the study of causal impact.</p>
 <div id="fundamental-challenge-of-causal-inference" class="section level2">
 <h2><span class="header-section-number">5.1</span> Fundamental Challenge of Causal Inference</h2>
-<p>In an ideal research world, the question, “Do bed nets prevent malaria?” could be answered by cloning a study participant—let’s call her Lucy—and simultaneously giving Lucy a bed net while withholding a net from Lucy’s clone. In this way, we could determine what really happens in the absence of the intervention because the only difference between Lucy and her clone would be that one of them received the intervention.<a href="#fn26" class="footnoteRef" id="fnref26"><sup>26</sup></a></p>
+<p>In an ideal research world, the question, “Do bed nets prevent malaria?” could be answered by cloning a study participant—let’s call her Lucy—and simultaneously giving Lucy a bed net while withholding a net from Lucy’s clone. In this way, we could determine what really happens in the absence of the intervention because the only difference between Lucy and her clone would be that one of them received the intervention.<a href="#fn26" class="footnote-ref" id="fnref26"><sup>26</sup></a></p>
 <p>Of course, we cannot clone study participants, and we cannot <em>simultaneously</em> both provide and not provide a bed net to Lucy. We only get to observe what happens to Lucy, not her clone who did not receive the intervention. Therefore we ask hypothetically what would have happened if Lucy had not been given a bed net. This hypothetical situation—<em>what would have happened in the absence of the intervention</em>—is referred to as the <strong>counterfactual</strong> (or “potential outcome” in the language of the <a href="https://en.wikipedia.org/wiki/Rubin_causal_model">Neyman–Rubin causal model</a>).</p>
 <p>Not being able to observe the counterfactual directly is known as the “fundamental challenge of causal inference.” This is the primary reason that research design requires thought and effort. Much of what follows in this book deals with strategies to deal with causal inference in the absence of a true counterfactual.</p>
 <div id="understanding-causal-relationships" class="section level3">
@@ -252,7 +252,7 @@
 </div>
 <div id="effects" class="section level4 unnumbered">
 <h4>Effects</h4>
-<p><strong>Causal impact</strong> is the difference in counterfactual outcomes (i.e., potential outcomes) caused by some exposure, program, intervention, or policy. Although this sounds simple, it leads back to a fundamental problem: only <em>one</em> counterfactual outcome can be observed for an individual; we cannot observe someone in two states simultaneously (i.e., the treatment <em>and</em> the control). Therefore, it is not possible to observe an effect of the program on an <em>individual</em>. Instead, groups of individuals are observed both under the intervention and without the intervention. Thus, we an infer the counterfactual by comparing some people who get some treatment to other people who do not.<a href="#fn27" class="footnoteRef" id="fnref27"><sup>27</sup></a></p>
+<p><strong>Causal impact</strong> is the difference in counterfactual outcomes (i.e., potential outcomes) caused by some exposure, program, intervention, or policy. Although this sounds simple, it leads back to a fundamental problem: only <em>one</em> counterfactual outcome can be observed for an individual; we cannot observe someone in two states simultaneously (i.e., the treatment <em>and</em> the control). Therefore, it is not possible to observe an effect of the program on an <em>individual</em>. Instead, groups of individuals are observed both under the intervention and without the intervention. Thus, we an infer the counterfactual by comparing some people who get some treatment to other people who do not.<a href="#fn27" class="footnote-ref" id="fnref27"><sup>27</sup></a></p>
 <div class="rmdtip">
 <p>
 Most often, we compare two different sets of people in a treatment (or intervention) group, but the logic also extends to two or more groups (i.e., study arms) or to a single group of people observed at <em>different time points</em>.
@@ -264,7 +264,7 @@ Most often, we compare two different sets of people in a treatment (or intervent
 That’s correct. Although an individual cannot be observed under two conditions at the same time, an individual can be observed at two different times, for example, <em>before</em> the individual receives a treatment and <em>after</em> the individual receives a treatment. This is a “pre–post” or “before/after” comparison.
 </p>
 </div>
-<p>The most common estimate of causal impact is the <strong>average treatment effect</strong> (ATE). Although we cannot observe an effect of X on Y for any specific individual (who can only exist in one state at a time), we can determine whether X causes Y <em>on average</em> among individuals in a study cohort. This is possible because the average difference in potential outcomes (which we cannot observe) is equal to the difference of averages. The following graphic might help.<a href="#fn28" class="footnoteRef" id="fnref28"><sup>28</sup></a></p>
+<p>The most common estimate of causal impact is the <strong>average treatment effect</strong> (ATE). Although we cannot observe an effect of X on Y for any specific individual (who can only exist in one state at a time), we can determine whether X causes Y <em>on average</em> among individuals in a study cohort. This is possible because the average difference in potential outcomes (which we cannot observe) is equal to the difference of averages. The following graphic might help.<a href="#fn28" class="footnote-ref" id="fnref28"><sup>28</sup></a></p>
 <div class="figure"><span id="fig:potentialoutcomes"></span>
 <img src="images/potentialoutcomes.png" alt="Average causal effects can be estimated even though individual effects cannot be observed."  />
 <p class="caption">
@@ -296,7 +296,7 @@ Figure 5.1: Average causal effects can be estimated even though individual effec
 <div id="threats-to-internal-validity" class="section level2">
 <h2><span class="header-section-number">5.2</span> Threats to Internal Validity</h2>
 <p>The possibility of plausible alternative explanations keeps researchers up at night, particularly non-experimentalists. Threats to internal validity, i.e., mistakes in causal inferences, can lay waste to months or even years of research.</p>
-<p>The <a href="http://www.wsj.com/articles/the-anti-poverty-experiment-1433517539">“randomistas”</a>, (i.e., researchers whose designs count heavily on random group assignment and the inclusion of control groups), rest easy with the knowledge that random assignment generally makes plausible alternative explanations implausible.<a href="#fn29" class="footnoteRef" id="fnref29"><sup>29</sup></a></p>
+<p>The <a href="http://www.wsj.com/articles/the-anti-poverty-experiment-1433517539">“randomistas”</a>, (i.e., researchers whose designs count heavily on random group assignment and the inclusion of control groups), rest easy with the knowledge that random assignment generally makes plausible alternative explanations implausible.<a href="#fn29" class="footnote-ref" id="fnref29"><sup>29</sup></a></p>
 <p>Internal validity is Campbell’s <span class="citation">(<a href="#ref-campbell:1957">1957</a>)</span> notion about whether an observed association between X and Y represents a causal relationship. If X comes before Y, and if there are no other plausible explanations for the covariation between X and Y, then the causal inference about X and Y is valid. Threats to causal inference are threats to internal validity. Shadish, Cook, and Campbell <span class="citation">(<a href="#ref-scc">2003</a>)</span> outlined nine primary reasons why it might not be valid to assume that a relationship between X and Y is causal.</p>
 <p><br></p>
 <table>
@@ -394,7 +394,7 @@ The impact of a threat can be added to that of another threat or may depend on t
 <h3><span class="header-section-number">5.2.1</span> AMBIGUOUS TEMPORAL PRECEDENCE</h3>
 <p>Correlational studies can establish that X and Y are related, but often it is not clear that X occurred before Y. Uncertainty about the way a causal effect might flow is referred to as <strong>ambiguous temporal precedence</strong>—or simply “the chicken and egg” problem.</p>
 <p>Sometimes, the direction is clear because it is not possible for Y to cause X. For instance, hot weather (X) might drive ice cream sales (Y), but ice cream sales (Y) cannot cause the temperature to rise (X).</p>
-<p>Most relationships of concern in global health are not so clear, however. Take bed-net use and education as an example. Does bed-net use prevent malaria and allow for greater educational attainment? Or does greater education lead to a better understanding and appreciation of the importance of preventive behaviors like bed-net use?<a href="#fn30" class="footnoteRef" id="fnref30"><sup>30</sup></a></p>
+<p>Most relationships of concern in global health are not so clear, however. Take bed-net use and education as an example. Does bed-net use prevent malaria and allow for greater educational attainment? Or does greater education lead to a better understanding and appreciation of the importance of preventive behaviors like bed-net use?<a href="#fn30" class="footnote-ref" id="fnref30"><sup>30</sup></a></p>
 </div>
 <div id="selection" class="section level3">
 <h3><span class="header-section-number">5.2.2</span> SELECTION</h3>
@@ -420,7 +420,7 @@ The impact of a threat can be added to that of another threat or may depend on t
 <div id="attrition" class="section level3">
 <h3><span class="header-section-number">5.2.6</span> ATTRITION</h3>
 <p><strong>Attrition</strong> occurs when study participants are lost to the cohort, for example, when they do not participate in outcome assessments. Attrition that is uneven between study groups is described as <strong>systematic attrition</strong>. Whereas selection bias makes groups unequal at the beginning of a study, <em>attrition bias makes groups unequal at the end of the study</em> for reasons unrelated to the treatment under investigation.</p>
-<p>For example, researchers recruit depressed patients to take part in an RCT of a novel psychotherapy that is delivered over the course of 10 weekly sessions. If the most depressed patients in the treatment group drop out because the schedule is too demanding, then the analysis would compare the control group (with the most depressed patients still enrolled) to a treatment group that is missing the most depressed patients.<a href="#fn31" class="footnoteRef" id="fnref31"><sup>31</sup></a> The data would show that the treatment group got better on average, but part or all of the observed treatment effect would be due to attrition of the most depressed patients from the treatment group, not due to the treatment.</p>
+<p>For example, researchers recruit depressed patients to take part in an RCT of a novel psychotherapy that is delivered over the course of 10 weekly sessions. If the most depressed patients in the treatment group drop out because the schedule is too demanding, then the analysis would compare the control group (with the most depressed patients still enrolled) to a treatment group that is missing the most depressed patients.<a href="#fn31" class="footnote-ref" id="fnref31"><sup>31</sup></a> The data would show that the treatment group got better on average, but part or all of the observed treatment effect would be due to attrition of the most depressed patients from the treatment group, not due to the treatment.</p>
 </div>
 <div id="testing" class="section level3">
 <h3><span class="header-section-number">5.2.7</span> TESTING</h3>
@@ -461,8 +461,8 @@ Figure 5.3: Basic experimental design
 <p>An important global health policy question that has been studied using experimental and quasi-experimental methods is the impact of user fees on the adoption of health goods, such as bed nets. Advocates of fees argue that free distribution is not sustainable and leads to waste when people who do not need or want the goods are recipients. Also, there is an argument that people only value what they pay for, so removing fees makes people less likely to use goods like bed nets.</p>
 <p>Conversely, the provision of some health goods, in the language of economics, creates “positive externalities” and should therefore be financed with public dollars. In other words, some interventions have spillover effects whereby people who are not treated still experience some indirect effect. A good example of a spillover effect is vaccines and the resulting <a href="https://en.wikipedia.org/wiki/Herd_immunity">herd immunity</a>. Hawley et al. <span class="citation">(<a href="#ref-hawley:2003">2003</a>)</span> showed a similar protective effect of ITN use on child mortality and other malaria-related outcomes among households without ITNs located within 300 meters of households with ITNs.</p>
 <p>Evidence that ITNs have direct <span class="citation">(Phillips-Howard et al. <a href="#ref-phillipshoward:2003">2003</a>)</span> and indirect benefits has been established. The research problem is how to increase geographic coverage and the use of the nets. Is free distribution the best strategy, or should users have to spend something to get a bed net that might retail for a price that is out of reach for many poor households? In other words, should ITNs be free or subsidized?</p>
-<p>Cohen and Dupas <span class="citation">(<a href="#ref-cohen:2010">2010</a>)</span> used an experimental design to study this question in Kenya, where malaria is the leading cause<a href="#fn32" class="footnoteRef" id="fnref32"><sup>32</sup></a> of morbidity and mortality. They randomly assigned 20 prenatal clinics in an endemic region to 1 of 5 groups: a control group that did not distribute ITNs, a free distribution group, a group that charged 10 Ksh per ITN (i.e., a 97.5% subsidy), a group that charged 20 Ksh (i.e., a 95% subsidy), and a group that charged 40 Ksh or approximately $0.60 USD (i.e., a 90% subsidy). When units like clinics, schools, and villages are randomized, the design is a <strong>cluster-randomized trial</strong>, or CRT.</p>
-<p>The authors followed a subset of pregnant women over time and found that those who paid a subsidized price were no more likely to use the bed nets than women who received one for free. They also found that the increase in price from $0 to $0.60 USD reduced demand for ITNs by 60%. These findings indicate that the cost-sharing model of having women pay something for ITNs reduces coverage. The women who forgo a net purchase are at higher risk for malaria because of the direct prevention effects of ITNs, but the research of Hawley et al. shows that the community also suffers because ITNs have spillover effects. Cohen and Dupas conclude that free distribution would ultimately save the lives of more children.</p>
+<p>Cohen and Dupas <span class="citation">(<a href="#ref-cohen:2010">2010</a>)</span> used an experimental design to study this question in Kenya, where malaria is the leading cause<a href="#fn32" class="footnote-ref" id="fnref32"><sup>32</sup></a> of morbidity and mortality. They randomly assigned 20 prenatal clinics in an endemic region to 1 of 5 groups: a control group that did not distribute ITNs, a free distribution group, a group that charged 10 Ksh per ITN (i.e., a 97.5% subsidy), a group that charged 20 Ksh (i.e., a 95% subsidy), and a group that charged 40 Ksh or approximately $0.60 USD (i.e., a 90% subsidy). When units like clinics, schools, and villages are randomized, the design is a <strong>cluster-randomized trial</strong>, or CRT.</p>
+<p>The authors followed a subset of pregnant women over time and found that those who paid a subsidized price were no more likely to use the bed nets than women who received one for free. They also found that the increase in price from $0 to $0.60 USD reduced demand for ITNs by 60%. These findings indicate that the cost-sharing model of having women pay something for ITNs reduces coverage. The women who forgo a net purchase are at higher risk for malaria because of the direct prevention effects of ITNs, but the research of Hawley et al. shows that the community also suffers because ITNs have spillover effects. Cohen and Dupas conclude that free distribution would ultimately save the lives of more children.</p>
 </div>
 </div>
 <div id="quasi-experimental-designs" class="section level3">
@@ -494,7 +494,7 @@ Figure 5.5: Source: Agha et al. (2007), <a href="http://bit.ly/1MkO5a0" class="u
 </div>
 <div id="observational-designs" class="section level3">
 <h3><span class="header-section-number">5.3.3</span> OBSERVATIONAL DESIGNS</h3>
-<p>Epidemiologists are typically associated with observational designs such as cross-sectional surveys, case-control studies, and cohort studies, though many epidemiologists design and implement RCTs.<a href="#fn33" class="footnoteRef" id="fnref33"><sup>33</sup></a></p>
+<p>Epidemiologists are typically associated with observational designs such as cross-sectional surveys, case-control studies, and cohort studies, though many epidemiologists design and implement RCTs.<a href="#fn33" class="footnote-ref" id="fnref33"><sup>33</sup></a></p>
 <div class="figure"><span id="fig:desobs"></span>
 <img src="images/designs-obs.png" alt="Common observational designs"  />
 <p class="caption">
@@ -517,7 +517,7 @@ DHS surveys provide a good example of <strong>demographic research</strong>. Dem
 Many countries strive to conduct a <a href="https://en.wikipedia.org/wiki/Census">census</a>, an enumeration of all citizens, every 10 years. The <a href="http://unstats.un.org/unsd/default.htm">United Nations Statistics Division</a> and the <a href="http://www.unfpa.org/census">United Nations Population Fund</a> (UNFPA) provide technical support to countries preparing for, conducting, and analyzing a national population and housing census. These two organizations, in partnership with the <a href="http://www.unicef.org/">United Nations Children’s Fund</a> (UNICEF), maintain <a href="http://www.censusinfo.net/">CensusInfo</a>, a database of global census data.
 </p>
 </div>
-<p>The 2014 Kenya DHS Key Indicators Report describes the prevalence of ITN use.<a href="#fn34" class="footnoteRef" id="fnref34"><sup>34</sup></a> This is a typical DHS cross tabulation (or crosstab) of the results. In this example, the percentage of children under the age of 5 years old that slept under an insecticide-treated bed net the previous night in Kenya was 54.1%. This descriptive data is further disaggregated by residence and wealth quintiles, which is typical for DHS tables.<a href="#fn35" class="footnoteRef" id="fnref35"><sup>35</sup></a></p>
+<p>The 2014 Kenya DHS Key Indicators Report describes the prevalence of ITN use.<a href="#fn34" class="footnote-ref" id="fnref34"><sup>34</sup></a> This is a typical DHS cross tabulation (or crosstab) of the results. In this example, the percentage of children under the age of 5 years old that slept under an insecticide-treated bed net the previous night in Kenya was 54.1%. This descriptive data is further disaggregated by residence and wealth quintiles, which is typical for DHS tables.<a href="#fn35" class="footnote-ref" id="fnref35"><sup>35</sup></a></p>
 <div class="figure"><span id="fig:kdhs"></span>
 <img src="images/kenyaitn.png" alt="Source: Kenya 2014 DHS Key Indicators Report, http://bit.ly/1g4NYS5" width="729" />
 <p class="caption">
@@ -564,7 +564,7 @@ The <strong>exposure</strong> in this study was bed-net use the night before the
 <p>
 A case-control study looks like a retrospective cohort, but flipped:
 </p>
-<ol style="list-style-type: decimal">
+<ol type="1">
 <li>
 <p>
 In a retrospective cohort you look to see if people with different exposures have different outcomes.
@@ -604,25 +604,25 @@ Another difference is that, in a case-control study, the researcher recruits par
 <p>Shadish, W. R., T. D. Cook, and D. T. Campbell. 2003. <em>Experimental and Quasi-Experimental Designs for Generalized Causal Inference</em>. Cengage Learning. <a href="http://amzn.to/1E8UYIG" class="uri">http://amzn.to/1E8UYIG</a>.</p>
 </div>
 <div id="ref-sachs:2002">
-<p>Sachs, Jeffrey, and Pia Malaney. 2002. “The Economic and Social Burden of Malaria.” <em>Nature</em> 415 (6872): 680–85.</p>
+<p>Sachs, Jeffrey, and Pia Malaney. 2002. “The Economic and Social Burden of Malaria.” <em>Nature</em> 415 (6872):680–85.</p>
 </div>
 <div id="ref-campbell:1957">
-<p>Campbell, Donald T. 1957. “Factors Relevant to the Validity of Experiments in Social Settings.” <em>Psychological Bulletin</em> 54 (4): 297.</p>
+<p>Campbell, Donald T. 1957. “Factors Relevant to the Validity of Experiments in Social Settings.” <em>Psychological Bulletin</em> 54 (4):297.</p>
 </div>
 <div id="ref-bradley:1986">
-<p>Bradley, AK, AM Greenwood, P Byass, BM Greenwood, K Marsh, S Tulloch, and R Hayes. 1986. “Bed-Nets (Mosquito-Nets) and Morbidity from Malaria.” <em>The Lancet</em> 328 (8500): 204–7.</p>
+<p>Bradley, AK, AM Greenwood, P Byass, BM Greenwood, K Marsh, S Tulloch, and R Hayes. 1986. “Bed-Nets (Mosquito-Nets) and Morbidity from Malaria.” <em>The Lancet</em> 328 (8500):204–7.</p>
 </div>
 <div id="ref-okabayashi:2006">
-<p>Okabayashi, Hironori, Pimpimon Thongthien, Pratap Singhasvanon, Jitra Waikagul, Sornchai Looareesuwan, Masamine Jimba, Shigeyuki Kano, et al. 2006. “Keys to Success for a School-Based Malaria Control Program in Primary Schools in Thailand.” <em>Parasitology International</em> 55 (2): 121–26.</p>
+<p>Okabayashi, Hironori, Pimpimon Thongthien, Pratap Singhasvanon, Jitra Waikagul, Sornchai Looareesuwan, Masamine Jimba, Shigeyuki Kano, et al. 2006. “Keys to Success for a School-Based Malaria Control Program in Primary Schools in Thailand.” <em>Parasitology International</em> 55 (2):121–26.</p>
 </div>
 <div id="ref-hawley:2003">
-<p>Hawley, William A, Penelope A Phillips-Howard, Feiko O ter Kuile, Dianne J Terlouw, John M Vulule, Maurice Ombok, Bernard L Nahlen, et al. 2003. “Community-Wide Effects of Permethrin-Treated Bed Nets on Child Mortality and Malaria Morbidity in Western Kenya.” <em>The American Journal of Tropical Medicine and Hygiene</em> 68 (4 suppl): 121–27. <a href="http://www.ajtmh.org/content/68/4_suppl/121.long" class="uri">http://www.ajtmh.org/content/68/4_suppl/121.long</a>.</p>
+<p>Hawley, William A, Penelope A Phillips-Howard, Feiko O ter Kuile, Dianne J Terlouw, John M Vulule, Maurice Ombok, Bernard L Nahlen, et al. 2003. “Community-Wide Effects of Permethrin-Treated Bed Nets on Child Mortality and Malaria Morbidity in Western Kenya.” <em>The American Journal of Tropical Medicine and Hygiene</em> 68 (4 suppl):121–27. <a href="http://www.ajtmh.org/content/68/4_suppl/121.long" class="uri">http://www.ajtmh.org/content/68/4_suppl/121.long</a>.</p>
 </div>
 <div id="ref-phillipshoward:2003">
-<p>Phillips-Howard, Penelope A, Bernard L Nahlen, Margarette S Kolczak, Allen W Hightower, FEIKO O TER KUILE, Jane A Alaii, John E Gimnig, et al. 2003. “Efficacy of Permethrin-Treated Bed Nets in the Prevention of Mortality in Young Children in an Area of High Perennial Malaria Transmission in Western Kenya.” <em>The American Journal of Tropical Medicine and Hygiene</em> 68 (4 suppl): 23–29. <a href="http://www.ajtmh.org/content/68/4_suppl/23.short" class="uri">http://www.ajtmh.org/content/68/4_suppl/23.short</a>.</p>
+<p>Phillips-Howard, Penelope A, Bernard L Nahlen, Margarette S Kolczak, Allen W Hightower, FEIKO O TER KUILE, Jane A Alaii, John E Gimnig, et al. 2003. “Efficacy of Permethrin-Treated Bed Nets in the Prevention of Mortality in Young Children in an Area of High Perennial Malaria Transmission in Western Kenya.” <em>The American Journal of Tropical Medicine and Hygiene</em> 68 (4 suppl):23–29. <a href="http://www.ajtmh.org/content/68/4_suppl/23.short" class="uri">http://www.ajtmh.org/content/68/4_suppl/23.short</a>.</p>
 </div>
 <div id="ref-cohen:2010">
-<p>Cohen, Jessica, and Pascaline Dupas. 2010. “Free Distribution or Cost-Sharing? Evidence from a Randomized Malaria Prevention Experiment.” <em>Quarterly Journal of Economics</em> 125 (1): 1–45. <a href="http://www.povertyactionlab.org/publication/free-distribution-or-cost-sharing-evidence-malaria-prevention-experiment-kenya" class="uri">http://www.povertyactionlab.org/publication/free-distribution-or-cost-sharing-evidence-malaria-prevention-experiment-kenya</a>.</p>
+<p>Cohen, Jessica, and Pascaline Dupas. 2010. “Free Distribution or Cost-Sharing? Evidence from a Randomized Malaria Prevention Experiment.” <em>Quarterly Journal of Economics</em> 125 (1):1–45. <a href="http://www.povertyactionlab.org/publication/free-distribution-or-cost-sharing-evidence-malaria-prevention-experiment-kenya" class="uri">http://www.povertyactionlab.org/publication/free-distribution-or-cost-sharing-evidence-malaria-prevention-experiment-kenya</a>.</p>
 </div>
 <div id="ref-angrist:1999">
 <p>Angrist, Joshua D, and Alan B Krueger. 1999. “Empirical Strategies in Labor Economics.” In, edited by Orley C. Ashenfelter and David Card. Vol. 3. North Holland, Amsterdam: Elsevier.</p>
@@ -631,34 +631,34 @@ Another difference is that, in a case-control study, the researcher recruits par
 <p>Angrist, Joshua D, and J. Pischke. 2015. <em>Mastering ’Metrics: The Path from Cause to Effect</em>. Princeton; Oxford: Princeton University Press.</p>
 </div>
 <div id="ref-agha:2007">
-<p>Agha, Sohail, Ronan Van Rossem, Guy Stallworthy, and Thankian Kusanthan. 2007. “The Impact of a Hybrid Social Marketing Intervention on Inequities in Access, Ownership and Use of Insecticide-Treated Nets.” <em>Malaria Journal</em> 6 (1): 13. <a href="http://www.malariajournal.com/content/6/1/13" class="uri">http://www.malariajournal.com/content/6/1/13</a>.</p>
+<p>Agha, Sohail, Ronan Van Rossem, Guy Stallworthy, and Thankian Kusanthan. 2007. “The Impact of a Hybrid Social Marketing Intervention on Inequities in Access, Ownership and Use of Insecticide-Treated Nets.” <em>Malaria Journal</em> 6 (1):13. <a href="http://www.malariajournal.com/content/6/1/13" class="uri">http://www.malariajournal.com/content/6/1/13</a>.</p>
 </div>
 <div id="ref-noor:2006">
-<p>Noor, Abdisalan M, Judith A Omumbo, Abdinasir A Amin, Dejan Zurovac, and Robert W Snow. 2006. “Wealth, Mother’s Education and Physical Access as Determinants of Retail Sector Net Use in Rural Kenya.” <em>Malaria Journal</em> 5 (5): 5. <a href="http://www.malariajournal.com/content/5/1/5" class="uri">http://www.malariajournal.com/content/5/1/5</a>.</p>
+<p>Noor, Abdisalan M, Judith A Omumbo, Abdinasir A Amin, Dejan Zurovac, and Robert W Snow. 2006. “Wealth, Mother’s Education and Physical Access as Determinants of Retail Sector Net Use in Rural Kenya.” <em>Malaria Journal</em> 5 (5):5. <a href="http://www.malariajournal.com/content/5/1/5" class="uri">http://www.malariajournal.com/content/5/1/5</a>.</p>
 </div>
 <div id="ref-lindblade:2015">
-<p>Lindblade, Kim A, Dyson Mwandama, Themba Mzilahowa, Laura Steinhardt, John Gimnig, Monica Shah, Andy Bauleni, et al. 2015. “A Cohort Study of the Effectiveness of Insecticide-Treated Bed Nets to Prevent Malaria in an Area of Moderate Pyrethroid Resistance, Malawi.” <em>Malaria Journal</em> 14 (1): 31. <a href="http://www.malariajournal.com/content/14/1/31" class="uri">http://www.malariajournal.com/content/14/1/31</a>.</p>
+<p>Lindblade, Kim A, Dyson Mwandama, Themba Mzilahowa, Laura Steinhardt, John Gimnig, Monica Shah, Andy Bauleni, et al. 2015. “A Cohort Study of the Effectiveness of Insecticide-Treated Bed Nets to Prevent Malaria in an Area of Moderate Pyrethroid Resistance, Malawi.” <em>Malaria Journal</em> 14 (1):31. <a href="http://www.malariajournal.com/content/14/1/31" class="uri">http://www.malariajournal.com/content/14/1/31</a>.</p>
 </div>
 <div id="ref-fullman:2013">
 <p>Fullman, Nancy, Roy Burstein, Stephen S Lim, Carol Medlin, and Emmanuela Gakidou. 2013. “Nets, Spray or Both? The Effectiveness of Insecticide-Treated Nets and Indoor Residual Spraying in Reducing Malaria Morbidity and Child Mortality in Sub-Saharan Africa.” <em>Malaria Journal</em> 12 (1).</p>
 </div>
 <div id="ref-obala:2015">
-<p>Obala, Andrew A, Judith Nekesa Mangeni, Alyssa Platt, Daniel Aswa, Lucy Abel, Jane Namae, and Wendy Prudhomme O’Meara. 2015. “What Is Threatening the Effectiveness of Insecticide-Treated Bednets? A Case-Control Study of Environmental, Behavioral, and Physical Factors Associated with Prevention Failure.” <em>PLOS ONE</em> 10 (7): e0132778. <a href="http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0132778" class="uri">http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0132778</a>.</p>
+<p>Obala, Andrew A, Judith Nekesa Mangeni, Alyssa Platt, Daniel Aswa, Lucy Abel, Jane Namae, and Wendy Prudhomme O’Meara. 2015. “What Is Threatening the Effectiveness of Insecticide-Treated Bednets? A Case-Control Study of Environmental, Behavioral, and Physical Factors Associated with Prevention Failure.” <em>PLOS ONE</em> 10 (7):e0132778. <a href="http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0132778" class="uri">http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0132778</a>.</p>
 </div>
 </div>
 <div class="footnotes">
 <hr />
 <ol start="26">
-<li id="fn26"><p>In econometrics, this is referred to as <em>ceteris paribus</em> conditions, or <em>other things equal</em>.<a href="causeeffect.html#fnref26">↩</a></p></li>
-<li id="fn27"><p>Effects can and often are measured on other units like schools, clinics, etc., but it is easier to think about “subjects” as being people.<a href="causeeffect.html#fnref27">↩</a></p></li>
-<li id="fn28"><p>This figure is based on <a href="https://raw.githubusercontent.com/egap/methods-guides/master/causal-inference/PO.jpg">an illustration</a> created by egap. See their <a href="http://egap.org/methods-guides/10-things-you-need-know-about-causal-inference">helpful guide to causal inference</a>.<a href="causeeffect.html#fnref28">↩</a></p></li>
-<li id="fn29"><p>To be sure, the randomistas have bias-filled nightmares on occasion when they learn that an experiment did not quite go as planned, but they are generally heavy sleepers.<a href="causeeffect.html#fnref29">↩</a></p></li>
-<li id="fn30"><p>The possibility of bidirectonal (reciprocal) causation in not considered in this book.<a href="causeeffect.html#fnref30">↩</a></p></li>
-<li id="fn31"><p>Recruiting depressed patients sounds like it could be subject to regression to the mean, but there is no cause for concern because a control group will undergo the same phenomenon.<a href="causeeffect.html#fnref31">↩</a></p></li>
-<li id="fn32"><p>KEMRI (n.d.). Kenya malaria fact sheet. Available at <a href="http://www.kemri.org/index.php/help-desk/search/diseases-a-conditions/29-malaria/113-kenya-malaria-fact-sheet" class="uri">http://www.kemri.org/index.php/help-desk/search/diseases-a-conditions/29-malaria/113-kenya-malaria-fact-sheet</a>.<a href="causeeffect.html#fnref32">↩</a></p></li>
-<li id="fn33"><p>Epidemiologists do not typically distinguish between quasi-experimental and other non-experimental (or observational) designs like case-control or cohort studies.<a href="causeeffect.html#fnref33">↩</a></p></li>
-<li id="fn34"><p>The DHS program runs several types of surveys; the DHS surveys are the most well known. A DHS survey takes an average of 18–20 months to complete. Preliminary results are released about a month after the end of data collection, but it may be a year until the final report and data are published. The DHS process is outlined here: <a href="http://dhsprogram.com/What-We-Do/Survey-Process.cfm" class="uri">http://dhsprogram.com/What-We-Do/Survey-Process.cfm</a>.<a href="causeeffect.html#fnref34">↩</a></p></li>
-<li id="fn35"><p>DHS surveys include enough people to be <strong>representative</strong> for different subgroups, such as urban and rural settings or wealth quintiles (the rich, the poor, and everyone in between).<a href="causeeffect.html#fnref35">↩</a></p></li>
+<li id="fn26"><p>In econometrics, this is referred to as <em>ceteris paribus</em> conditions, or <em>other things equal</em>.<a href="causeeffect.html#fnref26" class="footnote-back">↩</a></p></li>
+<li id="fn27"><p>Effects can and often are measured on other units like schools, clinics, etc., but it is easier to think about “subjects” as being people.<a href="causeeffect.html#fnref27" class="footnote-back">↩</a></p></li>
+<li id="fn28"><p>This figure is based on <a href="https://raw.githubusercontent.com/egap/methods-guides/master/causal-inference/PO.jpg">an illustration</a> created by egap. See their <a href="http://egap.org/methods-guides/10-things-you-need-know-about-causal-inference">helpful guide to causal inference</a>.<a href="causeeffect.html#fnref28" class="footnote-back">↩</a></p></li>
+<li id="fn29"><p>To be sure, the randomistas have bias-filled nightmares on occasion when they learn that an experiment did not quite go as planned, but they are generally heavy sleepers.<a href="causeeffect.html#fnref29" class="footnote-back">↩</a></p></li>
+<li id="fn30"><p>The possibility of bidirectonal (reciprocal) causation in not considered in this book.<a href="causeeffect.html#fnref30" class="footnote-back">↩</a></p></li>
+<li id="fn31"><p>Recruiting depressed patients sounds like it could be subject to regression to the mean, but there is no cause for concern because a control group will undergo the same phenomenon.<a href="causeeffect.html#fnref31" class="footnote-back">↩</a></p></li>
+<li id="fn32"><p>KEMRI (n.d.). Kenya malaria fact sheet. Available at <a href="http://www.kemri.org/index.php/help-desk/search/diseases-a-conditions/29-malaria/113-kenya-malaria-fact-sheet" class="uri">http://www.kemri.org/index.php/help-desk/search/diseases-a-conditions/29-malaria/113-kenya-malaria-fact-sheet</a>.<a href="causeeffect.html#fnref32" class="footnote-back">↩</a></p></li>
+<li id="fn33"><p>Epidemiologists do not typically distinguish between quasi-experimental and other non-experimental (or observational) designs like case-control or cohort studies.<a href="causeeffect.html#fnref33" class="footnote-back">↩</a></p></li>
+<li id="fn34"><p>The DHS program runs several types of surveys; the DHS surveys are the most well known. A DHS survey takes an average of 18–20 months to complete. Preliminary results are released about a month after the end of data collection, but it may be a year until the final report and data are published. The DHS process is outlined here: <a href="http://dhsprogram.com/What-We-Do/Survey-Process.cfm" class="uri">http://dhsprogram.com/What-We-Do/Survey-Process.cfm</a>.<a href="causeeffect.html#fnref34" class="footnote-back">↩</a></p></li>
+<li id="fn35"><p>DHS surveys include enough people to be <strong>representative</strong> for different subgroups, such as urban and rural settings or wealth quintiles (the rich, the poor, and everyone in between).<a href="causeeffect.html#fnref35" class="footnote-back">↩</a></p></li>
 </ol>
 </div>
             </section>
@@ -678,7 +678,7 @@ Another difference is that, in a case-control study, the researcher recruits par
 <script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
 <script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
 <script>
-require(["gitbook"], function(gitbook) {
+gitbook.require(["gitbook"], function(gitbook) {
 gitbook.start({
 "sharing": {
 "github": false,
