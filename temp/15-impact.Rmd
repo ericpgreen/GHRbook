@@ -1,5 +1,0 @@
---- 
-knit: "bookdown::preview_chapter"
----
-
-# From Research to Policy {#impact}

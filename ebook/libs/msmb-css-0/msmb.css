@@ -1,0 +1,440 @@
+@import 'https://fonts.googleapis.com/css?family=Istok+Web|Oxygen|Source+Sans+Pro';
+@import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css';
+body {
+  font-family: 'Source Sans Pro', Arial, Helvetica, sans-serif;
+  background-color: #fefefe;
+  margin-top: 0;
+  padding-left: inherit;
+  width: auto;
+  max-width: unset;
+  padding-top: 50px;
+}
+
+.title {
+    color: #f5f8f9;
+    font-size: 2.5rem;
+}
+
+.title-collapsed {
+    color: #f5f8f9;
+    text-align: center;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    font-size: 2.4rem;
+}
+
+.author {
+    color: #f5f8f9;
+    font-size: 1.5rem;
+    padding-top: 10px;
+}
+
+.dedication {
+    font-style: italic;
+    text-align: center;
+}
+
+.proposition, .question-begin, .question-end, .exercise {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-top: 1.2rem;
+  color: green;
+}
+
+.solution, .solution-begin, .solution-end {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: red;
+}
+
+/* we can remove this eventually 
+its only here while we sort out the book*/
+.solution-body {
+    font-weight: normal;
+    color: black;
+}
+
+.solution-end, .question-end {
+    height: 1em;
+}
+
+.solution-icon {
+    float: right;
+}
+
+.clickable {
+    cursor: pointer;
+}
+
+/*
+.margintab {
+  margin: 0;
+  width: 30%;
+  position: relative;
+  right: 10%;
+} */
+
+.MJXc-display {
+  font-size: 1.1rem;
+}
+
+.math {
+  font-size: 1.1rem; 
+}
+
+p {
+    width: auto;
+}
+
+h1 {
+  color: #1881c2;
+  border-bottom-color: #1881c2;
+  border-bottom-style: solid;
+  padding-bottom: 0.5rem;
+}
+
+h2 {
+  color: #1881c2;
+  border-bottom-color: #1881c2;
+  border-bottom-style: solid;
+  padding-bottom: 0.5rem;
+  margin-top: 1.5rem;
+}
+
+h3 {
+  color: #1881c2;
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-size: 1.4rem;
+}
+
+li p {
+  margin-bottom: 0;
+}
+
+/*** Figures and captions ***/
+
+div.figure {
+    max-width: 100%;
+    margin: 0;
+}
+
+.caption {
+    margin-bottom: 0.5rem;
+}
+
+
+/* header bar */
+
+#TOC {
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.msmb-header {
+    background: #2395db;
+}
+
+.msmb {
+    display: inline-block;
+    color: white;
+    padding: 14px 16px;
+}
+
+.dropdown-content {
+    display: none; 
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 27.5%;
+    z-index: 1;
+    margin-right: 140px;
+    /*modify margin as window resized */
+    right: calc((87.5% - 1400px)/2); 
+    max-width: 440px;
+    font-size: 1.2rem;
+}
+
+/* keeps the dropdown menu aligned with header
+when window exceeds 1615px */
+@media screen and (max-width: 1615px) {
+  .dropdown-content {
+    margin-right: 0;
+    right: 8.75%;
+  }
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 4px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    text-shadow: none;
+}
+
+.dropdown-menu a:hover {
+    background-color: rgb(24,129,194,0.4);
+}
+
+/*
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+*/
+
+.dropdown a:link {
+    background-position-y: 0;
+    text-shadow: none;
+    background-size: 0;
+} 
+
+
+/* BEGIN: chapter navigation dropdown */
+
+.dropdown a {
+    background: unset;
+}
+
+.dropdown-menu a:link {
+    background-position-y: 0;
+    text-shadow: none;
+    background-size: 0;
+}
+
+/* END: chapter navigation dropdown */
+
+#active-page {
+    background-color: #1881c2;
+    color: white;
+}
+
+/* within chapter navigation */
+
+div.toc-section {
+  position: fixed;
+  width: 15%;
+  max-width: 175px;
+  max-height: 85%;
+  border: 1px solid #ccc;
+  margin-top: 30px;
+}
+
+.toc-section-slide {
+    border: 1px solid #ccc;
+    border-radius: 0
+}
+
+#mySidenav {
+    margin-top: 70px;
+    border: 0;
+    box-shadow: none;
+    background: none;
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  div.toc-section {
+    max-width: 155px ;
+  }
+}
+
+@media (max-width: 991px) {
+  div.toc-section {
+    visibility: none;
+  }
+}
+
+.bootsidemenu > .menu-wrapper {
+  height: fit-content;
+}
+
+.bootsidemenu-left > .toggler {
+  height: 42px;
+  top: 0;
+}
+
+.bootsidemenu-left > .toggler > span {
+    margin: 10px 2px;
+}
+
+.section-link {
+    width: auto;
+}
+
+.section-link a:link {
+    background-position-y: 0;
+    text-shadow: none;
+    background-size: 0;
+} 
+
+/**/
+
+li.toc {
+    padding: 2px 0;
+}
+
+/* formatting tables */
+
+table {
+    width: 100%;
+}
+
+.console {
+  width: 80%;
+  table-layout: fixed;
+  border: 0;
+  font-family: monospace;
+}
+
+.kable_wrapper {
+  border: 0;
+  table-layout: fixed;
+}
+
+/********************/
+
+/* Code blocks */
+
+.code {
+    font-size: 0.9em;
+    white-space: pre;
+}
+
+code.r {
+    overflow: auto;
+    -ms-word-wrap: normal;
+    word-wrap: normal;
+    overflow-wrap: normal;
+    white-space: pre;
+}
+
+
+div.sourceCode {
+    width: auto;
+}
+
+pre.sourceCode {
+  width: auto;
+}
+
+pre {
+    width: auto; 
+}    
+
+pre > code {
+    white-space: pre;
+}
+
+/***************************/
+
+/*** Margin notes ***/
+
+.margin-note, .side-note {
+    font-size: 0.9em;
+    margin-bottom: 0.5em;
+}
+
+/*************************/
+
+.build-date {
+  font-size: 0.8em;
+  float: left;
+}
+
+
+
+#navbar {
+    transition: 0.3s;
+}
+
+.navbar-default {
+  background-color: #2395db;
+  border-color: #1881c2;
+}
+.navbar-default .navbar-brand {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #f5f8f9;
+}
+.navbar-default .navbar-text {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #f5f8f9;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu {
+  background-color: #2395db;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a:hover,
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a:focus {
+  color: #f5f8f9;
+  background-color: #1881c2;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li.divider {
+  background-color: #1881c2;
+}
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+  color: #f5f8f9;
+  background-color: #1881c2;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #f5f8f9;
+  background-color: #1881c2;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #f5f8f9;
+  background-color: #1881c2;
+}
+.navbar-default .navbar-toggle {
+  border-color: #1881c2;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #1881c2;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #ecf0f1;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #ecf0f1;
+}
+.navbar-default .navbar-link {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-link:hover {
+  color: #f5f8f9;
+}
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #ecf0f1;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #f5f8f9;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #f5f8f9;
+    background-color: #1881c2;
+  }
+}

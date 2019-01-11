@@ -2,13 +2,24 @@
 title: "Global Health Research: Designs and Methods"
 author: "Eric P. Green"
 date: "`r Sys.Date()`"
-knit: "bookdown::render_book"
-documentclass: book
+cover-image: "images/cover.jpg"
+knit: "bookdown::preview_chapter"
+site: "bookdown::bookdown_site"
+monofont: "Inconsolata"
+monofontoptions: "Scale=0.7"
 bibliography: [book.bib, packages.bib, ghr.bib]
 biblio-style: apalike
 link-citations: yes
-url: 'http\://designsandmethods.com/ebook/'
+url: 'http\://globalhealthresearch.co/ebook/'
 description: "Online textbook about global health research methods"
+output:
+  msmbstyle::msmb_html_book:
+    toc: TRUE
+    toc_depth: 1
+    split_by: chapter
+    split_bib: no
+    margin_references: FALSE
+    css: style.css
 ---
 
 ```{r setup, echo=F}
@@ -20,87 +31,24 @@ html_table_width <- function(kable_output, width){
 }
 ```
 
+# Welcome {-}
+
+<img src="images/cover.jpg" width="261" height="375" alt="Cover image" align="left" style="margin: 0 1em 1em 0" /> This book is in the process of being updated for 2019. New chapters will be released on a rolling basis. See [here](https://itunes.apple.com/us/book/global-health-research/id1448605422?mt=13) for a free iBooks version (will lag this web version). This work is shared under the [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License](https://creativecommons.org/licenses/by-nc-nd/4.0/). A big thanks to the creators of the [`bookdown`](https://github.com/rstudio/bookdown) and [`msmbstyle`](https://github.com/grimbough/msmbstyle) packages for R used to compile the web version of this book. The source code for this book is available on [Github](https://github.com/ericpgreen/GHRbook).
+
+ISBN 978-0-578-44376-8
+
 # Preface{-}
 
-Does the world really need another book about research methods? I think so. But I spent a fair amount of time writing down the ideas in this book, so I’m biased. Here’s my rationale.
+This book will introduce you to research designs and methods in global health. I wrote this text for undergraduate and graduate students taking my [introductory course at Duke University](http://www.globalhealthresearch.co/). Therefore, it shares the two central aims of my course: to make you a better consumer of research and to help you design your first study.
 
-I went to graduate school for clinical psychology, and my classmates and I read the classic psychology texts on research design and methods—books like Experimental and Quasi-Experimental Designs for Generalized Causal Inference by Shadish, Cook, and Campbell [-@scc]. I remember staying up late trying to memorize all of the different threats to internal validity outlined by Donald Campbell and colleagues. Meanwhile, across campus, my econ colleagues were reading the ideas of another Donald—Donald Rubin—and what is now known as Rubin’s causal model.
+Part I begins with an introduction to global health research and teaches you how to identify research problems, search the literature, and practice critical appraisal. In Part II, you will learn how to ask evidence-based research questions, create study aims, integrate theory, and specify important constructs, outcomes, and indicators.
 
-When I set off for Uganda in 2007, determined to learn more about this field called global health, I met some Donald Rubin proselytes in the wild. I tried communicating with them, but they did not understand my Campbellian drawl. We were usually trying to say the same thing, just in different the languages.
+We will turn to research designs in Part III. In global health, we are often interested in knowing what treatments, programs, interventions, and policies “work” and why. To answer questions of impact, researchers sometimes design randomized controlled trials. Randomization is not always possible or advisable, however, and researchers must build a causal argument using non-experimental designs. We will discuss the core principles of causal inference and consider the strengths and limitations of research designs most commonly used in the behavioral and social sciences, public health, and medicine.
 
-But I couldn’t place the blame on the economists and the disciplinary gap between us. So much of what I didn’t know went far beyond differences in jargon.
+Part IV will help you fill in the remaining details for a Method section. In particular, you will learn about sampling and data collection procedures. Finally, in Parts V and VI, we will consider how to practice good science and make an impact with your work. 
 
-I was a psychologist trained in clinical research, and nearly every applied example I read came from the U.S. or Europe. The field of global mental health was still in its infancy when I was in school. The important <a href="http://www.thelancet.com/series/global-mental-health" target="_blank">Lancet series on global mental health</a> that really put the field on the map was published in September 2007 as I was getting on a plane to fly back home. I really knew nothing about global health.
+One limitation of this book is it does not teach statistics. Statistical concepts are discussed throughout but not in great detail. Because statistical analysis is an intrinsic part of the study design stage, I recommend downloading a copy of [*OpenIntro Statistics*](https://www.openintro.org/stat/) and read it alongside this book.
 
-Fortunately, students entering university today have many more opportunities to learn about global health through interdisciplinary studies. Duke University launched the first liberal arts global health major in the U.S. in 2013, and other universities have followed suit. The Duke program is unique because it requires global health students to specialize in a second discipline, such as biology, economics, psychology, or public policy.
+Visit [themethodsection.com](http://www.themethodsection.com) for additional materials.
 
-I started teaching at Duke around the time the new major started, and I needed to choose a textbook for a course called "Research Methods in Global Health." After reviewing many excellent books that covered the basics, I discovered none that integrated examples from this very diverse and interdisciplinary field. So I decided to write my own book.
 
-## About this Book{-}
-
-One guiding principle of this book is that a student of global health needs to be a student of medicine, biology, statistics, economics, psychology, public policy, and many other disciplines. In the study of malaria, for example, a literature search returns articles about the spread of the disease (epidemiology), the impact of illness on future productivity (economics), the merits of free or subsidized bed nets (public policy), mosquito habitats (ecology), the efficacy of vaccines to prevent the disease (medicine and statistics), rapid diagnostic tests (biomedical engineering), the adoption and use of bed nets (psychology), and many others.
-
-No one book or author could ever hope to provide full disciplinary coverage of even a single topic like malaria. Therefore, I wanted to create a resource that would teach the basics of research design and methods by exposing readers to real world global health examples from different disciplines.
-
-Another important guiding principle of this book is openness. Whenever possible, the examples come from open access sources. In this way, every reader should be able to access at least 90% of the references provided here.
-
-## Organization{-}
-
-The first objective of my course on global health research—and this book—is to make students better consumers of research. So I begin by explaining the research process and the importance of critical appraisal. Thus, I begin by explaining the research process and the importance of critical appraisal. In **Part I**, I survey the landscape of global health research and outline the core steps of the scientific research process. In **Part II**, I explain how to search the literature for existing evidence, how to use filtered evidence like systematic reviews and meta-analyses, how to critically appraise scientific work, and how to evaluate claims of causality.
-
-The second main objective of my course is to make students producers of research. The rest of the book is devoted to this aim. In **Part III** and **Part IV** I address the technical aspects of global health research and cover issues related to data collection and measurement. I begin with practical advice on developing a theory of change to guide program development, data monitoring, and study evaluation. Next, theories of change and logical models are demonstrated because a good model can organize and support the approach to measurement used in a study. I then explain how to define the measurement of key study outcomes and how to use quantitative and qualitative methods to collect data on these outcomes. Thereafter, a discussion of sampling methods and sample size determination is presented.
-
-Following these basics, I turn in **Part V** and **Part VI** to research design. This section provides a foundation that will enable researchers to evaluate their research questions to determine the most appropriate study design: experimental, quasi-experimental, or observational. **Part VII** is comprised of several chapters that further guide the researcher to hone the techniques within the chosen study design to ensure that the research outcomes make an impact.
-
-One limitation of this book is that I do not teach statistics. Statistical concepts are discussed throughout but not in great detail. Because statistical analysis is an intrinsic part of the study design stage, I recommend downloading a copy of [OpenIntro Stats](https://www.openintro.org/stat/) and read it alongside this book. 
-
-## Icons {-}
-
-I’ve sprinkled several types of asides throughout the book:
-
-```{block, type='rmdpuzzle'}
-Help piecing together the global health puzzle
-```
-
-```{block, type='rmdcomment'}
-Extended discussion of a special topic
-```
-
-```{block, type='rmdtip'}
-Tips
-```
-
-```{block, type='rmdplay2'}
-Videos
-```
-
-```{block, type='rmdshiny'}
-Interactive aids
-```
-
-## Acknowledgements{-}
-
-I'd like to thank some folks for their helpful feedback at various points throughout my writing process. My graduate student teaching assistants, Kaitlin Saxton, Kathleen Perry, Olivia Fletcher, and Jenae Logan, read and commented on the initial drafts. This could not have been fun, so thanks!
-
-Thanks to Duke librarians Megan Von Isenburg and Hannah Rozear for setting me straight on literature searches. I still have a lot to learn! Liz Turner, biostatistican extraordinaire, kept me from making too many mistakes on technical details here and there. Gavin Yamey helped me understand what we do and don't know about funding for global health research.
-
-I'd also like to thank students in my undergraduate and graduate global health research courses for test driving the book before all the parts were in place. Special shoutout to the following students for sharing written feedback: Kelsey Sumner, Karly Gregory, Qian Yudong, and Christina Schmidt.
-
-Despite everyone's best efforts to help me catch mistakes, I'm certain errors remain in the book. My bad.
-
-```{r mybad, echo=FALSE}
-knitr::include_url("http://giphy.com/embed/1cmt4RJsUa1zi",
-                   height = "360px")
-```
-
-## About the Cover{-}
-
-Jef Brown is an Artist & Illustrator in Seattle, WA. To find more of his work visit: [www.jefbrown.com](http://www.jefbrown.com)
-
-> Creating the cover for this book, I wanted to create imagery that reflected the “action” of research in Global Health. Rather than depict a portrait of impoverished villages, a nebulous globe, or still life of medicine- I created a representation of the data that drives the change. I was inspired by the bubble charts of Hans Rosling and the aesthetic philosophy of Wassily Kandinsky. For both, “shape” was an important tool for expression. In creating the constellation of circles I was able to convey a dynamic representation for a larger living idea.
-
-## Colophon{-}
-
-This book is a work in progress. If you find errors (gasp!), please create an issue on [Github](https://github.com/ericpgreen/GHR), [email me](eric.green@duke.edu), or shame me on Twitter (`@ericpgreen`). I'm writing the book in [R Markdown](http://rmarkdown.rstudio.com/) within [RStudio](https://www.rstudio.com/). The [`bookdown`](https://github.com/rstudio/bookdown) package from the makers of RStudio does most of the heavy lifting to compile the book. The source code for the book is available on [Github](https://github.com/ericpgreen/GHRbook).
-
-This work is licensed under the [Creative Commons Attribution-NonCommercial-NoDerivs 3.0](http://creativecommons.org/licenses/by-nc-nd/3.0/us/) United States License.

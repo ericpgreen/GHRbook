@@ -1,5 +1,6 @@
 formats = c(
-  'bookdown::pdf_book', 'bookdown::epub_book', 'bookdown::gitbook'
+  'bookdown::pdf_book', 'bookdown::epub_book', 'bookdown::gitbook',
+  'msmbstyle::msmb_html_book'
 )
 # render the book to all formats
 for (fmt in formats) {
