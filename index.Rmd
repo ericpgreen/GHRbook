@@ -10,10 +10,12 @@ monofontoptions: "Scale=0.7"
 bibliography: [book.bib, packages.bib, ghr.bib]
 biblio-style: apalike
 link-citations: yes
-url: 'http\://globalhealthresearch.co/ebook/'
+url: 'http\://themethodsection.com/ebook/'
 description: "Online textbook about global health research methods"
 output:
   msmbstyle::msmb_html_book:
+  #bookdown::tufte_html_book:
+    tufte_variant: "envisioned"
     toc: TRUE
     toc_depth: 1
     split_by: chapter
@@ -22,16 +24,18 @@ output:
     css: style.css
 ---
 
-```{r setup, echo=F}
-library(dplyr)
+# Welcome {-}
+
+```{r setup, include=FALSE}
+library(tidyverse)
+library(gridExtra)
+library(stringr)
 
 html_table_width <- function(kable_output, width){
   width_html <- paste0(paste0('<col width="', width, '">'), collapse = "\n")
   sub("<table>", paste0("<table>\n", width_html), kable_output)
 }
 ```
-
-# Welcome {-}
 
 <img src="images/cover.jpg" width="261" height="375" alt="Cover image" align="left" style="margin: 0 1em 1em 0" /> This book is in the process of being updated for 2019. New chapters will be released on a rolling basis. See [here](https://itunes.apple.com/us/book/global-health-research/id1448605422?mt=13) for a free iBooks version (will lag this web version). This work is shared under the [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License](https://creativecommons.org/licenses/by-nc-nd/4.0/). A big thanks to the creators of the [`bookdown`](https://github.com/rstudio/bookdown) and [`msmbstyle`](https://github.com/grimbough/msmbstyle) packages for R used to compile the web version of this book. The source code for this book is available on [Github](https://github.com/ericpgreen/GHRbook).
 
@@ -45,10 +49,10 @@ Part I begins with an introduction to global health research and teaches you how
 
 We will turn to research designs in Part III. In global health, we are often interested in knowing what treatments, programs, interventions, and policies “work” and why. To answer questions of impact, researchers sometimes design randomized controlled trials. Randomization is not always possible or advisable, however, and researchers must build a causal argument using non-experimental designs. We will discuss the core principles of causal inference and consider the strengths and limitations of research designs most commonly used in the behavioral and social sciences, public health, and medicine.
 
-Part IV will help you fill in the remaining details for a Method section. In particular, you will learn about sampling and data collection procedures. Finally, in Parts V and VI, we will consider how to practice good science and make an impact with your work. 
+Part IV will help you fill in the remaining details for a Method section. In particular, you will learn about sampling and data collection procedures. Parts V and VI conclude with a discussion of how to practice good science and make an impact with your work. 
 
-One limitation of this book is it does not teach statistics. Statistical concepts are discussed throughout but not in great detail. Because statistical analysis is an intrinsic part of the study design stage, I recommend downloading a copy of [*OpenIntro Statistics*](https://www.openintro.org/stat/) and read it alongside this book.
+One limitation of this book is it does not teach statistics. Statistical concepts are discussed throughout but not in great detail. Because statistical analysis is an intrinsic part of the study design stage, I recommend downloading a copy of [*OpenIntro Statistics*](https://www.openintro.org/stat/) and reading it alongside this book.
 
-Visit [themethodsection.com](http://www.themethodsection.com) for additional materials.
+Visit [themethodsection.com](http://themethodsection.com/) for additional materials.
 
 
