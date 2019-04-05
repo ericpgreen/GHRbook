@@ -238,7 +238,7 @@ But in the eyes of many, "compelling" is not the same as "definitive". Before ma
 
 Three large-scale **trials** of male circumcision got underway in Africa in 2002. Different teams of researchers independently enrolled 3,274 uncircumcised, HIV-negative men in South Africa, 4,996 in Uganda, and 2,784 in Kenya in separate studies. Half of the participants in each study were randomized to be circumcised, with their consent of course. The rest formed the uncircumcised control group. As we will explore together in later chapters, this design, the **randomized controlled trial**, is often held up as the best source of evidence. There is nuance to this idea that we must unpack, but it's safe to say that these trials were created to provide a definitive answer about the link between male circumcision and HIV.
 
-And the results were astonishing.
+The results were astonishing.
 
 ```{marginfigure}
 While these studies closed one chapter, they did not close the book on male circumcision. One big question for **implementation science** was how to incorporate male circumcision into the broader public health response. Other researchers began to focus on the potential unintended consequences of male circumcision.
@@ -254,18 +254,22 @@ knitr::include_graphics("images/mctrials.png")
 In his book with Stephen Inrig, *The AIDS Pandemic: Searching for a Global Response* [-@merson2018, pp. 378], former Director of the World Health Organization's Global Programme on AIDS (GPA), Michael Merson, offers a reflection on this period and concludes in retrospect that GPA should have funded more research on male circumcision when it had the chance.
 ```
 
-And like that, the question of **efficacy** was put to rest. After nearly two decades—and many preventable infections and deaths—it became clear to everyone that male circumcision helps to prevent HIV transmission. 
+And like that, the question of **efficacy** was put to rest. After nearly two decades—and many preventable infections and deaths—it became clear to everyone that male circumcision helps to prevent HIV transmission.
 
 ## The Takeaway
 
-something for everyone
-hard, long
-follow the evidence
+The road from research question to policy impact can be long. Decades, in fact, as demonstrated by the scientific history of male circumcision and HIV prevention. But for researchers and advocates who are willing doggedly follow the data wherever it leads, real change is possible. As of 2017, nearly 15 million men living in the AIDS Belt have been circumcised, potentially averting more than 500,000 new HIV infections through 2030 [@whomc2017].
 
 ## Learning Objectives{-}
+
+Forthcoming
+
+## Reading Questions{-}
+
+<iframe height="600" width="690" src="https://duke.qualtrics.com/jfe/form/SV_396kv6q9B439aeh" frameborder="0"></iframe>
 
 ## Feedback{-}
 
 This book is a work in progress, so I'd really appreciate your feedback on this chapter.
 
-<iframe height="600" src="https://duke.qualtrics.com/jfe/form/SV_bse5EAEbXf9Zz3T" frameborder="0"></iframe>
+<iframe height="600" width="690" src="https://duke.qualtrics.com/jfe/form/SV_bse5EAEbXf9Zz3T" frameborder="0"></iframe>
