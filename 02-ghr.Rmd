@@ -68,7 +68,7 @@ Harvard Medical School's Rachel Wilson explains this beautifully:
 
 ### APPLIED RESEARCH
 
-**Applied research** focuses on specific problems or real-world applications. Whereas the basic scientist might toil away in the lab to understand how cellular enzymes function without a specific clinical application in mind, the applied researcher will take this knowledge of enzymes to develop new therapies that could treat cancer.
+**Applied research** focuses on specific problems or real-world applications. Whereas the basic scientist might toil away in the lab to understand how cellular enzymes function without a specific clinical application in mind—discovering this function is the end goal for this scientist—the applied researcher will take this knowledge of enzymes to develop new therapies that could treat cancer.
 
 In the world of malaria research, an applied research question might be, "How can we increase the coverage and use of bed nets that prevent malaria transmission?" The basic science, such as the behavioral habits of the mosquito and the transmission conditions for malaria, have already been characterized by entomologists and epidemiologists. 
 
@@ -101,7 +101,7 @@ v2=c(
   "NA"
      ),
 v3=c(
-  "Are there signs that the drug candidate will have an effect?",
+  "Are there signs that the drug candidate will have an effect in the lab?",
   "What happens in the body (pharmacokinetics) when a very low dose is administered to human subjects? (optional phase)",
   "Is the drug safe? What is the best dose that balances possible effects with toxicity?",
   "When using this optimal dose, is there any effect of the drug on clinical markers or health outcomes?",
@@ -124,7 +124,11 @@ knitr::kable(phases, format = "html") %>%
 
 The development of a vaccine for malaria provides a good example of the life cycle of a clinical trial. In 2015, after 30 years of research, a vaccine candidate called RTS,S, or Mosquirix™, [made the news](http://money.cnn.com/2015/07/24/news/malaria-vaccine-bill-gates/) for having gotten one step closer to becoming a licensed vaccine after a successful Phase III trial. 
 
-[Development of RTS,S](http://malariavaccine.org/files/UpdatedRTSS_FactSheet_21April2010.pdf) began in 1984 through a partnership between the pharmaceutical company GlaxoSmithKline (GSK) and the Walter Reed Army Institute of Research. In 1987, a promising vaccine candidate entered **preclinical** research. During the preclinical phase, researchers performed tests on nonhuman subjects to collect data on how well the vaccine worked (efficacy), how much damage it could do to an organism (toxicity), and how the body affected the vaccine (pharmacokinetics).
+[Development of RTS,S](http://malariavaccine.org/files/UpdatedRTSS_FactSheet_21April2010.pdf) began in 1984 through a partnership between the pharmaceutical company GlaxoSmithKline (GSK) and the Walter Reed Army Institute of Research. In 1987, a promising vaccine candidate entered **preclinical** research. During the preclinical phase, researchers performed tests on nonhuman subjects to collect data on how well the vaccine worked (**efficacy**), how much damage it could do to an organism (**toxicity**), and how the body affected the vaccine (**pharmacokinetics**).
+
+```{marginfigure}
+If you compare the sample sizes of the Mosquirix™ trials, you'll see that they do not follow the rules of thumb noted in the table above. These types of deviations are common in research. The goals of these particular trials demanded larger sample sizes than is typical.
+```
 
 Clinical research on humans began in 1992. To obtain regulatory approval, the vaccine had to complete three phases of testing. Doherty et al. [-@doherty:1999] conducted a **Phase I** safety and immunogenicity trial with 20 adults in The Gambia in 1997. This small sample size is typical of Phase I trials, where the main objectives are usually to determine a safe dosing range and to evaluate side effects. These researchers reported that the vaccine did not have any significant toxicity but did produce the expected antibodies. 
 
@@ -173,13 +177,13 @@ terms <- data.frame(v1=c(
 ),
 v2=c(
   "Fundamental research in the lab to characterize and understand some entity",
-  "Lab (in vitro) or animal (in vivo) research to prepare for clinical research with human subjects",
+  "Test tube/culture (in vitro) or animal (in vivo) research to prepare for clinical research with human subjects",
   "Research with human subjects to determine safety and efficacy with respect to clinical markers and health outcomes",
   "Research on how interventions/treatments work under real-world conditions"
      ),
 v3=c(
   "What are the properties of this enzyme?",
-  "What happens to this enzyme when a particular compound is introduced in the lab?",
+  "What happens to this enzyme when a particular compound is introduced?",
   "When formulated into a vaccine, is this vaccine candidate safe for humans? Does it have an effect on human health?",
   "What is the best way to distribute the vaccine and promote wide-scale adoption to achieve the same effects as shown in controlled trials?"
 ))
