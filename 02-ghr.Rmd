@@ -44,6 +44,12 @@ Global health research is published in medical journals (e.g., [*The Lancet*](ht
 
 <iframe width="690" height="388" src="https://www.youtube.com/embed/HN6zpQGvkSA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+## What is Research?
+
+The **Common Rule** is a US federal policy that governs research with human subjects ([Title 45, Subtitle A, Subchapter A, Part 46.102](https://www.ecfr.gov/cgi-bin/retrieveECFR?gp=&SID=83cd09e1c0f5c6937cd9d7513160fc3f&pitd=20180719&n=pt45.1.46&r=PART&ty=HTML)). This rule defines "research" as:
+
+> a systematic investigation, including research development, testing, and evaluation, designed to develop or contribute to *generalizable knowledge*  
+
 ## What Constitutes Global Health Research?
 
 Global health research brings together scholars and practitioners from many different disciplines to tackle big challenges. Therefore, the methods of these disciplines *are* the methods of global health research. We can organize the landscape as shown in Figure \@ref(fig:basicapplied). 
