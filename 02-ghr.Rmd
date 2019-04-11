@@ -22,7 +22,7 @@ The [World RePort database](https://worldreport.nih.gov/app/) from the NIH—the
 
 In 2015, the international community disbursed $36.4 billion in development assistance for health, down from a peak of $38 billion in 2013 [@ihme:2016]. Although Figure \@ref(fig:funding) does not present total research dollars contributed, per se, it does show the sources of global health financing, the channels through which they flow, and the areas on which they focus (see [here](http://vizhub.healthdata.org/fgh/) for an interactive version).
 
-```{r funding, fig.cap="Flows of global health financing. Abbreviations: BMGF, Bill & Melinda Gates Foundation; SWAps & HSS, sector-wide approaches and health-sector support; Gavi, the Vaccine Alliance. Source: Institute for Health Metrics and Evaluation, http://vizhub.healthdata.org/fgh/", echo=F}
+```{r funding, fig.fullwidth = TRUE, fig.cap="Flows of global health financing. Abbreviations: BMGF, Bill & Melinda Gates Foundation; SWAps & HSS, sector-wide approaches and health-sector support; Gavi, the Vaccine Alliance. Source: Institute for Health Metrics and Evaluation, http://vizhub.healthdata.org/fgh/", echo=F}
 knitr::include_graphics("images/ihmefunding.png", dpi = NA)
 ```
 
