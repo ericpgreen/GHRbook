@@ -3,15 +3,15 @@ bookdown::gitbook:
   config:
     toc:
       before: |
-        <li><a href="./">Global Health Research</a></li>
+        <li><a href="./">The Method Section</a></li>
       after: |
-        <li><a href="http://www.globalhealthresearch.co" target="blank">Eric P. Green</a></li>
+        <li><a href="http://themethodsection.com" target="blank">Eric P. Green</a></li>
 bookdown::tufte_html_book:
-  css: [style.css, toc.css]
+  css: [style.css, toc.css, center.css]
 bookdown::pdf_book:
   includes:
     in_header: preamble.tex
   latex_engine: xelatex
   citation_package: natbib
 bookdown::html_book:
-  css: [style.css, toc.css, font-awesome.min.css]
+  css: [style.css, toc.css, font-awesome.min.css, center.css]

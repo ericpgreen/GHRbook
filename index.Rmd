@@ -21,7 +21,7 @@ output:
     split_by: chapter
     split_bib: no
     margin_references: FALSE
-    css: style.css
+    css: [style.css, center.css]
 ---
 
 # Welcome {-}
@@ -30,6 +30,7 @@ output:
 library(tidyverse)
 library(gridExtra)
 library(stringr)
+library(kableExtra)
 
 html_table_width <- function(kable_output, width){
   width_html <- paste0(paste0('<col width="', width, '">'), collapse = "\n")

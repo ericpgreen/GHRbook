@@ -319,11 +319,13 @@ p {
 
 h3 {
     font-size: 1.8em;
+    color: #1f9ac9;
 }
 
 h4 {
     font-size: 1.7em;
     font-weight: bold;
+    color: #1f9ac9;
 }
 
 h5 {
@@ -348,5 +350,46 @@ blockquote p {
 }
 
 b, strong, blockquote {
-     color: red;
+     color: #e69138;
      }
+
+
+h2 {
+  color: #1f9ac9;
+  border-bottom-color: #1f9ac9;
+  border-bottom-style: solid;
+  width: 55%;
+  padding-bottom: 0.5rem;
+  margin-top: 3em;
+  font-weight: bold;
+  font-size: 2em;
+}
+
+h6 {
+  color: #6aa84f;
+  border-bottom-color: #6aa84f;
+  border-bottom-style: solid;
+  width: 55%;
+  padding-bottom: 0.5rem;
+  margin-top: 3em;
+  font-weight: bold;
+  font-size: 2em;
+}
+
+h1 {
+  color: #1f9ac9;
+  width: 55%;
+  border-bottom-color: #1f9ac9;
+  border-bottom-style: solid;
+  padding-bottom: 0.5rem;
+}
+
+
+ul.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #1f9ac9;
+    top: 0;
+}
