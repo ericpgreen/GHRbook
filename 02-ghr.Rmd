@@ -140,7 +140,7 @@ On the basis of these results, the European Medicines Agency issued a "European 
 
 <iframe width="690" height="388" src="https://www.youtube.com/embed/Ww9jWFwfmHE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-#### Implementation Science and Translational Research{-}
+#### Implementation Research and Translational Research{-}
 
 ```{marginfigure}
 Implementation *research* is a subset of implementation *science*. Whereas implementation research can focus on scaling a particular intervention, implementation science is the broader study of the methods to scale and promote the adoption of interventions.
