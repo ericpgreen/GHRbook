@@ -249,6 +249,14 @@ Program monitoring is concerned with the implementation of programs, policies, o
 
 Accurate monitoring is essential for reporting data to funders, but it is also essential for all good evaluations. The reason is simple: If a program fails—that is, has no impact—the next question is why? Did the program fail because the idea or theory behind the program was wrong (**theory failure**)? Or was the implementation of the program so troubled that there was never a chance for success (i.e., **implementation failure**)? Every trial should include ongoing monitoring or a formal process evaluation to assess the impact of the program on a continual basis.
 
+## The Takeaway
+
+Research is defined as a systematic investigation whose goal is to develop or contribute to generalizable knowledge. As global health is the study and practice of improving health and achieving equity in health, **global health research** research includes all systematic efforts to create generalizable knowledge of how we can improve health and achieve equity in health for everyone, everywhere. 
+
+Given the complexity of our global health challenges, global health research is multidisciplinary and interdisciplinary. This means that, as a budding global health researcher, you will likely collaborate on teams with colleagues from many different fields. Each discipline has its own methodological preferences and core approaches, but we all operate in the same research landscape that is divided into basic and applied research. Much of the literature in global health focuses on our applied challenges, so you will read a lot about clinical research and trials, translational research, implementation research, and M&E (monitoring and evaluation).
+
+So no matter what discipline you call home, or what stage of research you find most interesting, you can make great contributions to our collective efforts to improve health and achieve equity in health.
+
 ###### Learning Objectives{-}
 
 Forthcoming
