@@ -93,12 +93,12 @@ phases <- data.frame(v1=c(
   "**Phase IV**"
 ),
 v2=c(
-  "NA",
+  "",
   "<10",
-  "<100",
-  "100-300",
-  "300-3000",
-  "NA"
+  "10s",
+  "100s",
+  "1000s",
+  ""
      ),
 v3=c(
   "Are there signs that the drug candidate will have an effect in the lab?",
@@ -165,8 +165,6 @@ knitr::include_graphics("images/translational.jpg", dpi = NA)
 
 #### Summary{-}
 
-This can all get a bit confusing, so here is a brief summary. 
-
 <br>
 ```{r terms, echo=F}
 terms <- data.frame(v1=c(
@@ -201,7 +199,12 @@ Translational research is cross-cutting, linked to several key bottlenecks where
 
 ### MONITORING AND EVALUATION
 
+```{r basicapplied2, fig.cap="A research taxonomy, revisited.", echo=F, fig.margin=TRUE}
+knitr::include_graphics("images/basicapplied.png", dpi = NA)
+```
+
 Another arena of applied work in global health is **monitoring and evaluation**, or M&E.
+
 
 #### Evaluation{-}
 
@@ -224,14 +227,10 @@ Program evaluations should be as rigorous as logistics, ethics, politics, and re
 
 ##### Impact evaluation{-}
 
-```{r basicapplied2, fig.cap="A research taxonomy, revisited.", echo=F, fig.margin=TRUE}
-knitr::include_graphics("images/basicapplied.png", dpi = NA)
-```
-
 Revisiting the research taxonomy presented earlier, we see that there is overlap between evaluation (orange) and research (blue), a nod to Campbell's view that program evaluation can be considered research in many cases. Furthermore, we see that something called "impact evaluation" is a subset of evaluation. 
 
 ```{marginfigure}
-Evaluation is a big tent. Some program evaluations aim to (or can claim to) measure impact. Many do not.
+A clinical trialist who works on Phase III studies is unlikely to refer to the trial as an "impact evaluation", even though the randomized study design is a type of impact evaluation. This language is more commonly used by economists and others who study the impact of social sector programs and interventions. For instance, see the [International Initiative for Impact Evaluation](http://www.3ieimpact.org/) (3ie) and the World Bank's [Development Impact Evaluation](http://www.worldbank.org/en/research/dime) (DIME) group.
 ```
 
 In an **impact evaluation**, the goal is to infer that some program—or some treatment, intervention, or policy—had an effect on some outcome. As we will discuss in later chapters, there are several research designs that will generate evidence of "impact". One design in particular, the randomized controlled trial common to Phase II and III clinical trials, is an important type of impact evaluation. Not all impact evaluations are RCTs, but all RCTs are impact evaluations. 
