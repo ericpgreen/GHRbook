@@ -31,6 +31,8 @@ library(tidyverse)
 library(gridExtra)
 library(stringr)
 library(kableExtra)
+library(ggrepel)
+library(grid)
 
 html_table_width <- function(kable_output, width){
   width_html <- paste0(paste0('<col width="', width, '">'), collapse = "\n")

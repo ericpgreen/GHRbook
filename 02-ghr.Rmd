@@ -4,51 +4,279 @@ knit: "bookdown::preview_chapter"
 
 # Global Health Research {#ghr}
 
-**Global health** is the study and practice of "improving health and achieving equity in health for all people worldwide" [@koplan:2009]. The determinants of ill health and inequality are complex, so the search for solutions often spans multiple disciplines. In the study of malaria, for example, you can read about the spread of the disease (epidemiology), the impact of illness on future productivity (economics), the merits of free or subsidized bed nets (public policy), mosquito habitats (ecology), the efficacy of vaccines to prevent the disease (medicine and statistics), rapid diagnostic tests (biomedical engineering), and the adoption and use of bed nets (psychology), just to name a few areas of inquiry.
+*New York County Courthouse, circa 2009*
 
-Therefore, we say that global health research is multidisciplinary and interdisciplinary [@merson:2011]. It is **multidisciplinary** in the sense that no one field can solve the great global health challenges of our time, and **interdisciplinary** because collaboration is core to progress. Let's survey the landscape of global health research before establishing some fundamentals about scientific research.
+**Judge presiding over jury selection:** And what do you do, Mr. Green?
 
-## Who Funds Global Health Research?
+**Me:** I do research in global health, global mental health.
+
+**Judge:**
+
+**Me:** Access to mental health services, things like that.
+
+**Judge:** Health policy.
+
+**Me:** No, studies on interventions to expand access.
+
+**Judge**: All around the globe.
+
+**Me:** Not exactly. I work in a few countries, but on issues that face lots of low-income communities.
+
+**Judge:** What is global health?
+
+**Me:** Well, you see...*rambles*...
 
 ```{marginfigure}
-The precise amount spent on global health research and development (R&D) is not clear [@schaferhoff:2015].
+The judge also bristled at my statement that I lived in Alphabet City, clarifying for me that it was called the Lower East Side. Whatever. It has a [Wikipedia entry](https://en.wikipedia.org/wiki/Alphabet_City,_Manhattan).
 ```
 
-Billions of dollars are spent on global health research every year. This funding comes from public institutions such as the National Institutes of Health (NIH) in the United States and private philanthropy organizations such as the Bill and Melinda Gates Foundation.
+**Judge:** Thank you. Mr. Green, you are dismissed.
+
+<br>
+
+In fairness to the Honorable Judge, it's not clear what I should have expected her to imagine when I said "global health". Everyone understands medicine, and most folks probably have a good sense of what we mean by public health. But global health?
+
+<br>
+```{r gh, echo=F}
+gh <- data.frame(v1=c(
+  "Medicine",
+  "Public health",
+  "Tropical medicine", 
+  "International health",      
+  "Global health", 
+  "Planetary health"
+),
+v2=c(
+  "Clinical care for individuals",
+  "Prevention and health promotion of populations (community, sub-national units, nation)",
+  "Health issues facing tropical and subtropical regions",
+  "Health issues abroad (from the perspective of the researcher)",
+  "**Clinical care and prevention (including inequality in access and outcomes) related to health issues that transcend national borders**",
+  "Interdependence between human health, animal health, and health of the environment"
+     ))
+names(gh) <- c("Label", "Description")
+
+knitr::kable(gh, format = "html") %>%
+  html_table_width(c(150,550)) %>%
+  column_spec(1, extra_css = "vertical-align:top;") %>%
+  column_spec(2, extra_css = "vertical-align:top;") 
+```
+<br>
+
+Maybe I would have made the cut had had I said, "**global health is the study and practice of improving health and achieving equity in health for all people worldwide**. This is how @koplan:2009 defined global health in a *Lancet* article published later the same year. The also offered this longer version:
+
+>  **Global health** emphasises transnational health issues, determinants, and solutions; involves many disciplines within and beyond the health sciences and promotes interdisciplinary collaboration; and is a synthesis of population-based prevention with individual-level clinical care.
+
+This definition reflects the reality that the determinants of ill health and inequality are complex, so the search for solutions must span multiple disciplines. In the study of malaria, for example, you can read about the spread of the disease (epidemiology), the impact of illness on future productivity (economics), the merits of free or subsidized bed nets (public policy), mosquito habitats (ecology), the efficacy of vaccines to prevent the disease (medicine and statistics), rapid diagnostic tests (biomedical engineering), and the adoption and use of bed nets (psychology), just to name a few areas of inquiry.
+
+Therefore, we say that global health research is multidisciplinary and interdisciplinary. It is **multidisciplinary** in the sense that no one field can solve the great global health challenges of our time, and **interdisciplinary** because collaboration is core to progress [@merson:2011]. 
+
+## What Makes Research Scientific?
+
+We conduct research all the time. Your internet browser history probably has many good examples. Mine does. When was the term "AIDS" first used? How widespread is male circumcision today? Do bees poop? (I have a curious 4 year old.) But my research into the answers to these questions is not an example of scientific research. 
+
+According to the **Common Rule**, a US federal policy that governs research with human subjects, **research** is defined as:
+
+> a systematic investigation, including research development, testing, and evaluation, designed to develop or contribute to *generalizable knowledge ([Title 45, Subtitle A, Subchapter A, Part 46.102](https://www.ecfr.gov/cgi-bin/retrieveECFR?gp=&SID=83cd09e1c0f5c6937cd9d7513160fc3f&pitd=20180719&n=pt45.1.46&r=PART&ty=HTML))*
 
 ```{marginfigure}
-The [World RePort database](https://worldreport.nih.gov/app/) from the NIH—the [largest funder of health research in the world](http://www.healthresearchfunders.org/health-research-funding-organizations/)—lists health research projects totaling nearly $45 billion in 2015. It's possible to filter on the country of the recipient organization, but this does not count money disbursed to US and European organizations working on global health issues.
+Global health largely focuses on applied research questions. What are risk factors for a certain disorder? Does this new treatment improve health? Unlike research questions in the natural sciences, the answers to most global health research questions are probabilistic. Uncertain. What goes up might come down, for some people. 
 ```
 
-In 2015, the international community disbursed $36.4 billion in development assistance for health, down from a peak of $38 billion in 2013 [@ihme:2016]. Although Figure \@ref(fig:funding) does not present total research dollars contributed, per se, it does show the sources of global health financing, the channels through which they flow, and the areas on which they focus (see [here](http://vizhub.healthdata.org/fgh/) for an interactive version).
+There are three main characteristics of scientific research that apply to most of global health [@king:1994]: 
 
-```{r funding, fig.fullwidth = TRUE, fig.cap="Flows of global health financing. Abbreviations: BMGF, Bill & Melinda Gates Foundation; SWAps & HSS, sector-wide approaches and health-sector support; Gavi, the Vaccine Alliance. Source: Institute for Health Metrics and Evaluation, http://vizhub.healthdata.org/fgh/", echo=F}
-knitr::include_graphics("images/ihmefunding.png", dpi = NA)
+1. The goal is inference.
+2. The procedures are public.
+3. The conclusions are uncertain.
+
+### ALL ABOUT INFERENCE
+
+By stating that the goal of scientific research is inference, we mean that science goes beyond the collection of facts. **Inference** refers to the process of making conclusions about some unobserved or unmeasured phenomenon based on direct observations of the world. What is known is used to infer something about things that are not known. This process can be deductive or inductive. 
+
+In **deductive** reasoning, we start from general theories and make hypotheses. Then we collect data and make conclusions based on the data. **Inductive** reasoning flows the other direction, from specific observations to the generation of hypotheses and theories. To say that quantitative research is deductive and qualitative research is inductive is not quite right, but it's often true.
+
+The point to take away about inference is that, regardless of the approach to reasoning, the goal of scientific research is to use what we observe to make conclusions about what we do not or cannot observe directly. This is sometimes referred to as **empiricism**, and our systematic observations are **empirical evidence**. Empiricism is at the heart of scientific research.
+
+### RESEARCH AS A PUBLIC ACT
+
+```{r pancakes, fig.cap="Source: [http://tinyurl.com/yxtabza3](http://tinyurl.com/yxtabza3)", echo=F, fig.margin = TRUE}
+knitr::include_graphics("images/pancakes2.png", dpi = NA)
 ```
 
-The United States Government contributed one-third of all development assistance for health in 2015 ($13 billion). More than half of USG funding was directed to HIV/AIDS, malaria, tuberculosis, and other infectious diseases. Noncommunicable diseases received <1% of resources, despite accounting for 7 of the 10 leading causes of death globally (Figure \@ref(fig:cod)).
+Scientific research uses public methods that can be examined and replicated. A Method section in a scientific paper is like a recipe. If you have ever tried to follow a confusing recipe, you can appreciate the importance of good documentation. Your study's recipe must be clear (well written), thorough (no "dash" of this or that), and shared publicly (not a secret passed down to lab members).
 
-```{r cod, fig.cap="Global deaths per 100,000. Abbreviations: COPD, chronic obstructive pulmonary disease. Source: Institute for Health Metrics and Evaluation, http://vizhub.healthdata.org/gbd-compare/", echo=F}
-knitr::include_graphics("images/cod.png", dpi = NA)
+**Replication** is a core principle of scientific research. No one study rules the day. If the results of a study are robust, another research group should be able to follow your recipe and replicate the findings. When such findings are replicated, we all have more confidence in the results. 
+
+In later chapters we will learn strategies for writing a good Method section (and appendices!) and discuss why replications are actually rare in practice—and why they can be so controversial.
+
+### LIVING WITH UNCERTAINTY
+
+Every method has limitations, every measurement has error, and every model is wrong to some extent. Take the estimation of maternal mortality rates as an example. @hogan:2010 published maternal mortality estimates for 181 countries. Some countries, such as the United States, have vast amounts of data in vital registries that attempt to track all births and deaths. It's not perfect, so we still estimate the maternal mortality rate using a statistical model (we'll discuss models more in a later chapter). 
+
+As you can see in the left panel of Figure \@ref(fig:mmr), the United States has a very low level of maternal mortality, between about 10-20 maternal deaths for every 100,000 live child births. Compared to some countries, the US has a lot of data points for estimating the level and trend in maternal deaths, so the "uncertainty band" is narrow. 
+
+Now take a look at Afghanistan on the right. Note that the y-axis scale is much larger in the 1000s, reflecting the fact that many more Afghan women die of causes related to pregnancy or childbirth. Next, pay attention to the width of the uncertainty band. It spans more than a 3000 death range compared to a range of fewer than 5 deaths in the US! This is because there are very few data points available to estimate the "true" value, and these data points can differ by more than 1000 deaths. We don't know much about maternal mortality in Afghanistan, but the blue line is our best guess.
+
+```{r mmr, fig.margin=FALSE, fig.fullwidth=TRUE, echo=FALSE, fig.cap="Estimates of the maternal mortality rate in the United States and Afghanistan, [@hogan:2010]. Visualized by Yours Truly based on values extracted from published plots.", warnings=FALSE, message=FALSE, fig.width=12}
+
+# read in us data
+mmr_us <- read.csv("examples/data/mmr_us.csv", stringsAsFactors = FALSE)
+mmr_us <- 
+mmr_us %>% 
+  filter(year!="") %>% 
+  arrange(year) %>%
+  mutate(year = gsub("/", "-", year),
+         year = lubridate::ymd(paste(year, "01", sep="-"))
+  ) %>%
+  filter(!is.na(mmrU)) %>%
+  filter(!is.na(mmr)) %>%
+  filter(!is.na(mmrL)) 
+
+source_us <- read.csv("examples/data/mmr_us_source.csv", stringsAsFactors = FALSE)
+source_us <-
+source_us %>%
+  filter(source=="who" | source=="vr") %>%
+  mutate(year = gsub("/", "-", year),
+         year = lubridate::ymd(paste(year, "01", sep="-"))
+  ) %>%
+  mutate(source = ifelse(source=="who", "WHO Estimate",
+                                 "Vital registry"))
+
+p1_us <- 
+mmr_us %>% 
+  ggplot() +
+  geom_smooth(data=mmr_us, mapping=aes(x=year, y=mmr), color="#1f9ac9ff",
+              size=2) +
+  geom_smooth(data=mmr_us, mapping=aes(x=year, y=mmrL), linetype=0) +
+  geom_smooth(data=mmr_us, mapping=aes(x=year, y=mmrU), linetype=0) 
+
+# build plot object for rendering 
+pp1_us <- ggplot_build(p1_us)
+
+# extract data from the upper and lower lines
+df2_us <- data.frame(x = as.Date(pp1_us$data[[1]]$x, origin = "1970-01-01"),
+                     ymin = pp1_us$data[[2]]$y,
+                     ymax = pp1_us$data[[3]]$y) 
+
+# use the lm data to add the ribbon to the plot 
+p_mmr_us <-
+ggplot() +
+  geom_smooth(data=mmr_us, mapping=aes(x=year, y=mmr), color="#1f9ac9ff",
+              size=2) +
+  ylim(0, 25) +
+  scale_x_date(breaks = as.Date(c("1980-01-01", "1985-01-01",
+                                  "1990-01-01", "1995-01-01",
+                                  "2000-01-01", "2005-01-01",
+                                  "2010-01-01")),
+               date_labels = "%Y") +
+  theme_classic() +
+  ylab("MMR per 100,000 live births") +
+  theme(text = element_text(size=20),
+        axis.title.x = element_blank(),
+        legend.position = "none") +
+  scale_fill_manual(values = c("#e69138", "#6aa84fff")) +
+  scale_color_manual(values = c("#e69138", "#6aa84fff")) +  
+  geom_ribbon(data = df2_us, aes(x = x, ymin = ymin, ymax = ymax), 
+              fill = "grey", alpha = 0.4) +
+  geom_point(data=source_us, mapping=aes(x=year, y=value, color=source),
+             size=4, alpha=1) +
+  geom_label_repel(data=source_us[c(26,31),], 
+                   mapping=aes(x=year, y=value, label = source, 
+                               color=source,
+                               fill=source),
+                   box.padding   = 0.35, 
+                   point.padding = 0.5,
+                   segment.color = 'grey50',
+                   color = 'white',
+                   size=6,
+                   nudge_y=-3,
+                   nudge_x=-4000,
+                   max.iter = 2000, 
+                   direction="both") +
+  ggtitle("United States")
+
+
+
+# read in afghanistan data
+mmr_af <- read.csv("examples/data/mmr_af.csv", stringsAsFactors = FALSE)
+mmr_af <- 
+  mmr_af %>% 
+  filter(year!="") %>% 
+  arrange(year) %>%
+  mutate(year = gsub("/", "-", year),
+         year = lubridate::ymd(paste(year, "01", sep="-"))
+  ) %>%
+  filter(!is.na(mmrU)) %>%
+  filter(!is.na(mmr)) %>%
+  filter(!is.na(mmrL)) 
+
+source_af <- read.csv("examples/data/mmr_af_source.csv", stringsAsFactors = FALSE)
+source_af <-
+  source_af %>%
+  mutate(year = gsub("/", "-", year),
+         year = lubridate::ymd(paste(year, "01", sep="-"))
+  ) %>%
+  mutate(source = ifelse(source=="who", "WHO Estimate",
+                         "Outliers"))
+
+p1_af <- 
+  mmr_af %>% 
+  ggplot() +
+  geom_smooth(data=mmr_af, mapping=aes(x=year, y=mmr), color="#1f9ac9ff",
+              size=2) +
+  geom_smooth(data=mmr_af, mapping=aes(x=year, y=mmrL), linetype=0) +
+  geom_smooth(data=mmr_af, mapping=aes(x=year, y=mmrU), linetype=0) 
+
+# build plot object for rendering 
+pp1_af <- ggplot_build(p1_af)
+
+# extract data from the upper and lower lines
+df2_af <- data.frame(x = as.Date(pp1_af$data[[1]]$x, origin = "1970-01-01"),
+                     ymin = pp1_af$data[[2]]$y,
+                     ymax = pp1_af$data[[3]]$y) 
+
+# use the lm data to add the ribbon to the plot 
+
+p_mmr_af <-
+mmr_af %>% 
+  ggplot() +
+  geom_smooth(data=mmr_af, mapping=aes(x=year, y=mmr), color="#1f9ac9ff",
+              size=2) +
+  ylim(0, 5000) +
+  scale_x_date(breaks = as.Date(c("1980-01-01", "1985-01-01",
+                                  "1990-01-01", "1995-01-01",
+                                  "2000-01-01", "2005-01-01",
+                                  "2010-01-01")),
+               date_labels = "%Y") +
+  theme_classic() +
+  ylab("MMR per 100,000 live births") +
+  theme(text = element_text(size=20),
+        axis.title.x = element_blank(),
+        legend.position = "none") +
+  scale_fill_manual(values = c("grey", "#6aa84fff")) +
+  scale_color_manual(values = c("grey", "#6aa84fff")) +
+  geom_ribbon(data = df2_af, aes(x = x, ymin = ymin, ymax = ymax), 
+              fill = "grey", alpha = 0.4, linetype=0) +
+  geom_point(data=source_af, mapping=aes(x=year, y=value, color=source),
+             size=4, alpha=1) +
+  geom_label_repel(data=source_af[c(4, 9),], 
+                   mapping=aes(x=year, y=value, label = source, 
+                               color=source,
+                               fill=source),
+                   box.padding   = 0.35, 
+                   point.padding = 0.5,
+                   segment.color = 'grey50',
+                   color = 'white',
+                   size=6,
+                   nudge_y=1000,
+                   max.iter = 2000, 
+                   direction="both") +
+  ggtitle("Afghanistan")
+
+grid.arrange(p_mmr_us, p_mmr_af, ncol=2, top = textGrob("Estimates of maternal mortality", gp=gpar(fontface="bold", fontsize=25)), widths = c(1,1))
 ```
 
-## Who Produces Global Health Research?
-
-Academic centers around the world, like the [Duke Global Health Institute](https://globalhealth.duke.edu/), are major contributors to global health research. Public and private donors like the USG, the Bill and Melinda Gates Foundation, and the World Bank make grants to university-affiliated faculty members who partner with colleagues inside and outside governments to plan and conduct research. Donors also channel research support to nonprofit research organizations such as [FHI 360](https://www.fhi360.org/) and [RTI International](https://www.rti.org/), who work in a similar fashion. 
-
-Interesting hybrid models include the Abdul Latif Jameel Poverty Action Lab (JPAL) and Innovations for Poverty Action (IPA). [JPAL](http://www.povertyactionlab.org/) is a global network of university-affiliated professors from more than 50 universities that use randomized evaluations (i.e., experiments) to answer policy questions related to poverty alleviation. The JPAL website contains excellent resources regarding the methods used in randomized evaluations, as well as links to published studies and policy briefs. [IPA](http://www.poverty-action.org/) is a sister organization that is also a leader in the use of randomized evaluations to study important policy questions about global poverty.
-
-## Where is Global Health Research Published?
-
-Global health research is published in medical journals (e.g., [*The Lancet*](http://www.thelancet.com/) and [*JAMA*](http://jamanetwork.com/journals/jama)), general science journals (e.g., [*Science*](http://science.sciencemag.org/) and [*PLOS ONE*](http://journals.plos.org/plosone/)), discipline-specific journals (e.g., [*The Journal of Immunology*](http://www.jimmunol.org/content/198/1/184.short) and [*Epidemiology*](http://journals.lww.com/epidem/pages/default.aspx)), and disease-specific journals (e.g., [*AIDS*](http://journals.lww.com/aidsonline/Pages/default.aspx) and [*Malaria Journal*](https://malariajournal.biomedcentral.com/)). Journals specializing in global health include [*The Lancet Global Health*](http://www.thelancet.com/journals/langlo/latestcontent), [*BMJ Global Health*](http://gh.bmj.com/), [*Global Public Health*](http://www.tandfonline.com/toc/rgph20/current), and [*Global Health: Science and Practice*](http://www.ghspjournal.org/).
-
-<iframe width="690" height="388" src="https://www.youtube.com/embed/HN6zpQGvkSA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-## What is Research?
-
-The **Common Rule** is a US federal policy that governs research with human subjects ([Title 45, Subtitle A, Subchapter A, Part 46.102](https://www.ecfr.gov/cgi-bin/retrieveECFR?gp=&SID=83cd09e1c0f5c6937cd9d7513160fc3f&pitd=20180719&n=pt45.1.46&r=PART&ty=HTML)). This rule defines "research" as:
-
-> a systematic investigation, including research development, testing, and evaluation, designed to develop or contribute to *generalizable knowledge*  
+The takeaway message is that there is uncertainty in everything. No single estimate can be considered "The Truth." Instead, we must focus on the origin of estimates and recognize the limitations of what we know or what is being reported.
 
 ## What Constitutes Global Health Research?
 
@@ -81,6 +309,10 @@ In the world of malaria research, an applied research question might be, "How ca
 #### Clinical Research{-}
 
 Applied science takes many different forms, including [**clinical research**](https://en.wikipedia.org/wiki/Clinical_research). Clinical research is a broad field that encompasses patient-oriented research, epidemiological and behavioral studies, outcomes research, and health services research. Basic research provides the foundation for all clinical research.
+
+```{r ctrial, fig.cap="Pipeline from basic research to FDA approval. Source: [http://www.phrma.org/advocacy/research-development/clinical-trials](http://www.phrma.org/advocacy/research-development/clinical-trials).", echo=F, fig.fullwidth = TRUE}
+knitr::include_graphics("images/clinicaltrials.png", dpi = NA)
+```
 
 One type of clinical research is a clinical trial. Drugs and vaccines have to pass through different phases of clinical trials before regulatory bodies, such as the Federal Food and Drug Administration (FDA), will approve their use with humans:
 
@@ -131,6 +363,10 @@ knitr::kable(phases, format = "html") %>%
 The development of a vaccine for malaria provides a good example of the life cycle of a clinical trial. In 2015, after 30 years of research, a vaccine candidate called RTS,S, or Mosquirix™, [made the news](http://money.cnn.com/2015/07/24/news/malaria-vaccine-bill-gates/) for having gotten one step closer to becoming a licensed vaccine after a successful Phase III trial. 
 
 [Development of RTS,S](http://malariavaccine.org/files/UpdatedRTSS_FactSheet_21April2010.pdf) began in 1984 through a partnership between the pharmaceutical company GlaxoSmithKline (GSK) and the Walter Reed Army Institute of Research. In 1987, a promising vaccine candidate entered **preclinical** research. During the preclinical phase, researchers performed tests on nonhuman subjects to collect data on how well the vaccine worked (**efficacy**), how much damage it could do to an organism (**toxicity**), and how the body affected the vaccine (**pharmacokinetics**).
+
+```{r rtss, fig.cap="RTS,S timeline. Source: [http://www.sciencedirect.com/science/article/pii/S0264410X15013377](http://www.sciencedirect.com/science/article/pii/S0264410X15013377).", echo=F, fig.fullwidth = FALSE}
+knitr::include_graphics("images/rtss.png", dpi = NA)
+```
 
 ```{marginfigure}
 If you compare the sample sizes of the Mosquirix™ trials, you'll see that they do not follow the rules of thumb noted in the table above. These types of deviations are common in research. The goals of these particular trials demanded larger sample sizes than is typical.
@@ -248,6 +484,42 @@ In an **impact evaluation**, the goal is to infer that some program—or some tr
 Program monitoring is concerned with the implementation of programs, policies, or interventions. How are resources being used? Is the program being delivered as intended (or *with fidelity*)? How many people participate, and does the program reach the intended targets? These are all program-monitoring questions.
 
 Accurate monitoring is essential for reporting data to funders, but it is also essential for all good evaluations. The reason is simple: If a program fails—that is, has no impact—the next question is why? Did the program fail because the idea or theory behind the program was wrong (**theory failure**)? Or was the implementation of the program so troubled that there was never a chance for success (i.e., **implementation failure**)? Every trial should include ongoing monitoring or a formal process evaluation to assess the impact of the program on a continual basis.
+
+## Who Funds Global Health Research?
+
+```{marginfigure}
+The precise amount spent on global health research and development (R&D) is not clear [@schaferhoff:2015].
+```
+
+Billions of dollars are spent on global health research every year. This funding comes from public institutions such as the National Institutes of Health (NIH) in the United States and private philanthropy organizations such as the Bill and Melinda Gates Foundation.
+
+```{marginfigure}
+The [World RePort database](https://worldreport.nih.gov/app/) from the NIH—the [largest funder of health research in the world](http://www.healthresearchfunders.org/health-research-funding-organizations/)—lists health research projects totaling nearly $45 billion in 2015. It's possible to filter on the country of the recipient organization, but this does not count money disbursed to US and European organizations working on global health issues.
+```
+
+In 2015, the international community disbursed $36.4 billion in development assistance for health, down from a peak of $38 billion in 2013 [@ihme:2016]. Although Figure \@ref(fig:funding) does not present total research dollars contributed, per se, it does show the sources of global health financing, the channels through which they flow, and the areas on which they focus (see [here](http://vizhub.healthdata.org/fgh/) for an interactive version).
+
+```{r funding, fig.fullwidth = TRUE, fig.cap="Flows of global health financing. Abbreviations: BMGF, Bill & Melinda Gates Foundation; SWAps & HSS, sector-wide approaches and health-sector support; Gavi, the Vaccine Alliance. Source: Institute for Health Metrics and Evaluation, http://vizhub.healthdata.org/fgh/", echo=F}
+knitr::include_graphics("images/ihmefunding.png", dpi = NA)
+```
+
+The United States Government contributed one-third of all development assistance for health in 2015 ($13 billion). More than half of USG funding was directed to HIV/AIDS, malaria, tuberculosis, and other infectious diseases. Noncommunicable diseases received <1% of resources, despite accounting for 7 of the 10 leading causes of death globally (Figure \@ref(fig:cod)).
+
+```{r cod, fig.cap="Global deaths per 100,000. Abbreviations: COPD, chronic obstructive pulmonary disease. Source: Institute for Health Metrics and Evaluation, http://vizhub.healthdata.org/gbd-compare/", echo=F}
+knitr::include_graphics("images/cod.png", dpi = NA)
+```
+
+## Who Produces Global Health Research?
+
+Academic centers around the world, like the [Duke Global Health Institute](https://globalhealth.duke.edu/), are major contributors to global health research. Public and private donors like the USG, the Bill and Melinda Gates Foundation, and the World Bank make grants to university-affiliated faculty members who partner with colleagues inside and outside governments to plan and conduct research. Donors also channel research support to nonprofit research organizations such as [FHI 360](https://www.fhi360.org/) and [RTI International](https://www.rti.org/), who work in a similar fashion. 
+
+Interesting hybrid models include the Abdul Latif Jameel Poverty Action Lab (JPAL) and Innovations for Poverty Action (IPA). [JPAL](http://www.povertyactionlab.org/) is a global network of university-affiliated professors from more than 50 universities that use randomized evaluations (i.e., experiments) to answer policy questions related to poverty alleviation. The JPAL website contains excellent resources regarding the methods used in randomized evaluations, as well as links to published studies and policy briefs. [IPA](http://www.poverty-action.org/) is a sister organization that is also a leader in the use of randomized evaluations to study important policy questions about global poverty.
+
+## Where is Global Health Research Published?
+
+Global health research is published in medical journals (e.g., [*The Lancet*](http://www.thelancet.com/) and [*JAMA*](http://jamanetwork.com/journals/jama)), general science journals (e.g., [*Science*](http://science.sciencemag.org/) and [*PLOS ONE*](http://journals.plos.org/plosone/)), discipline-specific journals (e.g., [*The Journal of Immunology*](http://www.jimmunol.org/content/198/1/184.short) and [*Epidemiology*](http://journals.lww.com/epidem/pages/default.aspx)), and disease-specific journals (e.g., [*AIDS*](http://journals.lww.com/aidsonline/Pages/default.aspx) and [*Malaria Journal*](https://malariajournal.biomedcentral.com/)). Journals specializing in global health include [*The Lancet Global Health*](http://www.thelancet.com/journals/langlo/latestcontent), [*BMJ Global Health*](http://gh.bmj.com/), [*Global Public Health*](http://www.tandfonline.com/toc/rgph20/current), and [*Global Health: Science and Practice*](http://www.ghspjournal.org/).
+
+<iframe width="690" height="388" src="https://www.youtube.com/embed/HN6zpQGvkSA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## The Takeaway
 
