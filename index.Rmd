@@ -31,6 +31,8 @@ library(tidyverse)
 library(gridExtra)
 library(stringr)
 library(kableExtra)
+# https://haozhu233.github.io/kableExtra/bookdown/use-bootstrap-tables-in-gitbooks-epub.html
+#options(kableExtra.html.bsTable = T)
 library(ggrepel)
 library(grid)
 

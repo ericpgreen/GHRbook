@@ -20,7 +20,7 @@ On June 5, 1981, the US Centers for Disease Control and Prevention  [published a
 Three thousand miles away, doctors in New York observed a cluster of similar cases. @hymes1981 described these patients in an article published in the September 19 issue of *The Lancet*, the first article on the disease to appear in the **scientific literature**.
 
 ```{marginfigure}
-News outlets including the *Associated Press*, the *Los Angeles Times*, and the *San Francisco Chronicle* covered the release of the June 5 MMWR. The [*New York Times*](https://www.nytimes.com/1981/07/03/us/rare-cancer-seen-in-41-homosexuals.html) published its first article on the epidemic, "Rare Cancer Seen in 41 Homosexuals", about a month later. AIDS would not make the [front page of the *New York Times*](https://www.nytimes.com/times-insider/2014/10/30/1983-having-claimed-558-lives-aids-finally-made-it-to-the-front-page/) until May 25, 1983."
+News outlets including the *Associated Press*, the *Los Angeles Times*, and the *San Francisco Chronicle* covered the release of the June 5 MMWR. The [*New York Times*](https://www.nytimes.com/1981/07/03/us/rare-cancer-seen-in-41-homosexuals.html) published its first article on the epidemic, "Rare Cancer Seen in 41 Homosexuals", about a month later. AIDS would not make the [front page of the *New York Times*](https://www.nytimes.com/times-insider/2014/10/30/1983-having-claimed-558-lives-aids-finally-made-it-to-the-front-page/) until May 25, 1983.
 ```
 
 As clinicians and researchers began to connect the dots between the likely presence of an infectious agent and opportunistic infections among gay men, the public came to know this crisis as the "gay cancer" and eventually "Gay-Related Immune Deficiency" or GRID. On June 17, 1982, the National Broadcasting Company, an American English-language television network, broadcast a report on the evening news about a new study showing how the "lifestyle" of some homosexual men had created an "epidemic" of a "rare form of cancer". By the time this report aired, there were 413 reported cases in the US, a third of whom had already died. The CDC estimated that thousands more might be affected.
@@ -260,15 +260,7 @@ And like that, the question of **efficacy** was put to rest. After nearly two de
 
 The road from research question to policy impact can be long. Decades, in fact, as demonstrated by the scientific history of male circumcision and HIV prevention. But for researchers and advocates who are willing doggedly follow the data wherever it leads, real change is possible. As of 2017, nearly 15 million men living in the AIDS Belt have been circumcised, potentially averting more than 500,000 new HIV infections through 2030 [@whomc2017].
 
-###### Learning Objectives{-}
-
-Forthcoming
-
-###### Reading Questions{-}
-
-<iframe height="600" width="690" src="https://duke.qualtrics.com/jfe/form/SV_396kv6q9B439aeh" frameborder="0"></iframe>
-
-###### Feedback{-}
+###### Share Your Feedback{-}
 
 This book is a work in progress, so I'd really appreciate your feedback on this chapter.
 

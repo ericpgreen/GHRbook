@@ -4,6 +4,8 @@ knit: "bookdown::preview_chapter"
 
 # Global Health Research {#ghr}
 
+## What is Global Health?
+
 *New York County Courthouse, circa 2009*
 
 **Judge presiding over jury selection:** And what do you do, Mr. Green?
@@ -43,7 +45,7 @@ gh <- data.frame(v1=c(
   "Public health",
   "Tropical medicine", 
   "International health",      
-  "Global health", 
+  "**Global health**", 
   "Planetary health"
 ),
 v2=c(
@@ -63,9 +65,14 @@ knitr::kable(gh, format = "html") %>%
 ```
 <br>
 
-Maybe I would have made the cut had had I said, "**global health is the study and practice of improving health and achieving equity in health for all people worldwide**. This is how @koplan:2009 defined global health in a *Lancet* article published later the same year. The also offered this longer version:
+Maybe I would have made the cut had had I said, "**global health is the study and practice of improving health and achieving equity in health for all people worldwide**". This is how @koplan:2009 defined global health in a *Lancet* article published a few months after my court appearance. They also offered this longer version:
 
 >  **Global health** emphasises transnational health issues, determinants, and solutions; involves many disciplines within and beyond the health sciences and promotes interdisciplinary collaboration; and is a synthesis of population-based prevention with individual-level clinical care.
+
+
+```{marginfigure}
+"Determinants" of health/illness is one of those terms that you'll come across a lot in global health. It refers to the things that contribute to our health and wellbeing. [Pretty much everything](http://tinyurl.com/zvdxezv). Ironically, despite sounding so *deterministic*, the study of determinants is mostly *probabilistic*. A social determinant like poverty is generally associated with worse health outcomes, but not everyone living in poverty has the same experience.  
+```
 
 This definition reflects the reality that the determinants of ill health and inequality are complex, so the search for solutions must span multiple disciplines. In the study of malaria, for example, you can read about the spread of the disease (epidemiology), the impact of illness on future productivity (economics), the merits of free or subsidized bed nets (public policy), mosquito habitats (ecology), the efficacy of vaccines to prevent the disease (medicine and statistics), rapid diagnostic tests (biomedical engineering), and the adoption and use of bed nets (psychology), just to name a few areas of inquiry.
 
@@ -99,7 +106,7 @@ The point to take away about inference is that, regardless of the approach to re
 
 ### RESEARCH AS A PUBLIC ACT
 
-```{r pancakes, fig.cap="Source: [http://tinyurl.com/yxtabza3](http://tinyurl.com/yxtabza3)", echo=F, fig.margin = TRUE}
+```{r pancakes, fig.cap="A poorly documented Method section. Source: [http://tinyurl.com/yxtabza3](http://tinyurl.com/yxtabza3)", echo=F, fig.margin = TRUE}
 knitr::include_graphics("images/pancakes2.png", dpi = NA)
 ```
 
@@ -114,8 +121,6 @@ In later chapters we will learn strategies for writing a good Method section (an
 Every method has limitations, every measurement has error, and every model is wrong to some extent. Take the estimation of maternal mortality rates as an example. @hogan:2010 published maternal mortality estimates for 181 countries. Some countries, such as the United States, have vast amounts of data in vital registries that attempt to track all births and deaths. It's not perfect, so we still estimate the maternal mortality rate using a statistical model (we'll discuss models more in a later chapter). 
 
 As you can see in the left panel of Figure \@ref(fig:mmr), the United States has a very low level of maternal mortality, between about 10-20 maternal deaths for every 100,000 live child births. Compared to some countries, the US has a lot of data points for estimating the level and trend in maternal deaths, so the "uncertainty band" is narrow. 
-
-Now take a look at Afghanistan on the right. Note that the y-axis scale is much larger in the 1000s, reflecting the fact that many more Afghan women die of causes related to pregnancy or childbirth. Next, pay attention to the width of the uncertainty band. It spans more than a 3000 death range compared to a range of fewer than 5 deaths in the US! This is because there are very few data points available to estimate the "true" value, and these data points can differ by more than 1000 deaths. We don't know much about maternal mortality in Afghanistan, but the blue line is our best guess.
 
 ```{r mmr, fig.margin=FALSE, fig.fullwidth=TRUE, echo=FALSE, fig.cap="Estimates of the maternal mortality rate in the United States and Afghanistan, [@hogan:2010]. Visualized by Yours Truly based on values extracted from published plots.", warnings=FALSE, message=FALSE, fig.width=12}
 
@@ -276,6 +281,12 @@ mmr_af %>%
 grid.arrange(p_mmr_us, p_mmr_af, ncol=2, top = textGrob("Estimates of maternal mortality", gp=gpar(fontface="bold", fontsize=25)), widths = c(1,1))
 ```
 
+Now take a look at Afghanistan on the right. Note that the y-axis scale is much larger in the 1000s, reflecting the fact that many more Afghan women die of causes related to pregnancy or childbirth. Next, pay attention to the width of the uncertainty band. It spans a range of more than 3000 deaths. Compare this to a range of fewer than 5 deaths in the US! This is because there are very few data points available to estimate the "true" value in Afghanistan, and these individual data points can differ by more than 1000 deaths. We don't know much about maternal mortality in Afghanistan, but the blue line is our best guess.
+
+```{marginfigure}
+Your [spidy sense](https://en.wiktionary.org/wiki/Spidey-sense) should tingle a bit when you read an article that ignores or hides uncertainty.  
+```
+
 The takeaway message is that there is uncertainty in everything. No single estimate can be considered "The Truth." Instead, we must focus on the origin of estimates and recognize the limitations of what we know or what is being reported.
 
 ## What Constitutes Global Health Research?
@@ -312,6 +323,10 @@ Applied science takes many different forms, including [**clinical research**](ht
 
 ```{r ctrial, fig.cap="Pipeline from basic research to FDA approval. Source: [http://www.phrma.org/advocacy/research-development/clinical-trials](http://www.phrma.org/advocacy/research-development/clinical-trials).", echo=F, fig.fullwidth = TRUE}
 knitr::include_graphics("images/clinicaltrials.png", dpi = NA)
+```
+
+```{marginfigure}
+<iframe width="300" height="169" src="https://www.youtube.com/embed/dsfPOpE-GEs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>What are clinical trial phases? National Cancer Institute (2016). [https://tinyurl.com/y2rur4nx](https://tinyurl.com/y2rur4nx)
 ```
 
 One type of clinical research is a clinical trial. Drugs and vaccines have to pass through different phases of clinical trials before regulatory bodies, such as the Federal Food and Drug Administration (FDA), will approve their use with humans:
@@ -356,15 +371,17 @@ knitr::kable(phases, format = "html") %>%
 ```
 <br>
 
-<iframe width="690" height="388" src="https://www.youtube.com/embed/dsfPOpE-GEs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 ##### Case study: Developing a malaria vaccine {-}
 
 The development of a vaccine for malaria provides a good example of the life cycle of a clinical trial. In 2015, after 30 years of research, a vaccine candidate called RTS,S, or Mosquirix™, [made the news](http://money.cnn.com/2015/07/24/news/malaria-vaccine-bill-gates/) for having gotten one step closer to becoming a licensed vaccine after a successful Phase III trial. 
 
+```{marginfigure}
+<iframe width="300" height="169" src="https://www.youtube.com/embed/Ww9jWFwfmHE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>Malaria vaccine one step closer. CNN (2015). [https://tinyurl.com/y4sfn4ep](https://tinyurl.com/y4sfn4ep)
+```
+
 [Development of RTS,S](http://malariavaccine.org/files/UpdatedRTSS_FactSheet_21April2010.pdf) began in 1984 through a partnership between the pharmaceutical company GlaxoSmithKline (GSK) and the Walter Reed Army Institute of Research. In 1987, a promising vaccine candidate entered **preclinical** research. During the preclinical phase, researchers performed tests on nonhuman subjects to collect data on how well the vaccine worked (**efficacy**), how much damage it could do to an organism (**toxicity**), and how the body affected the vaccine (**pharmacokinetics**).
 
-```{r rtss, fig.cap="RTS,S timeline. Source: [http://www.sciencedirect.com/science/article/pii/S0264410X15013377](http://www.sciencedirect.com/science/article/pii/S0264410X15013377).", echo=F, fig.fullwidth = FALSE}
+```{r rtss, fig.cap="RTS,S timeline. Source: [http://tinyurl.com/y3o2godv](http://tinyurl.com/y3o2godv).", echo=F, fig.fullwidth = FALSE}
 knitr::include_graphics("images/rtss.png", dpi = NA)
 ```
 
@@ -379,8 +396,6 @@ Several **Phase II** studies conducted over the following decade (Phase IIa and 
 The final results of a large **Phase III** trial with more than 15,000 infants and young children in 7 African countries were published in *The Lancet* in 2015 [@rts:2015]. Children who participated in the study were randomly assigned to 1 of 3 arms: (a) 3 doses of RTS,S and a booster dose at month 20, (b) 3 doses of RTS,S and a booster dose of a comparator vaccine at month 20, or (c) 4 doses of a comparator vaccine. RTS,S reduced clinical malaria cases by 28% and 18% among young children and infants, respectively, over a 3--4-year period. This Phase III trial achieved its goal—to show that the treatment was efficacious.
 
 On the basis of these results, the European Medicines Agency issued a "European scientific opinion" to help inform the decision of the WHO and African national regulatory authorities regarding their recommendation of the vaccine. If RTS,S is approved for use and eventually hits the market, researchers will likely conduct **Phase IV** trials to evaluate the vaccine's long-term effects. 
-
-<iframe width="690" height="388" src="https://www.youtube.com/embed/Ww9jWFwfmHE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 #### Implementation Research and Translational Research{-}
 
@@ -401,7 +416,7 @@ Making the jump from studies showing clinical efficacy to wide-spread adoption a
 * T3: Translation from efficacy trials (i.e., Phase III trials) to real-world effectiveness through implementation research
 * T4: Translation from evidence about delivery at scale to the adoption of new policies
 
-```{r translational, fig.cap="Source: Medical University of South Carolina, http://bit.ly/2iq2Blv", echo=F, fig.fullwidth = FALSE}
+```{r translational, fig.cap="Bottlenecks in translating ideas into applications. Source: Medical University of South Carolina, http://bit.ly/2iq2Blv", echo=F, fig.fullwidth = FALSE}
 knitr::include_graphics("images/translational.jpg", dpi = NA)
 ```
 
@@ -475,13 +490,19 @@ Revisiting the research taxonomy presented earlier, we see that there is overlap
 A clinical trialist who works on Phase III studies is unlikely to refer to the trial as an "impact evaluation", even though the randomized study design is a type of impact evaluation. This language is more commonly used by economists and others who study the impact of social sector programs and interventions. For instance, see the [International Initiative for Impact Evaluation](http://www.3ieimpact.org/) (3ie) and the World Bank's [Development Impact Evaluation](http://www.worldbank.org/en/research/dime) (DIME) group.
 ```
 
-In an **impact evaluation**, the goal is to infer that some program—or some treatment, intervention, or policy—had an effect on some outcome. As we will discuss in later chapters, there are several research designs that will generate evidence of "impact". One design in particular, the randomized controlled trial common to Phase II and III clinical trials, is an important type of impact evaluation. Not all impact evaluations are RCTs, but all RCTs are impact evaluations. 
+```{marginfigure}
+<iframe width="300" height="169" src="https://www.youtube.com/embed/HEJlT8t5ezU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>What is impact evaluation? World Bank (2016). [https://tinyurl.com/yyxbpxvd](https://tinyurl.com/yyxbpxvd)
+```
 
-<iframe width="690" height="388" src="https://www.youtube.com/embed/HEJlT8t5ezU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+In an **impact evaluation**, the goal is to infer that some program—or some treatment, intervention, or policy—had an effect on some outcome. As we will discuss in later chapters, there are several research designs that will generate evidence of "impact". One design in particular, the randomized controlled trial common to Phase II and III clinical trials, is an important type of impact evaluation. Not all impact evaluations are RCTs, but all RCTs are impact evaluations. 
 
 #### Monitoring{-}
 
 Program monitoring is concerned with the implementation of programs, policies, or interventions. How are resources being used? Is the program being delivered as intended (or *with fidelity*)? How many people participate, and does the program reach the intended targets? These are all program-monitoring questions.
+
+```{marginfigure}
+Bookmark these two terms. They will become very important when we talk about how to think about study results. 
+```
 
 Accurate monitoring is essential for reporting data to funders, but it is also essential for all good evaluations. The reason is simple: If a program fails—that is, has no impact—the next question is why? Did the program fail because the idea or theory behind the program was wrong (**theory failure**)? Or was the implementation of the program so troubled that there was never a chance for success (i.e., **implementation failure**)? Every trial should include ongoing monitoring or a formal process evaluation to assess the impact of the program on a continual basis.
 
@@ -517,27 +538,25 @@ Interesting hybrid models include the Abdul Latif Jameel Poverty Action Lab (JPA
 
 ## Where is Global Health Research Published?
 
-Global health research is published in medical journals (e.g., [*The Lancet*](http://www.thelancet.com/) and [*JAMA*](http://jamanetwork.com/journals/jama)), general science journals (e.g., [*Science*](http://science.sciencemag.org/) and [*PLOS ONE*](http://journals.plos.org/plosone/)), discipline-specific journals (e.g., [*The Journal of Immunology*](http://www.jimmunol.org/content/198/1/184.short) and [*Epidemiology*](http://journals.lww.com/epidem/pages/default.aspx)), and disease-specific journals (e.g., [*AIDS*](http://journals.lww.com/aidsonline/Pages/default.aspx) and [*Malaria Journal*](https://malariajournal.biomedcentral.com/)). Journals specializing in global health include [*The Lancet Global Health*](http://www.thelancet.com/journals/langlo/latestcontent), [*BMJ Global Health*](http://gh.bmj.com/), [*Global Public Health*](http://www.tandfonline.com/toc/rgph20/current), and [*Global Health: Science and Practice*](http://www.ghspjournal.org/).
+```{marginfigure}
+<iframe width="300" height="169" src="https://www.youtube.com/embed/HN6zpQGvkSA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>What is global health? The Lancet (2016). [https://tinyurl.com/y6gmgabw](https://tinyurl.com/y6gmgabw)
+```
 
-<iframe width="690" height="388" src="https://www.youtube.com/embed/HN6zpQGvkSA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+Global health research is published in medical journals (e.g., [*The Lancet*](http://www.thelancet.com/) and [*JAMA*](http://jamanetwork.com/journals/jama)), general science journals (e.g., [*Science*](http://science.sciencemag.org/) and [*PLOS ONE*](http://journals.plos.org/plosone/)), discipline-specific journals (e.g., [*The Journal of Immunology*](http://www.jimmunol.org/content/198/1/184.short) and [*Epidemiology*](http://journals.lww.com/epidem/pages/default.aspx)), and disease-specific journals (e.g., [*AIDS*](http://journals.lww.com/aidsonline/Pages/default.aspx) and [*Malaria Journal*](https://malariajournal.biomedcentral.com/)). Journals specializing in global health include [*The Lancet Global Health*](http://www.thelancet.com/journals/langlo/latestcontent), [*BMJ Global Health*](http://gh.bmj.com/), [*Global Public Health*](http://www.tandfonline.com/toc/rgph20/current), and [*Global Health: Science and Practice*](http://www.ghspjournal.org/).
 
 ## The Takeaway
 
 Research is defined as a systematic investigation whose goal is to develop or contribute to generalizable knowledge. As global health is the study and practice of improving health and achieving equity in health, **global health research** research includes all systematic efforts to create generalizable knowledge of how we can improve health and achieve equity in health for everyone, everywhere. 
 
+```{marginfigure}
+Usually when people speak of "the literature," they mean [scholarly](https://en.wikipedia.org/wiki/Academic_publishing) or [peer-reviewed](https://en.wikipedia.org/wiki/Peer_review) journal articles. In addition, a body of work called "[grey literature](https://en.wikipedia.org/wiki/Grey_literature)" is more encompassing and harder to search systematically. Grey literature sources are typically disseminated through channels other than peer-reviewed journals. Examples include technical reports or [white papers](https://en.wikipedia.org/wiki/White_paper) published on the web.
+```
+
 Given the complexity of our global health challenges, global health research is multidisciplinary and interdisciplinary. This means that, as a budding global health researcher, you will likely collaborate on teams with colleagues from many different fields. Each discipline has its own methodological preferences and core approaches, but we all operate in the same research landscape that is divided into basic and applied research. Much of the literature in global health focuses on our applied challenges, so you will read a lot about clinical research and trials, translational research, implementation research, and M&E (monitoring and evaluation).
 
 So no matter what discipline you call home, or what stage of research you find most interesting, you can make great contributions to our collective efforts to improve health and achieve equity in health.
 
-###### Learning Objectives{-}
-
-Forthcoming
-
-###### Reading Questions{-}
-
-<iframe height="600" width="690" src="https://duke.qualtrics.com/jfe/form/SV_73PsJ3SIgKuGJhz" frameborder="0"></iframe>
-
-###### Feedback{-}
+###### Share Your Feedback{-}
 
 This book is a work in progress, so I'd really appreciate your feedback on this chapter.
 
