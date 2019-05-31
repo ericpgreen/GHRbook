@@ -220,6 +220,7 @@ If you are affiliated with a university, you (probably) have access to a wide ra
 * Search free cloud services like [ResearchGate](https://www.researchgate.net/) to see if the authors have posted a pre-publication copy as many journals permit.
 * Try a browser extension like [unpaywall](http://unpaywall.org/) to see if there is an open access version of the paper you seek.
 * Try emailing the author directly or contacting them through a service like ResearchGate. You will find that most authors are willing to share their work with you. Usually searching for the author's name and university will bring up a profile with contact information.
+* You can also try your luck with the hashtag ["icanhazpdf" on Twitter](https://twitter.com/search?q=%23icanhazpdf&src=tyah) and see if a friend on the internet will help you out.
 
 ### WATCH OUT FOR JUNK SCIENCE
 
