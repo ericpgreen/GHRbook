@@ -6,7 +6,7 @@ knit: "bookdown::preview_chapter"
 
 You will query the scientific literature hundreds or thousands of times in your career, so learning how to run effective searches is essential. But sometimes, it pays to let someone else do the work for you. I'm talking about systematic reviews and meta-analyses.
 
-## SYSTEMATIC REVIEWS
+## Systematic Reviews
 
 If you are interested in the impact (efficacy) of interventions—and I use the term broadly to mean clinical treatments, prevention interventions, social programs, and policies—then there might be a fast track to your learning called a systematic review.
 
@@ -153,7 +153,7 @@ Stay calm. Your first move should be to check the [Prospero database](https://ww
 
 Often, systematic reviews will include appendices that print table after table of data on included and excluded studies and forest plots if the review includes a meta-analysis. A good appendix is a treasure trove of information. @radevapetrova:2014 wrap up on page 120!
 
-## META-ANALYSIS
+## Meta-Analysis
 
 ```{marginfigure}
 @lewis:2001 discovered that the first forest plot was published in 1978, and first used in a meta-analysis in 1982. The name lagged behind, appearing first in 1996, apparently referring to the tree-line optics typical of most forest plots.
