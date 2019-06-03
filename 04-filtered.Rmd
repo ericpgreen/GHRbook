@@ -59,7 +59,7 @@ Three excellent sources for finding systematic reviews (and meta-analyses) in gl
 knitr::include_graphics("images/rpcochrane.png", dpi = NA)
 ```
 
-Throughout this chapter, we'll use use a systematic review of the effects of chemoprevention on malaria prevention by @radevapetrova:2014 as a learning example. Please take a moment and use the link to the right to download and skim through the article. It's open access. 
+Throughout this chapter, we'll use use a systematic review of the effects of chemoprevention on malaria by @radevapetrova:2014 as a learning example. Please take a moment and use the link to the right to download and skim through the article. It's open access. 
 
 @radevapetrova:2014 set out to answer this basic question: 
 
