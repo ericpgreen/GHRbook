@@ -1,0 +1,13 @@
+name: test2
+title: test2
+username: epg
+account: epg
+server: try.themethodsection.com
+hostUrl: https://try.themethodsection.com/__api__
+appId: 3
+bundleId: 3
+url: http://try.themethodsection.com/content/3/
+when: 1559830144.4981
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: _bookdown.yml|_output.yml|_render.R|01-introduction.Rmd|02-ghr.Rmd|03-ideas.Rmd|04-filtered.Rmd|05-critical.Rmd|16-references.Rmd|book.bib|center.css|CNAME|font-awesome.min.css|footer.R|ghr.bib|glossary.csv|glossary.tex|index.Rmd|Makefile|packages.bib|preamble.tex|README.md|style.css|test.nb.html|test.Rmd|toc.css|_bookdown_files/GHR_files/figure-html/halperin-1.png|_bookdown_files/GHR_files/figure-html/hivpubs-1.png|_bookdown_files/GHR_files/figure-html/mmr-1.png|_bookdown_files/GHR_files/figure-html/rogers-1.png|podcast notes/halperin.md|Untitled/Untitled.html|Untitled/Untitled.Rmd|ebook|examples|images|indevelopment|ShinyApps

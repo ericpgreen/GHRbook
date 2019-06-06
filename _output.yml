@@ -5,7 +5,7 @@ bookdown::gitbook:
       before: |
         <li><a href="./">The Method Section</a></li>
       after: |
-        <li><a href="http://themethodsection.com" target="blank">Eric P. Green</a></li>
+        <li><a href="https://themethodsection.com" target="blank">Eric P. Green</a></li>
 bookdown::tufte_html_book:
   css: [style.css, toc.css, center.css]
 bookdown::pdf_book:

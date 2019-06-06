@@ -2,9 +2,7 @@
 knit: "bookdown::preview_chapter"
 ---
 
-# PART I: Getting Started {-}
-
-# Introduction {#introduction}
+# Introduction {-}
 
 
 ```{r mmwr, fig.margin=TRUE, echo=FALSE, fig.cap="The [*Morbidity and Mortality Weekly Report *](https://www.cdc.gov/mmwr/about.html) is a weekly series published by the CDC that disseminates critical public health information and recommendations."}
@@ -67,7 +65,9 @@ A potentially more informative observational design is the **cohort study**, but
 From this point on, the scholarly literature on HIV and AIDS exploded. @lakeh2017 estimated that the annual publication rate was more than 14,000 papers per year by 2012. Observational studies like these conducted in the early 1980s were followed over the next few decades by bench science on the virus and on drug candidates, diagnostic validity studies of rapid HIV tests, the establishment of demographic surveillance sites, drug and prevention trials, and many, many other types. The literature today is a microcosm of global health research. Experts from just about every discipline have contributed to our knowledge. Biology, economics, psychology, biostatistics, medicine, law, and so on.
 
 ```{r hivpubs, fig.margin=FALSE, echo=FALSE, fig.cap="Global trend in HIV/AIDS publications [@lakeh2017]. Figure reproduced by Yours Truly based on WebPlotDigitizer extraction of published image.", fig.height=4}
-pubs <- structure(list(Year = c("1985-01-01", "1986-01-01", "1986-10-01", "1987-05-01", "1988-01-01", "1988-10-01", "1989-05-01", "1990-01-01", "1990-09-01", "1991-06-01", "1992-01-01", "1992-10-01", "1993-08-01", "1994-05-01", "1995-01-01", "1995-06-01", "1996-01-01", "1996-10-01", "1997-07-01", "1998-03-01", "1999-01-01", "1999-09-01", "2000-06-01", "2001-03-01", "2001-10-01", "2002-08-01", "2003-05-01", "2004-01-01", "2004-08-01", "2005-06-01", "2006-01-01", "2006-11-01", "2007-08-01", "2008-04-01", "2009-07-01", "2009-10-01", "2010-06-01", "2011-01-01", "2012-01-01"), Publications = c(0.216156803, 0.470117468, 0.962958743, 1.514617306, 2.080110394, 2.647546135, 3.20936627, 3.780105309, 4.212946688, 4.645285423, 5.100790141, 5.584094038, 6.111413304, 6.613249988, 7.1111506, 7.669093293, 8.244485548, 8.368716708, 8.423449918, 8.401735384, 8.231758558, 8.270275579, 8.144314121, 7.944221517, 8.010537719, 8.262181785, 8.700351341, 9.257633374, 9.802598112, 10.17470529, 10.54198694, 11.15065813, 11.50423252, 11.69101183, 11.98203807, 12.43109564, 13.00876374, 13.62206813, 14.08279949)), class = "data.frame", row.names = c(NA, -39L))
+pubs <- structure(list(Year = c("1985-01-01", "1986-01-01", "1986-10-01", "1987-05-01", "1988-01-01", "1988-10-01", "1989-05-01", "1990-01-01", "1990-09-01", "1991-06-01", "1992-01-01", "1992-10-01", "1993-08-01", "1994-05-01", "1995-01-01", "1995-06-01", "1996-01-01", "1996-10-01", 
+"1997-07-01", "1998-03-01", "1999-01-01", "1999-09-01", "2000-06-01", "2001-03-01", "2001-10-01", "2002-08-01", "2003-05-01", "2004-01-01", "2004-08-01", "2005-06-01", "2006-01-01", "2006-11-01", "2007-08-01", "2008-04-01", "2009-07-01", "2009-10-01", "2010-06-01", "2011-01-01", 
+"2012-01-01"), Publications = c(0.216156803, 0.470117468, 0.962958743, 1.514617306, 2.080110394, 2.647546135, 3.20936627, 3.780105309, 4.212946688, 4.645285423, 5.100790141, 5.584094038, 6.111413304, 6.613249988, 7.1111506, 7.669093293, 8.244485548, 8.368716708, 8.423449918, 8.401735384, 8.231758558, 8.270275579, 8.144314121, 7.944221517, 8.010537719, 8.262181785, 8.700351341, 9.257633374, 9.802598112, 10.17470529, 10.54198694, 11.15065813, 11.50423252, 11.69101183, 11.98203807, 12.43109564, 13.00876374, 13.62206813, 14.08279949)), class = "data.frame", row.names = c(NA, -39L))
 pubs %>%
   mutate(Year = lubridate::ymd(Year)) %>%
   ggplot(., aes(Year, Publications)) +
