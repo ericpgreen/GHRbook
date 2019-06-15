@@ -194,7 +194,7 @@ The following steps can apply to critical appraisals that you do not intend to s
 
 When you are asked to review a manuscript for a journal or a grant proposal for a funder, there is an expectation that you will communicate your feedback in written form. We will dive into peer review and the publishing process in **[Chapter 19](#sharing)**, but I want to use the remaining part of this chapter to discuss tips for communicating your critical appraisal.
 
-### STEP 1: DON'T BE A JERK {-}
+### STEP 0: DON'T BE A JERK {-}
 
 It is easy to tear down someone else's work. It is much harder to give constructive feedback that will help make this work better. This is not to say that you should give a pass to poorly conducted research or confusing or incomplete write-ups. The point of critical appraisal is to share critical feedback. But feedback that focuses on someone's perceived failings as a person or scientist are out of bounds. If you receive such feedback, try to remember that you are not your work and this type of feedback is lazy and unprofessional. If you are learning from a mentor who is lazy and unprofessional, find new opportunities for mentorship.
 
@@ -227,7 +227,7 @@ caption = 'What to write when you are not feeling generous. Source: [PLOS](https
   kable_styling(bootstrap_options = c("striped"), full_width = FALSE, position = "left")
 ```
 
-### STEP 2: READ TO UNDERSTAND THE AIMS {-}
+### STEP 1: READ TO UNDERSTAND THE AIMS {-}
 
 @stiller2018 published tips for peer review and a [handy workflow](https://www.scisnack.com/wp-content/uploads/2018/10/A-Peer-Review-Process-Guide.pdf). His suggestion is to read the paper several times with a different objective each time.
 
@@ -241,19 +241,19 @@ Sometimes you will read a manuscript with one or more fatal flaws that no amount
 
 For instance, if the aim of the study is to estimate the national prevalence of disease in Uganda and the study is limited to a convenience sample of patients who sought care at a particular health clinic, this would be a fatal flaw. This study design cannot answer the question the authors set out to answer. When this happens, it is OK to describe this fatal flaw and recommend that the paper be rejected or the grant not be funded. You do not have to continue spending time on a manuscript that is dead on arrival.
 
-### STEP 3: DIG INTO THE DETAILS OF THE METHOD {-}
+### STEP 2: DIG INTO THE DETAILS OF THE METHOD {-}
 
 If there are no fatal flaws, read the paper again to understand the details of the scientific approach: sampling, measurement, procedures, intervention, analysis. Find the appropriate reporting guidelines from the Equator Network and use the questions above to go through each section of the paper to determine whether the authors describe the study in sufficient detail. 
 
-### STEP 4: CONSIDER THE CONCLUSIONS {-}
+### STEP 3: CONSIDER THE CONCLUSIONS {-}
 
 On your third pass, use your understanding of the details presented in the *Method* and *Results* sections to think critically about the authors' conclusions. Do you have the same interpretations of the data? 
 
-### STEP 5: WRITE YOUR REPORT {-}
+### STEP 4: WRITE YOUR REPORT {-}
 
 #### Summary paragraph {-}
 
-Your report should begin with the paragraph you wrote in Step 2 that conveys your understanding of the aims and potential contribution of the paper. This paragraph should end with your overall recommendation. Should the paper or proposal be published or funded? Revised? Rejected?
+Your report should begin with the paragraph you wrote in Step 1 that conveys your understanding of the aims and potential contribution of the paper. This paragraph should end with your overall recommendation. Should the paper or proposal be published or funded? Revised? Rejected?
 
 ```{marginfigure}
 In this case the reviewer went on to answer his or her question in the negative. Nevertheless, it was a constructive review, even if we were disappointed in the outcome. We later published a revised version in a different journal [@blattman2016].
