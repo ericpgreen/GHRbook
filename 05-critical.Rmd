@@ -5,7 +5,7 @@ knit: "bookdown::preview_chapter"
 # Critical Appraisal {#critical}
 
 ```{marginfigure}
-<iframe width="300" height="169" src="https://www.youtube.com/embed/Z_yiUf3f92s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>EBM Explained (2015). [https://tinyurl.com/yyrrlqq9](https://tinyurl.com/yyrrlqq9)
+<iframe width="300" height="169" src="https://www.youtube.com/embed/Z_yiUf3f92s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>EBM Explained. Sketchy EBM (2015). [https://tinyurl.com/yyrrlqq9](https://tinyurl.com/yyrrlqq9)
 ```
 
 As health professionals and researchers, we have a duty to make recommendations and decisions based on evidence, not beliefs. The term "evidence-based" first came into use in the 1990s, nearly two decades after [Archie Cochrane](https://en.wikipedia.org/wiki/Archie_Cochrane), the father of evidence-based medicine and namesake of the Cochrane Reviews, wrote the book "[Effectiveness and Efficiency](https://amzn.to/2WEgmnr)" and pointed to the need for the medical field to learn from the highest quality studies. This struck a chord with the profession, and medical schools began teaching their students [**evidence-based medicine**](https://en.wikipedia.org/wiki/Evidence-based_medicine) (EBM), defined by @sackett:1996 as:
@@ -18,308 +18,267 @@ This focus on evidence has saved countless lives and improved health around the 
 
 Well, we do. As scientists and researchers, we review manuscripts from our colleagues prior to publication, comment on articles once they appear in print, prepare systematic reviews and meta-analyses of published work, and sometimes attempt to replicate published findings in new studies. Broadly speaking, this process is known as **critical appraisal**, and it is the focus of this chapter.
 
-## Be Skeptical of News Reports and Press Releases 
+## Getting started with critical appraisal
+
+It feels daunting to critically appraise someone else's work when you are starting out in research. I find that students default to providing the type of feedback that feels most comfortable: spelling and grammar. Your colleague might appreciate this type of feedback, but copyediting is not critical appraisal, nor is it the core function of peer review. Yes, we need to help each other become better communicators of our ideas, but not at the expense of providing a critical review of the *science*.
+
+So how do you approach the task of critical appraisal when you are still building your foundation in research? Checklists! 
+
+```{r start, fig.cap="STARD guidelines for diagnostic studies, [www.equator-network.org](http://www.equator-network.org/wp-content/uploads/2015/03/STARD-2015-checklist.pdf)", echo=F, fig.margin=TRUE}
+knitr::include_graphics("images/stard.png", dpi = NA)
+```
+
+One type of checklist is a set of reporting guidelines specific to the research design used in the study. You can find every reporting guideline on the website of the [**Equator Network**](http://www.equator-network.org/), which stands for Enhancing the QUAlity and Transparency Of health Research. Reviewing a randomized controlled trial? Check out the [CONSORT guidelines](http://www.equator-network.org/reporting-guidelines/consort/). Diagnostic validity study? Try the [STARD guidelines](http://www.equator-network.org/reporting-guidelines/stard/). 
 
 ```{marginfigure}
-<iframe src="https://giphy.com/embed/f8XJK4RWej0rK" width="350" height="250" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p>Or if you want a global health example see, “Want to avoid malaria? Just wear a chicken”, in [Discover Magazine](http://blogs.discovermagazine.com/seriouslyscience/2016/07/27/your-next-mosquito-repellant-could-be-made-from-chicken-odor/). "Are you worried about getting malaria? Well, according to this study, you might be able to avoid it by carrying a chicken everywhere you go." No, not according to this study! @jaleta:2016 show that keeping a live chicken in a nearby cage resulted in a reduction in the number of mosquitoes caught in [CDC mini-light traps](http://www.cdc.gov/museum/history/mosquito.html). Sadly, the science is still out on whether you should wear poultry.<a href="https://giphy.com/gifs/chicken-realization-bird-reaction-f8XJK4RWej0rK"> via GIPHY.</a></p>
+Pro tip: Include a completed checklist as an appendix when you submit manuscripts for publication. It helps reviewers do their job and sends a good signal about your attention to detail.
 ```
 
-We are constant consumers of health research. Every day we read or listen to dozens of headlines that put our critical appraisal skills to the test. Copy editors fight for our attention, and their weapon of choice is clickbait. 
+These guidelines are important because they represent the consensus of the scientific community regarding the essential details that a reader needs to evaluate a manuscript, organize a replication attempt, and include the study in a systematic review or meta-analysis. When you are writing a manuscript, use the guidelines to make an outline that includes each piece of information. When you are reviewing a manuscript, use the guidelines to confirm that the authors provided a full accounting of their study.
 
-**Exhibit A:** "Researchers Claim McDonald's Fries Can Cure Baldness". Thank goodness we have [`@justsaysinmice`](https://twitter.com/justsaysinmice) to 'fix' bad headlines like this by adding "IN MICE".
+If you find that the manuscript is lacking key details recommended by the reporting guidelines, you can enumerate these omissions for the authors and suggest that they follow `[INSERT GUIDELINE NAME]` to give the reader enough information to evaluate the work. This approach is useful even if you are reading a published article and want to decide whether the evidence presented is of high quality. 
 
-<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">IN MICE<a href="https://t.co/Tl3A4GjD6K">https://t.co/Tl3A4GjD6K</a></p>&mdash; justsaysinmice (@justsaysinmice) <a href="https://twitter.com/justsaysinmice/status/1133008831779364867?ref_src=twsrc%5Etfw">May 27, 2019</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-IN MICE Creator and curator [James Heathers](https://twitter.com/jamesheathers) describes his motivation to call out bad reporting [as follows](https://medium.com/@jamesheathers/in-mice-explained-77b61b598218):
-
-> The concept is simple — a lot of science news reporting (which I distinguish from science journalism) is framed badly. Many elements of it grind my gears, and the worst amongst them is: Reporting preliminary animal research out of context. Often the easiest way to fix it is appending a simple suffix: IN MICE.
-
-> GUT BACTERIA INFLUENCES OBESITY… **IN MICE**
-<br>
-> LOW FAT BACON WORSE THAN REGULAR BACON … **IN MICE**
-<br>
-> NEW ALZHEIMER’S DRUG NO BETTER THAN REGULAR DRUG… **IN MICE**
-
-> Of course, it could be “in cell lines” or “in guinea pigs” or “in Drosophila” or “in white boys wearing boat shoes at a college in the midwest”, but — it’s usually mice. So many stories about the Latest Thing That You Need To Know About What Will Kill You Next Tuesday can have their accuracy dramatically improved by the simple addition of IN MICE.
+## The anatomy of a scientific paper
 
 ```{marginfigure}
-<iframe src="https://giphy.com/embed/3oriO04qxVReM5rJEA" width="300" height="331" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p>Drinking 25 cups of coffee a day is still safe for the heart, [study says](https://twitter.com/CNBC/status/1135489168698724352).<a href="https://giphy.com/gifs/coffee-snow-white-3oriO04qxVReM5rJEA"> via GIPHY.</a></p>
+<iframe width="300" height="169" src="https://www.youtube.com/embed/eSEP2T-xz8g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>How I read a paper! Sketchy EBM (2015). [https://tinyurl.com/y3n7vc7m](https://tinyurl.com/y3n7vc7m)
 ```
 
-Journalists love research on animal models and studies of lifestyle topics because we, the news consumers, crave stories that give us hope for potential cures or reassure us that we really can drink 52 cups of coffee a day and live to tell about it. One problem is that these studies often represent the start of the scientific process, not the end. In a great piece of reporting by Brian Resnick in [Vox](https://www.vox.com/science-and-health/2017/3/3/14792174/half-scientific-studies-news-are-wrong), he shares a study by @dumas2017 in which the authors tracked the press coverage of nearly 5,000 biomedical studies included in 306 meta-analyses. They found that journalists are 5x more likely to cover initial studies compared to follow-up studies and are largely uninterested in null results. This focus on the flashy is a problem because only a third of studies were backed up by subsequent research.
-
-But are journalists to blame? Not entirely. Many journalists [publish several stories per day](https://www.cjr.org/united_states_project/productivity-stories-news.php) and rely on the press releases that universities and researchers put out when study results are published. Folks, it looks like we might be the source of many exaggerated claims.
-
-```{marginfigure}
-<iframe width="300" height="169" src="https://www.youtube.com/embed/A-Cdq5xUf1E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>Exaggeration in health related science news, Cardiff University Psychology (2014). [https://tinyurl.com/y49moeez](https://tinyurl.com/y49moeez)
-```
-
-In a study published in the *British Medical Journal*, @sumner2014 reviewed 462 press releases and 668 news stories about scholarly articles published by the top 20 research universities in the UK. They found that 40% of the university press releases contained exaggerated advice not supported by the research, and that these exaggerations were repeated in news articles more often than not. It is tempting to fault the university press office, but it is common practice for researchers to approve the press release copy before it is published. Improving science reporting starts with us.
-
-## Peer Review
-
-Before study results can become news headlines, the claims must be vetted in a process known as **peer review**. In peer review, scholars working in the same field as the researcher read and comment on whether a manuscript is suitable for publication in an **academic (i.e. scholarly) journal**. It is not a perfect system—and many argue that [peer review is broken](https://www.vox.com/science-and-health/2016/11/29/13770988/peer-review-bias-authors)—but it here to stay, so I will outline the process and explain how peer review is the most common form of critical appraisal. 
-
-### INITIAL SCREENING
-
-The review process begins when an author sends a manuscript to a journal. Typically, each submission is screened by the journal's editor, a role often filled by a senior scientist in the journal’s field. If the editor thinks that the research is free of obvious fatal flaws and that the paper will be of interest the journal's readership, then the editor assigns it to an associate editor with some expertise on the topic to manage the peer-review process. Some manuscripts never make it this far; the editor does a "desk reject" and the peer review process ends before it can even begin.
-
-### INVITING PEER REVIEWERS
-
-If not desk rejected, an associate editor invites 2-4 (or more) scholars in the research field—peers of the authors we call reviewers or referees—to review the paper and comment on the merits of the study. Some journals allow (or even require) authors to recommend reviewers who might be a good fit for their research and to request that certain colleagues not be considered. Competition within a field, competition for funding resources, and the race to publish original research are a few of the reasons an author might wish to avoid having their unpublished research under the eyes of certain colleagues. The editorial team does not always respect an author's wishes, but finding appropriate reviewers is challenging, and they usually consider these suggestions. 
-
-There is no one model for who is considered a 'peer'. A peer can be someone at the same level as the author, more junior, or more senior. Editors might ask a scholar to review a paper because they have published similar work, or because they have expertise in the method of data collection or analysis. When editors struggle to find reviewers for a paper, however, the definition of peer can loosen. 
-
-### WHEN TO ACCEPT/DECLINE INVITATIONS
-
-In most cases, peer review is an unpaid service to the field. Manuscript length varies a lot by discipline, but it is not unheard of for referees to spend 5 hours or more reading your paper and writing a report. For this unpaid effort, reviewers might be mentioned in the journal's annual list of contributors; but for the most part, peer review is a quiet contribution to science.
-
-Given the importance of peer review and the time required to do justice to the process, many invitations are declined. @willis2016 studied review invitations sent over a 5-month period for an unspecified health science journal published by Wiley and found that 30% of invitations were declined. Reasons for declining included not being available (83%), "not my field" (14%), and conflict of interest (3%). 
-
-It is customary to decline an invitation to review a manuscript if you have worked closely with the authorship team or are a member of the same institution. Likewise, it is appropriate to decline if you do not feel qualified to comment on the topic or the methods. If you compete with the authors for funding in a niche area and you choose to accept the invitation, it is important to be transparent with the editor about your potential conflicts of interest.
-
-### IS PEER REVIEW ALWAYS BLIND?
-
-Traditionally, peer review has been conducted in a blinded fashion in which the author and the reviewer are unaware of each other’s identities. Some journals have discontinued the practice of blinding author identities from reviewers because the citations and descriptions of the work often give away the group behind the research (or it is a moot point because the authors have published a pre-print). And some reviewers have adopted the practice of signing their reviews in a push for transparency. But peer review is still characterized by secrecy in many disciplines. It is even possible at many journals to submit private comments to the editor that the authors never see!
-
-Nevertheless, proponents of open science can claim small victory in the adoption of some form of open peer review in some corners of the scientific community. What we mean by "open" can vary, however [@ross2017]. Sometimes open simply means that the identities of reviewers and authors is known to both parties. But for some journals, open means publishing reviewer reports alongside the manuscript. 
-
-For instance, at [Gates Open Research](https://gatesopenresearch.org/), a publishing platform funded by the Bill and Melinda Gates Foundation, reviewer names are published online with their written reviews. On the author side, Gates Open Research publishes all iterations of the article, along with the data and code to replicate the manuscript.
-
-Scientists tend to have strong opinions about open peer review. Some believe that open peer review will make it harder for peers to provide honest feedback. Proponents of the process would counter that an open process forces reviewers to be more thoughtful and constructive in their reports. Let's face it, peer review can be nasty.
-
-<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">&#39;This paper is desperate. Please reject it completely and then block the author&#39;s email ID so they can&#39;t use the online system in the future.&#39; <a href="https://t.co/uYBiVgwdfK">pic.twitter.com/uYBiVgwdfK</a></p>&mdash; ShitMyReviewersSay (@YourPaperSucks) <a href="https://twitter.com/YourPaperSucks/status/1126795973341192198?ref_src=twsrc%5Etfw">May 10, 2019</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-Whether you sign your name or not—and there are legitimate reasons to be hesitant, especially as an early career researcher reviewing the work of senior colleagues—being charitable and constructive in your reviews is a basic courtesy you can offer.
-
-### WHAT HAPPENS DURING THE REVIEW PROCESS?
-
-
-
-
-Often Reviewers sometimes reveal themselves inadvertently by recommending that the author cite a lot of their work, and authors or research group’s identity because their current work builds on previous studies or because various parts of their work have been presented at scientific conferences. The scientific community is a small world, especially in highly specialized fields.
-
-Once the manuscript of a research study arrives on a reviewer's desk, he or she will take a few weeks (or even months!) to recommend that the paper be rejected or accepted with minor or major revisions (or sometimes no revisions at all). Some reviewers enumerate the perceived flaws in painstaking detail. Others give short or vague feedback that may be of little help to the author or the editor.
-
-When the editorial team receives these reviews, they decide how the manuscript will proceed. Most academics are happy to get a "revise and resubmit" letter (also called an "R&R" letter). The editor usually gives an indication that the revised paper will have a good chance of publication when it revised, but there are no guarantees. Even after the original paper is revised it sometimes goes back out for further peer review, or the editor makes the decision to accept the revision without additional input.
-
-The editor has a difficult task because reviewers often take different positions regarding a submission. As Smith [-@smith:2006] suggested, the recommendations of multiple reviews can be in direct opposition:
-
-* *Reviewer A: `I found this paper to be extremely muddled with a large number of deficits'*
-
-* *Reviewer B: `This paper is written in a clear style and would be understood by any reader'.*
-
-### WHAT DOES NOT HAPPEN?
-
-nor is it a guarantee of "truth" or validation of the results, but
-
-
-A critical thing to note, however, is that reviewers almost never have access to a researcher’s data or analysis code. They base their decisions on the methods as they are reported, the results as they are presented, and the conclusions reached by the author in the discussion. At this stage, the data sources must be described, but they are not verified. So even if reviewers find possible flaws in the logic of the research, analysis mistakes and fraud go largely unchecked.[^gelman] This lack of verification is why it is wrong to conclude that publication in a peer-reviewed journal means validation, or assurance of the correctness of the conclusions drawn. “Published” does not equal “correct.”[^errorspub] 
-
-[^gelman]: Andrew Gelman, a statistician at Columbia University writes a great (non–peer-reviewed) blog and comments regularly on the [limitations of peer review](http://andrewgelman.com/2016/02/01/peer-review-make-no-damn-sense/) and the need for more post-publication review.
-
-[^errorspub]: Authors and journal editors sometimes learn about mistakes and decide to publish a [**corrigendum**](https://en.wikipedia.org/wiki/Erratum) or even retract the paper. See the website [Retraction Watch](http://retractionwatch.com/) for news on retracted studies.
-
-### PEER REVIEW OF FUNDING PROPOSALS
-
-Funding agencies like the National Institutes of Health (NIH) also use a peer-review process to make funding decisions. When a grant application is submitted to an institute at the NIH, a Scientific Review Officer (SRO) checks the proposal for completeness and assigns it to several peer reviewers serving on a Scientific Review Group. The reviewers write up their critiques and assign a [score from 1 (exceptional) to 9 (poor)](https://grants.nih.gov/grants/policy/review/rev_prep/scoring.htm). If the preliminary score is too high, the full committee may not discuss the application, which kills the opportunity for funding, at least for that version of the proposal. 
-
-If an application, i.e., the study proposal, is discussed, the committee assigns a final score (multiplied by 10 for a final rank of 10–90). A summary statement with comments, the overall impact score, and the percentile score is prepared and returned to the applicant. If the proposal exceeds the payline, a percentile score that most institutes set based on the available budget, then the proposal will likely be funded. The overall [success rate](https://report.nih.gov/success_rates/Success_ByIC.cfm) for research grant applications in 2015 was 18.3%.
-
-```{block, type='rmdplay'}
-```
-
-```{r grantreview, echo=F}
-knitr::include_url("https://www.youtube.com/embed/fBDxI6l4dOA")
-```
-
-## How to be a Good Consumer of Research
-
-Here is a [nice framework for how to be a good peer reviewer](https://github.com/jtleek/reviews) or referee. This information provides a solid basis for learning to be a good consumer of research in general. In this guide, Leek describes a scientific paper as consisting of four parts [^leek], with some amendments:
+A scientific paper [consists of four parts](https://github.com/jtleek/reviews):
 
 1. An introduction that frames the research question
 2. A set of methodologies and a description of data
 3. A set of results
 4. A set of claims
 
-Leek offers a helpful recommendation about how to approach a new paper:
+Let's consider what to think about when you read each section.
 
-> Your prior belief about [#2-3] above should start with the assumption that the scientists in question are reasonable people who made efforts to be correct, thorough, transparent, and not exaggerate. 
+### INTRODUCTION SECTION {-}
 
-[^leek]: [Jeffrey Leek](http://jtleek.com/) is a member of the biostatistics faculty at The Johns Hopkins Bloomberg School of Public Health who teaches a number of very popular massive open online courses (MOOCs) on data science. He has written several books on data analysis and has created a few helpful guides like [this one on peer review](https://github.com/jtleek/reviews).  
+A good *Introduction* explains the aim of the paper and puts the research question in context. In public health and medicine, this section is typically very short compared to the introductions in other disciplines like economics.
 
-The rest of the chapter explores the questions a reviewer might ask of a manuscript when conducting a peer review.
+* Does the *Introduction* identify a gap in the literature that this paper will fill?
+* Do the authors cite relevant literature? Does it appear that the authors have accounted for recent developments in the field?
+* Is the research question clearly stated? 
+* Do the authors specify the aims of the paper?   
 
-### INTRODUCTION SECTION
+We'll consider research questions and aims in **[Chapter 5](aims)**.
 
-A good *Introduction* explains the aim of the paper and puts the research question in context.[^hyp] In public health and medicine, this section is typically very short compared to the introductions in other disciplines like economics. Even so, reviewers will often read the *Introduction* looking for references to key studies that signal the authors are knowledgeable of developments in the field.[^pubdate]
+### METHOD SECTION
 
-[^hyp]: If the paper adopts a hypothesis-testing framework, the hypothesis is often stated at the end of the Introduction or the beginning of the Methods section.
+A good *Method* section provides enough information to enable a reader to replicate the findings in a new study. Journal space constraints make this challenging, so authors often post supplemental materials online that provide additional details. 
 
-[^pubdate]: Very recent work might be missing due to the long publication timeline. Most journal articles include both the date of submission and acceptance, so the reader can get a sense of whether the authors had an opportunity to incorporate other recent published work into their discussion and conclusions.
-
-### METHODS SECTION
-
-A good *Methods* section provides enough information to enable a reader to replicate the findings in a new study. Journal space constraints make this challenging, so authors often post supplemental materials online that provide additional details.[^supp] Even with supplemental materials, however, it may be necessary to contact an author before attempting a replication.
-
-[^supp]: Supplemental materials are often published online "as is," meaning that the files are not typeset, edited, or peer reviewed.
-
-The organization of the *Methods* section varies by discipline and journal, but generally it includes some information about the research design, subjects, materials or measures, data sources and procedures, and analysis strategy. The [**Equator Network**](http://www.equator-network.org/), which awkwardly stands for Enhancing the QUAlity and Transparency Of health Research, is a good resource for understanding modern reporting standards. When preparing a manuscript, most journals expect authors to follow the appropriate checklist for the study design. 
-
-```{block, type='rmdtip'}
-Include the completed checklist as an appendix with the article submission to head off reviewers who may complain about missing information that is definitely included.
+```{marginfigure}
+Review recent issues of the journal and consult the appropriate reporting guidelines to create an outline with subheadings that can guide your writing and reviewing.
 ```
 
-#### Is the research design well-suited to answer the research question?{-}
+The organization of the *Method* section varies by discipline and journal, but generally it includes some information about the research design, intervention (if appropriate), sample, materials or measures, data sources and procedures, and analysis strategy.  
 
-There are many different designs that can potentially answer most research questions, but not all designs are created equal. A graphic like Figure \@ref(fig:loe) is commonly used in the EBM literature to convey this point. The meta-analyses and systematic reviews in **[Chapter 3](literature)** are 'studies of studies,' and they sit atop the evidence hierarchy. They enjoy this status because they synthesize the best available evidence. No one study is the final word on a research question, so it makes sense that a meta-analysis that pools results and accounts for variable study quality could potentially provide a better answer than any one study alone.  
+#### Can the study design answer the research question?{-}
+
+There are many different designs that can potentially answer most research questions, but not all designs are created equal. A graphic like Figure \@ref(fig:loe) is commonly used in the evidence-based medicine literature to convey this point. Meta-analyses and systematic reviews are 'studies of studies', and they sit atop the evidence hierarchy. They enjoy this status because they synthesize the best available evidence. No one study is the final word on a research question, so it makes sense that a meta-analysis that pools results and accounts for variable study quality could potentially provide a better answer than any one study alone.  
 
 ```{r loe, fig.cap="Levels of evidence", echo=F}
 knitr::include_graphics("images/levels.png")
 ```
 
-However, the Cochrane Handbook for Systematic Reviews [-@cochrane] cautions researchers to pay attention to design features (e.g., how participants were selected) rather than labels (e.g., cohort study) because such labels are broad categories. Therefore, this hierarchy is not absolute; these rankings reflect ideals. For example, RCTs can be poorly designed or poorly implemented, and the evidence from such a flawed study is not necessarily better than the evidence from a nonrandomized study just because it carries the label "randomized."
+However, the *Cochrane Handbook for Systematic Reviews* [-@cochrane] cautions researchers to pay attention to design features (e.g., how participants were selected) rather than labels (e.g., cohort study) because labels are broad categories. Therefore, this hierarchy is not absolute; these rankings reflect ideals. For example, RCTs can be poorly designed or poorly implemented, and the evidence from such a flawed study is not necessarily better than the evidence from a nonrandomized study just because it carries the label "randomized." I'll describe the logic and assumptions of common designs in Chapters 9 through 11.
 
-##### Is there a risk of bias and confounding?{-}
+#### How were participants selected and recruited? {-}
 
-Some study designs are better than others (at least *in theory*) because of their ability to address potential bias when conducted properly. As discussed in **[Chapter 2](science)**, the goal of scientific research is inference, and some error and uncertainty is always inherent. Consumers (and producers) of research must accept this fact, and they must be willing to assess the extent to which a study's design and methods might introduce errors that lead away from the "truth."
-
-Error can be either random or systematic. **Random error** adds noise (i.e., variability) to the data, but it does not affect the average. To revisit our previous example, I might step on a scale and see that I weigh 185.12. I step off and back on, and this time I weigh 185.13.[^weight] This random error results from the limitations of my scale. If I continue taking measurements, this random error will balance out. Random means that the readings are not systematically too high or too low.
-
-[^weight]: This is my hypothetical example so I get to weigh whatever I want.
-
-**Systematic error** is not random. Systematic error is also known as **bias**, and it represents a deviation from the "truth." Let's imagine that my scale is broken and I do not really weigh 185. I weigh 200. I can worry about the imprecise measurements of 185.12 and 185.13 all day, but I'd be missing the bigger problem that my scale is systematically reading the wrong weight. I can keep taking measurements over and over, but my scale is just wrong. If my goal is 186, I would come to the wrong conclusion that I can stop dieting!
-
-```{block, type='rmdplay'}
+```{marginfigure}
+I focus on '[human subjects research](https://grants.nih.gov/policy/humansubjects/research.htm)' in this book, but sampling is also an important topic in research not involving people. 
+<br>
+<br>
+Sidebar: How should you refer to the humans who participate in your studies? Is it ok to call these humans "people" or "participants"? Sure. They are people. I use "participants" most of the time. Others prefer "volunteers". Few insist on "subjects", with the notable exception of US federal regulations governing research.
 ```
 
-```{r bias2, echo=F}
-knitr::include_url("https://www.youtube.com/embed/EOXBlgMEqB0")
-```
+We can't collect data from every person in our population of interest (unless we define our population very narrowly, e.g., "authors of textbooks named Eric Green"), so we have to sample a subset of people from the population. For instance, let's say that we want to know what eligible voters in the US think of a certain presidential candidate. There were roughly 160 million people registered to vote in the 2018 US presidential election. We can't contact all 160 million, so imagine we survey 1000 registered voters, or 0.000006% of the population. The details around who these people are and how they got into our study matter for our inferences. Can these 1,000 people represent all US voters? To answer this question for the reader, we have to describe sample selection and recruitment in the *Method* section.
 
-Random error can be estimated, but typically, the extent to which bias affects the study results remains unknown. For this reason, this problem is often framed as a "risk of bias." 
+* What made someone eligible or ineligible to participate? Who was excluded, intentionally or not?  
+* How were participants selected and invited to participate?
+* Was this selection process random, or did the researchers invite participants based on availability? 
+* How many were invited, and how many accepted the invitation?
+* Who refused the invitation to participate, and how are they different from the people who accepted?
 
-In a nonrandomized design, the biggest risk of bias comes from potential **selection bias** [@cochrane]. Selection bias can take different forms. In the context of intervention research, selection bias represents pretreatment (i.e., baseline) differences between study groups. 
+We'll revisit sampling and sample size in Chapters **[12](sampling)** and **[13](power)**.
 
-```{block, type='rmdcomment'}
-Webster et al. [-@webster:2003] conducted a case-control study with a non-randomized (or observational) study design in Eastern Afghanistan to study the efficacy of bed nets as a tool for preventing malaria. Patients who presented at the study clinic with a fever were tested for malaria. Those who tested positive were classified as "cases," and the rest were classified as "controls." The researchers asked cases and controls about their bed-net use, education, income, and several other characteristics. They then compared bed-net users and nonusers on their odds of malaria (i.e., being classified as cases).
+#### What materials and/or measures were used?{-}
 
-Webster et al. [-@webster:2003] wanted to look at potential selection effects with this particular research design, so they also examined patients' use of chloroquine prior to attending the clinic. If a patient was classified as a control (negative blood film) but tested positive for chloroquine, the patient had received treatment for malaria prior to arriving at the clinic, meaning they really should have been classified as a case. 
+Almost every study uses some type of materials or measures. Diagnostic studies, for instance, evaluate a diagnostic test or a piece of hardware that analyzes the test samples. Environmental studies often use sophisticated instruments to take atmospheric measurements. Studies like these always provide specific details in the *Method* section about the materials and equipment used.
 
-To determine whether this misclassification of cases as controls could introduce selection bias, these researchers investigated chloroquine use in bed-net users and nonusers. They found that the use of chloroquine prior to clinic testing was less common among patients who reported using bed nets than among nonusers. If chloroquine use was less common among bed-net users, the estimated effect of bed nets would have been underestimated. Consider the following example.
-
-![](images/selectionbias.png)
-
-Panels A and B show cases (those who tested positive for malaria) and controls by their reported bed-net usage. In Panel A, 4 patients were misclassified as controls, meaning that they tested negative for malaria but only because they treated themselves with chloroquine prior to the test. The panel also shows that chloroquine use is less common among net users.
-
-Still in Panel A, the odds of malaria (cases) among bed-net users is 12/18, and the odds of malaria among nonusers is 12/6. This is an odds ratio of 0.34, suggesting that bed nets protect against malaria (cf. a value of 1 would indicate no effect).
-
-However, Panel B shows that this effect might be an underestimate. If the misclassified control patients are moved to the case group where they belong, the odds change. Now the odds of malaria among bed-net users is 13/17 and the odds among nonusers is 15/3. This is an odds ratio of 0.15, which suggests an even greater protective effect of bed nets.
-
-In Panel A, the effect was biased toward the null, meaning that the effect looked smaller than it probably is. This bias results in **confounding**, and chloroquine use is a **confounding variable**. Confounding variables are correlated with both the "treatment" (i.e., bed-net use) and the outcome (i.e., malaria).
-```
-
-```{block, type='rmdshiny'}
-Exploring selection bias
-```
-
-```{r shiny_sb, echo=F}
-knitr::include_app("https://globalhealthresearch.shinyapps.io/selection-bias2/", height = "750px")
-```
-
-An experimental design typically overcomes the risk of bias and confounding through random assignment. If the sample size is large enough, potential confounding variables like chloroquine use from the example above should be equally likely for all groups. 
-
-The key word here is "typically." Many aspects of an experimental design can result in a risk of bias. For this reason, every Cochrane systematic review assesses several types of known risks of bias in RCTs [@cochrane]:
-
-* Selection bias
-* Performance bias
-* Detection bias
-* Attrition bias
-* Reporting bias
-
-The takeaway at this point should be that every study has a potential for bias and, research consumers should assess the risks of bias that might challenge the validity of the reported results. This type of validity—asking, "are the study results 'correct'?"—is typically referred to as **internal validity** [@cochrane].
-
-#### Who (or what) was the subject of study and how were these subjects recruited and/or selected?{-}
-
-Typically, a subsection of the *Methods* section describes participant recruitment and selection. What made someone eligible or ineligible to participate? Who was excluded, intentionally or not? Exclusion and inclusion criteria define the population of interest and inform the study's *generalizability*. 
-
-Furthermore, how were participants invited or selected? Was this process random, or did the researchers invite participants based on availability? The methods of sampling and selection have implications for the inferences that are possible regarding the population.
-
-#### What materials and/or measures were used in the course of the study?{-}
-
-Almost every study uses some type of materials or measures. Diagnostic studies, for instance, evaluate a diagnostic test or a piece of hardware that analyzes the test samples. Environmental studies often use sophisticated instruments to take atmospheric measurements. Studies like these provide specific details in the Methods section about the materials and equipment used.
-
-Study variables also need to be precisely defined. For instance, hyperparasitemia describes a condition of many malaria parasites in the blood. But what constitutes "many"? The World Health Organization (WHO) defines it as "a parasite density > 4% (~200,000/µL)" [@whomalaria:2015]. A manuscript should be precise with respect to how measurement is operationalized.
+Study variables also need to be precisely defined in the *Method* section. For instance, hyperparasitemia describes a condition of many malaria parasites in the blood. But what constitutes "many"? The World Health Organization (WHO) defines it as "a parasite density > 4% (~200,000/µL)" [@whomalaria:2015]. A manuscript should be precise with respect to how measurement is operationalized.
 
 This holds for studies measuring social or psychological constructs. For instance, in a study of anxiety, a definition of the concept of "anxiety" should be provided. Is an anxiety disorder diagnosed by a psychiatrist? If so, what is the basis for this diagnosis? Or is anxiety inferred from a participant's self-reported symptoms on a checklist or screening instrument? If so, what are the questions and how is the instrument scored?
 
+We'll tackle issues of measurement, including study outcomes and indicators, in **[Chapter 7](measurement)**.
+
 #### How was the study conducted and how were the data collected?{-}
 
-The data collection part of a *Methods* section should describe what happened after participants were recruited and enrolled. What happened first, second, third? Who collected the data, and how were they trained? For intervention studies, the data collection procedures should describe how participants were randomized to study arms and what happened (or did not happen) in each arm. Were the participants, data collectors, and/or patients **blind** to the treatment assignment?
+The *Method* section should also describe what happened after participants were recruited and enrolled. 
 
-#### How was the data analyzed?{-}
+* What happened first, second, third? 
+* Who collected the data, and how were they trained? 
+* For intervention studies, the data collection procedures should describe how participants were randomized to study arms and what happened (or did not happen) in each arm. 
+* Were the participants, data collectors, and/or patients **blind** to the treatment assignment?
 
-If the study uses a hypothesis-testing framework (and not all do), then details about the study hypotheses are located in the *Introduction* or *Methods* section, depending on the journal. The *Methods* section should also detail how the analysis were carried out. For example, in an intervention study, how was the effect size estimated? Did the study use ordinary least squares regression or logistic regression? The list goes on and on.
+We'll discuss data collection methods in Chapters **[14](quant)** and **[15](qual)**.
 
-```{block, type='rmdtip'}
-When preparing a manuscript, variables should be defined and analyses specified in the *Methods* section . In the *Results* section, data and findings are reported without a restatement of the methods or analysis approaches.
-```
+#### How were the data analyzed?{-}
 
-#### Was the study pre-registered and approved by an ethics board?{-}
+In this section authors typically describe the approach and logic of the core analysis. In an economics paper, this might be called the empirical strategy. 
+
+* If analyzing qualitative data, what is the analysis method? Common methods include content analysis, narrative analysis, discourse analysis, and grounded theory.
+* If analyzing quantitative data, is the statistical/econometric model described clearly?
+* What are the assumptions of the analysis?
+
+#### Was the study approved by an ethics board?{-}
 
 The [US Federal Policy for the Protection of Human Subjects](http://www.hhs.gov/ohrp/regulations-and-policy/regulations/common-rule/index.html) (i.e., the “Common Rule”) defines research as “a systematic investigation, including research development, testing and evaluation, designed to develop or contribute to generalizable knowledge...” If the research involves human subjects, it must be reviewed and approved by an institutional review board (IRB) before any subjects can be enrolled. Most studies fall under IRB oversight, but some, such as retrospective studies or quality control interventions, may qualify as exempt.
 
-Increasingly, researchers are taking the additional step of registering their study protocol prior to the study launch in a study clearinghouse like [https://clinicaltrials.gov/](https://clinicaltrials.gov/). This registration is a requirement for drug investigations regulated by the FDA, and it is expected by many journals.[^icmje] Preregistration does not ensure trustworthy results, but the practice fosters a [welcome increase in research transparency](http://www.vox.com/2016/3/14/11219446/psychology-replication-crisis). If the analysis described in an article deviates from the planned analysis, the authors are expected to provide a compelling justification. 
-
-[^icmje]: From the [International Committee of Medical Journal Editors](http://www.icmje.org/recommendations/browse/publishing-and-editorial-issues/clinical-trial-registration.html): "Briefly, the ICMJE requires, and recommends that all medical journal editors require, registration of clinical trials in a public trials registry at or before the time of first patient enrollment as a condition of consideration for publication."  
-
-```{block, type='rmdpuzzle'}
-Studies often measure a number of outcomes, sometimes in a number of different ways, and it can be tempting to consider only certain results that are most applicable to the topic under investigation. . Sometimes researchers deviate from the pre-registered protocol and present different results when the pre-registered plan does not work out. This is called **outcome switching**, and some medical journals [do not seem to care](http://www.vox.com/2016/2/25/11113420/outcomes-switching-medicine-compare-project), but the [COMPare Trials Project](http://compare-trials.org/) thinks they should consider this diversion from the norms of scientific research reporting methods more seriously.
-```
-
-```{r compare, fig.cap="Is outcome switching a problem in medical trials?; Source: http://compare-trials.org/.", echo=F}
-knitr::include_graphics("images/compare.png")
-```
+Increasingly, researchers are taking the additional step of registering their study protocol prior to the study launch in a study clearinghouse like [https://clinicaltrials.gov/](https://clinicaltrials.gov/). This registration is a requirement for drug investigations regulated by the FDA, and it is expected by many journals. Preregistration does not ensure trustworthy results, but the practice fosters a [welcome increase in research transparency](http://www.vox.com/2016/3/14/11219446/psychology-replication-crisis). If the analysis described in an article deviates from the planned analysis, the authors are expected to provide a compelling justification. We will return to pre-registration and open science more generally in **[Chapter 18](#openscience)**.
 
 ### RESULTS SECTION
 
-#### Can each finding be linked to data and procedures presented in the Methods?{-}
+#### Can each finding be linked to data and procedures presented in the Method section?{-}
 
-Every finding in the *Results* section should be linked to a methodology and source of data documented in the *Methods* section. Articles in medical journals are some of the shortest, so supplemental materials posted online may be needed to obtain a clearer sense of what the authors did and found. 
+Every finding in the *Results* section should be linked to a methodology and source of data documented in the *Method* section. Articles in medical journals are some of the shortest, so supplemental materials posted online may be needed to obtain a clearer sense of what the authors did and found. 
 
 #### Is the analysis correct?{-}
 
-Without access to the data and any analysis code, which is still the norm for most publications, results cannot be independently verified. Even with such access, however, some analyses are so complex that only people with extensive training feel qualified to question the accuracy of the results. When reviewing a study with complex analyses, it may be necessary to consult with colleagues.
+This is a hard question to answer during critical appraisal. Most of the time you do not have access to the data and analysis code, so you cannot verify that the analysis is correct. You have to base your assessment on the authors' written description of the data and analysis.
+
+Even if you did have access to materials to reproduce the analysis, some analyses are so complex that only people with extensive training feel qualified to question the accuracy of the results. When reviewing a study with complex analyses, it may be necessary to consult with colleagues.
 
 ### DISCUSSION SECTION 
 
 #### Is each claim linked to a finding presented in the Results?{-}
 
-Each claim should be supported by results that are reported in the paper. If there is no link between a claim in the *Discussion* section and a finding in the *Results* section, the author may be "going beyond the data." For example, if a manuscript presents data on the efficacy of a new treatment for malaria but does not include any data on cost, then it would be inappropriate to claim that the treatment is *cost*-effective. Although it is legitimate to speculate a bit in the *Discussion* section based on documented findings, authors should be careful to label all speculation as such—and these hypothetical forays should never be included the article's *Abstract*.
+Each claim should be supported by results that are reported in the paper. If there is no link between a claim in the *Discussion* section and a finding in the *Results* section, the authors may be "going beyond the data." For example, if a manuscript presents data on the efficacy of a new treatment for malaria but does not include any data on cost, then it would be inappropriate to claim that the treatment is *cost*-effective. Although it is legitimate to speculate a bit in the *Discussion* section based on documented findings, authors should be careful to label all speculation as such—and these hypothetical forays should never be included the article's *Abstract*.
 
 #### Is each claim justified?{-}
 
-Reviewers must then consider each claim in relation to the results presented to evaluate whether the authors' arrived at the correct interpretation of the data presented. Did the authors come to a reasonable conclusion, or did they "go beyond the data" by making conclusions that are not supported by the analysis. For instance, if only weak or mixed evidence that a new program works has been provided, are the authors recommending a massive scale-up of the program? Do the authors claim that a program is cost-effective without presenting data on actual costs?
+Consider each claim in relation to the results presented to evaluate whether the authors' arrived at the correct interpretation of the data presented. Did the authors come to a reasonable conclusion, or did they make conclusions that are not supported by the analysis? For instance, if the analysis provided only weak or mixed evidence that a new program is efficacious, it would be inappropriate to recommend scaling-up the program.
 
 #### Are the claims generalizable?{-}
 
-> Most [studies] are highly localized and paticularistic...Yet readers of [your study's] results are rarely concerned with what happened in that particular, past, local study. Rather, they usually aim to learn either about theoretical constructs of interest or about a larger policy.
-
-That's Shadish et al. [-@scc] writing about the importance of **generalizability** of research findings and claims. When a study is so highly localized that the results are unlikely to generalize to new people and places, we'd say that the study has low **external validity**. 
-
+```{marginfigure}
 One approach to promoting generalizability is to randomly sample participants from the population of interest. For example, Wanzira et al. [-@wanzira:2016] analyzed data from the 2014 Uganda Malaria Indicator Survey, a large national survey, and found that women who knew that sulfadoxine/pyrimethamine is a medication used to prevent malaria during pregnancy had greater odds of taking at least two doses than women who did not have this knowledge. Because the UMIS is nationally representative, the results could apply to Ugandan women who did not participate in the study. Would the results be generalizable to women in Tanzania? An argument could be made that they would. Would the results be generalizable to women in France? No, probably not; among other things, malaria is not an issue there.
+```
+
+Just about every study is conducted on a narrowly constructed sample. Have you read a psychology paper recently? Chances are the sample was [WEIRD](https://rationalwiki.org/wiki/WEIRD): White, Educated, Industrialized, Rich, and Democratic. Most likely the participants came from the "undergraduate pool"—psychology majors willing to take part in the study for extra credit.
+
+In global health, it's common to read qualitative studies involving 20 patients who receive services from one rural primary healthcare facility—a handful of people from one small town in one small corner of a country of millions.
+
+When we read these studies, we are not interested in the hyper-local story, per se [@scc]. Instead, we want to know if the results can generalize to the broader target population. When a study is so highly localized that the results are unlikely to generalize to new people and places, we say that the study has low **external validity**.
+
+I'll tell you more about generalizability and external validity in Chapter **[12](sampling)**.
 
 #### Are the claims put in context?{-}
 
-A good *Discussion* section puts the study findings in context by suggesting how the study adds to the existing literature. Do the results replicate or support other work? Or do the findings run contrary to other published studies? 
+A good *Discussion* section puts the study findings in context by telling the reader how the study adds to the existing literature. 
+
+* Do the results replicate or support other work? 
+* Or do the findings run contrary to other published studies? What are some ideas about why this might be?
+* How does the study advance our knowledge or fill gaps in the literature?
 
 #### What are the limitations?{-}
 
-No study is perfect, and almost all studies include a paragraph or two outlining the shortcomings recognized by the authors. Indeed, many journals require it. Such limitations span all aspects of the study design and methods, from sample size to generalizability of results, to data validity and approaches to statistical analysis. In addition to knowing how the results fit into the bigger research landscape, communicating shortcomings can provide a valuable resource for future researchers in terms of caveats and research directions. 
+No study is perfect, so it is customary to include a paragraph or two outlining the shortcomings. Such limitations span all aspects of the study design and methods, from sample size to generalizability of results, to data validity and approaches to statistical analysis. Communicating shortcomings can provide a valuable resource for future researchers in terms of caveats and research directions. 
 
-## Additional Resources{-}
+## Communicating your critical appraisal
+
+```{marginfigure}
+The following steps can apply to critical appraisals that you do not intend to share with the authors, such as an [annotated bibliography](https://guides.library.cornell.edu/annotatedbibliography) to guide your own work.
+```
+
+When you are asked to review a manuscript for a journal or a grant proposal for a funder, there is an expectation that you will communicate your feedback in written form. We will dive into peer review and the publishing process in **[Chapter 19](#sharing)**, but I want to use the remaining part of this chapter to discuss tips for communicating your critical appraisal.
+
+### STEP 1: DON'T BE A JERK {-}
+
+It is easy to tear down someone else's work. It is much harder to give constructive feedback that will help make this work better. This is not to say that you should give a pass to poorly conducted research or confusing or incomplete write-ups. The point of critical appraisal is to share critical feedback. But feedback that focuses on someone's perceived failings as a person or scientist are out of bounds. If you receive such feedback, try to remember that you are not your work and this type of feedback is lazy and unprofessional. If you are learning from a mentor who is lazy and unprofessional, find new opportunities for mentorship.
+
+Don't be a jerk.
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">&quot;I don’t see how your approach has potential to shed light on a question that anyone might have.&quot; <a href="https://t.co/jgWrKaKlGG">pic.twitter.com/jgWrKaKlGG</a></p>&mdash; ShitMyReviewersSay (@YourPaperSucks) <a href="https://twitter.com/YourPaperSucks/status/1105115039718129665?ref_src=twsrc%5Etfw">March 11, 2019</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<br>
+
+It is not hard to avoid insulting language. Here are a few examples from [PLOS](https://reviewers.plos.org/resources/how-to-write-a-peer-review/):
+
+```{r benice, echo=FALSE}
+  benice <- data.frame(no=c("The authors appear to have no idea what they are talking about. I don’t think they have read any of the literature on this topic.",
+  "The writing is so bad, it is practically unreadable. I could barely bring myself to finish it.",
+  "It’s obvious that this type of experiment should have been included. I have no idea why the authors didn’t use it. This is a big mistake.",
+  "The manuscript is fatally flawed.",
+  "The writing is terrible."),
+                      yes=c("The study fails to address how the findings relate to previous research in this area. The authors should rewrite their Introduction and Discussion to reference the related literature, especially recently published work such as Darwin et al.",
+                      "While the study appears to be sound, the language is unclear, making it difficult to follow. I advise the authors work with a writing coach or copyeditor to improve the flow and readability of the text.",
+                      "The authors are off to a good start, however, this study requires additional experiments, particularly [type of experiment].",
+                      "The study does not appear to be sound.",
+                      "The authors should revise the language to improve readability.")
+                     )
+  names(benice) <- c("When you want to say", "Say this instead")
+  knitr::kable(benice, format = "html", 
+caption = 'What to write when you are not feeling generous. Source: [PLOS](https://reviewers.plos.org/resources/how-to-write-a-peer-review/).'
+) %>%
+  html_table_width(c(400,400)) %>%
+  kable_styling(bootstrap_options = c("striped"), full_width = FALSE, position = "left")
+```
+
+### STEP 2: READ TO UNDERSTAND THE AIMS {-}
+
+@stiller2018 published tips for peer review and a [handy workflow](https://www.scisnack.com/wp-content/uploads/2018/10/A-Peer-Review-Process-Guide.pdf). His suggestion is to read the paper several times with a different objective each time.
+
+On your first pass, read to get an overview of the article and to understand what the authors set out to do. In your own words, write a paragraph that expresses your understanding of the study's aims and objectives. What do you understand the paper to be about, and what is your perception of the potential contribution?
+
+```{marginfigure}
+If the peer review system is working, however, this should be rare. Journal editors and grant funders conduct initial screenings and can reject such papers without sending them out for review. So before you throw in the towel and claim to have found fatal flaw, take the time to understand the paper's aims and approach.
+```
+
+Sometimes you will read a manuscript with one or more fatal flaws that no amount of constructive criticism will help. To be clear, fatal flaws are about the science, not the writing. Unclear writing can be fixed. Bad science cannot. 
+
+For instance, if the aim of the study is to estimate the national prevalence of disease in Uganda and the study is limited to a convenience sample of patients who sought care at a particular health clinic, this would be a fatal flaw. This study design cannot answer the question the authors set out to answer. When this happens, it is OK to describe this fatal flaw and recommend that the paper be rejected or the grant not be funded. You do not have to continue spending time on a manuscript that is dead on arrival.
+
+### STEP 3: DIG INTO THE DETAILS OF THE METHOD {-}
+
+If there are no fatal flaws, read the paper again to understand the details of the scientific approach: sampling, measurement, procedures, intervention, analysis. Find the appropriate reporting guidelines from the Equator Network and use the questions above to go through each section of the paper to determine whether the authors describe the study in sufficient detail. 
+
+### STEP 4: CONSIDER THE CONCLUSIONS {-}
+
+On your third pass, use your understanding of the details presented in the *Method* and *Results* sections to think critically about the authors' conclusions. Do you have the same interpretations of the data? 
+
+### STEP 5: WRITE YOUR REPORT {-}
+
+#### Summary paragraph {-}
+
+Your report should begin with the paragraph you wrote in Step 2 that conveys your understanding of the aims and potential contribution of the paper. This paragraph should end with your overall recommendation. Should the paper or proposal be published or funded? Revised? Rejected?
+
+```{marginfigure}
+In this case the reviewer went on to answer his or her question in the negative. Nevertheless, it was a constructive review, even if we were disappointed in the outcome. We later published a revised version in a different journal [@blattman2016].
+```
+
+Here is an example of a summary paragraph from a review of a paper I co-authored that was not accepted at the first journal.
+
+> The authors conduct a field experiment in rural northern Uganda to estimate the effect of cash grants, training, supervision of grant use, and incentives to form social groups on the entry into self employment, and labor market earnings. Residents of 120 villages and an NGO identify 10 to 15 of the poorest individuals to participate in the program. The majority of the participants (86 percent) are female. At baseline, participants have cash earnings of only about $2 per week. The experiment is a 'randomized wait-list' design, with 60 villages selected for immediate treatment. The remaining 60 receive treatment about 20 months later. Treatment is a cash grant of $150, plus five days of business training leading to a simple plan for a new business. Most recipients also receive five follow-up visits intended to encourage them to invest the grant in a business and to provide advice on the business. The authors find that the grants, training and follow-up treatment has a large and significant effect on running a non farm business, doubling the baseline rate of around 40 percent for women. Cash earnings of women (men) increased by 92 (74) percent. The experiment is well designed and executed, and the paper is well written. The paper clearly should be published in a good journal. The question is whether it rises to the level of [this journal].
+
+#### Major concerns and minor comments {-}
+
+The rest of the report should support your overall recommendation. It is customary to divide your comments into two sections: (1) Major concerns and (2) Minor comments. If you are recommending that the manuscript or proposal be revised, major concerns are issues that the authors must explain or remedy to get your endorsement for publication or funding. Maybe you are unclear about the sampling strategy as described and, therefore, you cannot make an overall determination about the validity of the results. Or maybe you feel that the analysis method is flawed, suboptimal, or incomplete. Major concerns get at the veracity of the science and conclusions.
+
+Minor concerns, on the other hand, include issues that you believe detract from the paper's potential, but do not represent core matters of science. You do not need to copyedit the draft, but you might include suggestions for improving the readability of the paper under minor concerns. Likewise, you might offer additional references the authors could consider adding to provide more context for the results. When you are writing minor concerns, you are offering ideas for how to make the paper better.
+
+## The Takeaway
+
+Critical appraisal is an important part of the scientific process. It is what we do when asked to review a manuscript prior to publication, evaluate a grant proposal, read a new paper published in our field, and prepare a systematic review or meta-analysis. You might feel unprepared to provide critical feedback on someone else's work until you know more about research methods, designs, and analysis, but it is easy to get started if you use a framework like the reporting guidelines published by the Equator Network or some of the tools listed below in additional resources. When it is time to communicate your feedback, be nice. Be critical, be honest about the flaws you perceive, but always be nice and assume that the authors did their best. If their best is not publishable and cannot be fixed with revision, then recommend that the paper be rejected or the grant not funded. It happens. Even in rejecting someone's work you can offer ideas for improvement. It is common to structure your feedback according to the major concerns you see, followed by minor comments that could improve the accuracy or clarity of the paper.
+
+Don't be this reviewer:
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">&#39;This reads like a pretty good MA level seminar paper but comes nowhere near the intellectual status required for publication in journal X&#39; <a href="https://t.co/FCZmsaB6kb">pic.twitter.com/FCZmsaB6kb</a></p>&mdash; ShitMyReviewersSay (@YourPaperSucks) <a href="https://twitter.com/YourPaperSucks/status/1095056681556430849?ref_src=twsrc%5Etfw">February 11, 2019</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+
+###### Additional Resources{-}
 
 [Critical appraisal worksheets](http://www.cebm.net/critical-appraisal/) from the Centre for Evidence-Based Medicine
 
@@ -327,11 +286,8 @@ No study is perfect, and almost all studies include a paragraph or two outlining
 
 Critical appraisal [resources from Duke Medicine](http://guides.mclibrary.duke.edu/ebm/appraise)
 
-## Share Feedback{-}
+###### Share Your Feedback{-}
 
-This book is a work in progress. You'd be doing me a big favor by taking a moment to tell me what you think about this chapter.
+This book is a work in progress, so I’d really appreciate your feedback on this chapter.
 
-```{r CH03feedback, echo=F}
-knitr::include_url("https://duke.qualtrics.com/SE/?SID=SV_1TYeNqEOjlGmu3P",
-height="600px")
-```
+<iframe height="600" width="690" src="https://duke.qualtrics.com/jfe/form/SV_893Hlfo9eTluggR" frameborder="0"></iframe>
