@@ -105,7 +105,7 @@ Halperin was not the first to posit a link between male circumcision and HIV tra
 knitr::include_graphics("images/mctimeline.png")
 ```
 
-### THE FIRST HINTS THAT MALE CIRCUMCISION MIGHT BE PROTECTIVE AGAINST HIV
+### THE FIRST HINTS THAT MALE CIRCUMCISION MIGHT BE PROTECTIVE AGAINST HIV {-}
 
 #### Expert Opinion, 1986{-}
 
@@ -146,7 +146,7 @@ knitr::include_graphics("images/bongaarts.png")
 
 A few months before the results of the Pumwani cohort study would go to press, the esteemed demographer John Bongaarts and several co-authors combined ethnographic data on circumcision practices from the 1950s and 1960s with the best estimates of seroprevalence in African capital cities to look for a pattern. The relationship was unmistakable. When circumcision was high, seroprevalence was low, and vice versa. The data underlying the analysis were not perfect, but a compelling story was coming together on the basis of these observational studies.
 
-### "DON'T TALK ABOUT CIRCUMCISION ANYMORE"
+### "DON'T TALK ABOUT CIRCUMCISION ANYMORE" {-}
 
 ```{r caldwell, fig.cap="Overlap between regions where men are typically uncircumcised and the 'AIDS Belt' (red outline), where HIV rates are highest [@caldwell1996].", fig.margin=TRUE, echo=F}
 knitr::include_graphics("images/caldwells2.png")
@@ -224,7 +224,7 @@ Halperin said that this article "altered the trajectory of his professional life
 
 A couple years after this article came out, Halperin took a job in Washington, DC with the US Agency for International Development, or USAID, as an "HIV Prevention Advisor". As he describes in *Tinderbox*, his ideas did not sit well with most of his new colleagues. Superiors scolded him, "Don't talk about circumcision anymore", and "We do condoms!" 
 
-### IN SEARCH OF A DEFINITIVE ANSWER
+### IN SEARCH OF A DEFINITIVE ANSWER {-}
 
 ```{r weiss, fig.cap="Forest plot showing the results of 15 (of 27) studies that estimated the association between male circumcision and HIV transmission and adjusted for potential confounding [@weiss2000]. We'll discuss systematic reviews, meta-analysis, and forest plots like this one in a later chapter.", fig.margin=TRUE, echo=F}
 knitr::include_graphics("images/weiss.png")
