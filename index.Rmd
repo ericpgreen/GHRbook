@@ -21,7 +21,9 @@ output:
     split_by: chapter
     split_bib: no
     margin_references: FALSE
-    css: [style.css, center.css]
+    css: [style.css, center.css, custom-msmbstyle.css]
+    includes:
+      after_body: footer.html
 ---
 
 # Welcome {-}
@@ -40,6 +42,9 @@ html_table_width <- function(kable_output, width){
   width_html <- paste0(paste0('<col width="', width, '">'), collapse = "\n")
   sub("<table>", paste0("<table>\n", width_html), kable_output)
 }
+
+source("footer.R")     # import write_custom_footer()
+write_custom_footer()  # overwrite footer.html with today's page built date
 ```
 
 <img src="images/cover.jpg" width="261" height="375" alt="Cover image" align="left" style="margin: 0 1em 1em 0" /> This book is in the process of being updated for 2019. New chapters will be released on a rolling basis. This work is shared under the [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License](https://creativecommons.org/licenses/by-nc-nd/4.0/). A big thanks to the creators of the [`bookdown`](https://github.com/rstudio/bookdown) and [`msmbstyle`](https://github.com/grimbough/msmbstyle) packages for R used to compile the web version of this book. The source code for this book is available on [Github](https://github.com/ericpgreen/GHRbook).
