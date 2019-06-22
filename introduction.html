@@ -17,7 +17,7 @@
 
 <meta name="author" content="Eric P. Green" />
 
-<meta name="date" content="2019-06-15" />
+<meta name="date" content="2019-06-22" />
 
 
 <meta name="description" content="Online textbook about global health research methods">
@@ -51,6 +51,7 @@ if(f.classList.contains('fa-plus-square')) {
 
 <link rel="stylesheet" href="style.css" type="text/css" />
 <link rel="stylesheet" href="center.css" type="text/css" />
+<link rel="stylesheet" href="custom-msmbstyle.css" type="text/css" />
 
 </head>
 
@@ -78,7 +79,9 @@ if(f.classList.contains('fa-plus-square')) {
 <a href="ideas.html"><span class="toc-section-number">2</span> Developing Research Ideas</a>
 <a href="filtered.html"><span class="toc-section-number">3</span> Systematic Reviews and Meta-Analyses</a>
 <a href="critical.html"><span class="toc-section-number">4</span> Critical Appraisal</a>
-<a href="references.html"><span class="toc-section-number">5</span> References</a>
+<a href="part-ii-define-your-study-aims.html">PART II: Define Your Study Aims</a>
+<a href="aims.html"><span class="toc-section-number">5</span> Research Questions and Aims</a>
+<a href="references.html"><span class="toc-section-number">6</span> References</a>
 </div>
 </li>
 </ul>
@@ -125,7 +128,7 @@ if(f.classList.contains('fa-plus-square')) {
 <p class="caption marginnote">-->Figure 2: Results from <span class="citation">Rogers et al. (<a href="references.html#ref-rogers1983">1983</a>)</span> showing that cases have deficiency in T-Helper cells compared to controls. Figure reproduced by Yours Truly based on reported results.<!--</p>-->
 <!--</div>--></span>
 </p>
-<p>Then came a <strong>case-control</strong> study that pointed to the role of cellular immune deficiency in the development of opportunistic infections <span class="citation">(Rogers et al. <a href="references.html#ref-rogers1983">1983</a>; Jaffe et al. <a href="references.html#ref-jaffe1983">1983</a>)</span>. As we will discuss in a later chapter, case-control studies are often the first designs that public health researchers employ when studying a new topic because they are <em>relatively</em> easy to conduct. In the first HIV case-control study, researchers recruited homosexual men with biopsy-confirmed Kaposi’s sarcoma or <em>Pneumocystis carinii</em> pneumonia as <strong>cases</strong> and identified homosexuals without either condition from nearby clinics and friend networks as <strong>controls</strong>. Researchers took biological samples and asked participants about their past sexual behavior, looking for associations with the presence of disease.</p>
+<p>Then came a <strong>case-control</strong> study that pointed to the role of cellular immune deficiency in the development of opportunistic infections <span class="citation">(Rogers et al. <a href="references.html#ref-rogers1983">1983</a>; Jaffe et al. <a href="references.html#ref-jaffe1983">1983</a>)</span>. As we’ll discuss in a later chapter, case-control studies are often the first designs that public health researchers employ when studying a new topic because they are <em>relatively</em> easy to conduct. In the first HIV case-control study, researchers recruited homosexual men with biopsy-confirmed Kaposi’s sarcoma or <em>Pneumocystis carinii</em> pneumonia as <strong>cases</strong> and identified homosexuals without either condition from nearby clinics and friend networks as <strong>controls</strong>. Researchers took biological samples and asked participants about their past sexual behavior, looking for associations with the presence of disease.</p>
 <p><label for="tufte-mn-2" class="margin-toggle">⊕</label><input type="checkbox" id="tufte-mn-2" class="margin-toggle"><span class="marginnote"><span style="display: block;">Typically a cohort study like this would not be possible to complete so quickly, but <span class="citation"><span class="citation">Jaffe et al. (<a href="references.html#ref-jaffe1985">1985</a>)</span></span> were ‘fortunate’ in that they had access to a group of nearly 7,000 homosexual and bisexual men who enrolled in Hepatitis B studies (and provided blood samples) between 1970 and 1980—<em>before we knew anything about HIV</em>. That meant that the researchers were able to establish the percentage of men in the sample who tested positive for HIV as far back as 1978 and followed them forward in time to see who developed AIDS and when.</span></span></p>
 <p>A potentially more informative observational design is the <strong>cohort study</strong>, but this design requires researchers to follow a group of people over time and observe who develops the condition. This ‘wait and see’ approach takes time, money, and a good bit of coordination. <span class="citation">Jaffe et al. (<a href="references.html#ref-jaffe1985">1985</a>)</span> published the first AIDS cohort study, finding that there was a long incubation time from infection to development of AIDS. The authors reported that for every person in the sample with AIDS, there were 30 with HIV. This suggested to them that even if transmission of HIV stopped right then, there would be several hundred thousand infected Americans who were likely to develop AIDS eventually, representing a major public health concern.</p>
 <p>From this point on, the scholarly literature on HIV and AIDS exploded. <span class="citation">Lakeh and Ghaffarzadegan (<a href="references.html#ref-lakeh2017">2017</a>)</span> estimated that the annual publication rate was more than 14,000 papers per year by 2012. Observational studies like these conducted in the early 1980s were followed over the next few decades by bench science on the virus and on drug candidates, diagnostic validity studies of rapid HIV tests, the establishment of demographic surveillance sites, drug and prevention trials, and many, many other types. The literature today is a microcosm of global health research. Experts from just about every discipline have contributed to our knowledge. Biology, economics, psychology, biostatistics, medicine, law, and so on.</p>
@@ -135,7 +138,7 @@ Figure 3: Global trend in HIV/AIDS publications <span class="citation">(Lakeh an
 </p>
 <img src="GHR_files/figure-html/hivpubs-1.png" alt="Global trend in HIV/AIDS publications [@lakeh2017]. Figure reproduced by Yours Truly based on WebPlotDigitizer extraction of published image." width="672"  />
 </div>
-<p>Throughout this book, I will return to the HIV/AIDS pandemic as well as introduce many other global health challenges, such as Zika, malaria, and depression, to teach you about how research problems and questions are identified, how studies are designed to provide answers, and how scientists make a difference with their work.</p>
+<p>Throughout this book, I’ll return to the HIV/AIDS pandemic as well as introduce many other global health challenges, such as Zika, malaria, and depression, to teach you about how research problems and questions are identified, how studies are designed to provide answers, and how scientists make a difference with their work.</p>
 </div>
 <div id="the-long-road-from-evidence-to-practice" class="section level2">
 <h2><span class="header-section-number">0.2</span> The Long Road from Evidence to Practice</h2>
@@ -283,11 +286,21 @@ Figure 11: Randomized controlled trials of male circumcision.
 <a href="part-i-getting-started.html"><button class="btn btn-default">Next</button></a>
 </p>
 <p class="build-date">Page built: 
-2019-06-15
+2019-06-22
 </p>
 </div>
 </div>
 
+<div class="row" style="padding-top: 2em;">
+<p style="text-align: center">
+<img src="images/logo_dark.png" style="width: 100px; padding: 0; display: inline; vertical-align: top">
+<span style="display: inline-block; margin-left: 2em; margin-top: 10px;">
+<span style="font-weight: bold;">Eric P. Green</span><br/>
+themethodsection.com<br/>
+page built  2019-06-22
+</span>
+</p>
+</div>
 
 
 </body>

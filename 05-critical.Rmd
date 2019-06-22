@@ -16,7 +16,7 @@ Since then, evidence-based medicine has expanded to [evidence-based *practice*](
 
 This focus on evidence has saved countless lives and improved health around the globe. But how does data become evidence? Each year a few million new articles enter the scientific literature [@ware2015]. Who determines what should be published and which studies should be designated as "high quality" evidence?
 
-Well, we do. As scientists and researchers, we review manuscripts from our colleagues prior to publication, comment on articles once they appear in print, prepare systematic reviews and meta-analyses of published work, and sometimes attempt to replicate published findings in new studies. Broadly speaking, this process is known as **critical appraisal**, and it is the focus of this chapter.
+Well, we do. As scientists and researchers, we review manuscripts from our colleagues prior to publication, comment on articles once they appear in print, prepare systematic reviews and meta-analyses of published work, and sometimes attempt to replicate published findings in new studies. Broadly speaking, this process is known as **critical appraisal**, and it's the focus of this chapter.
 
 ## Getting started with critical appraisal
 
@@ -146,7 +146,7 @@ Every finding in the *Results* section should be linked to a methodology and sou
 
 #### Is the analysis correct?{-}
 
-This is a hard question to answer during critical appraisal. Most of the time you do not have access to the data and analysis code, so you cannot verify that the analysis is correct. You have to base your assessment on the authors' written description of the data and analysis.
+This is a hard question to answer during critical appraisal. Most of the time (at least in public health and medicine) you do not have access to the data and analysis code, so you cannot verify that the analysis is correct. You have to base your assessment on the authors' written description of the data and analysis.
 
 Even if you did have access to materials to reproduce the analysis, some analyses are so complex that only people with extensive training feel qualified to question the accuracy of the results. When reviewing a study with complex analyses, it may be necessary to consult with colleagues.
 

@@ -16,7 +16,7 @@ knitr::include_graphics("images/reviewcircles.png", dpi = NA)
 
 A **systematic review** is a type of literature review in which the goal is to summarize all of the relevant evidence about the impact of an intervention on some outcome. Scholars who conduct systematic reviews register their research protocols in advance to clearly state the literature search strategy, rules for including and excluding studies, and a plan for the analysis. Some systematic reviews include a **meta-analysis**, which is quantitative technique for combining the results of multiple studies to estimate a pooled effect size that takes variations in study size and quality into consideration.
 
-It is likely you have written literature reviews for class or maybe your own academic manuscripts, so some aspects of systematic reviews will be familiar. Let's consider systematic and literature reviews side-by-side to understand how systematic reviews are unique. 
+It is likely you've written literature reviews for class or maybe your own academic manuscripts, so some aspects of systematic reviews will be familiar. Let's consider systematic and literature reviews side-by-side to understand how systematic reviews are unique. 
 
 <br>
 

@@ -51,7 +51,7 @@ rogers %>%
     theme(text = element_text(size=20))
 ```
 
-Then came a **case-control** study that pointed to the role of cellular immune deficiency in the development of opportunistic infections [@rogers1983;@jaffe1983]. As we will discuss in a later chapter, case-control studies are often the first designs that public health researchers employ when studying a new topic because they are *relatively* easy to conduct. In the first HIV case-control study, researchers recruited homosexual men with biopsy-confirmed Kaposi's sarcoma or *Pneumocystis carinii* pneumonia as **cases** and identified homosexuals without either condition from nearby clinics and friend networks as **controls**. Researchers took biological samples and asked participants about their past sexual behavior, looking for associations with the presence of disease. 
+Then came a **case-control** study that pointed to the role of cellular immune deficiency in the development of opportunistic infections [@rogers1983;@jaffe1983]. As we'll discuss in a later chapter, case-control studies are often the first designs that public health researchers employ when studying a new topic because they are *relatively* easy to conduct. In the first HIV case-control study, researchers recruited homosexual men with biopsy-confirmed Kaposi's sarcoma or *Pneumocystis carinii* pneumonia as **cases** and identified homosexuals without either condition from nearby clinics and friend networks as **controls**. Researchers took biological samples and asked participants about their past sexual behavior, looking for associations with the presence of disease. 
 
 ```{r jaffe, eval=FALSE, fig.margin=TRUE, echo=FALSE, fig.cap="Chart from [@jaffe1985] showing the percentage of men in the sample with HIV (solid line) and the cumulative number of AIDS cases by year of diagnosis (dashed line). (Note: [Don't use dual axis charts](http://tinyurl.com/y3vb4j2b).)"}
 knitr::include_graphics("images/jaffecohort.png")
@@ -83,7 +83,7 @@ pubs %>%
   ylab("Publications (in thousands)")
 ```
 
-Throughout this book, I will return to the HIV/AIDS pandemic as well as introduce many other global health challenges, such as Zika, malaria, and depression, to teach you about how research problems and questions are identified, how studies are designed to provide answers, and how scientists make a difference with their work.
+Throughout this book, I'll return to the HIV/AIDS pandemic as well as introduce many other global health challenges, such as Zika, malaria, and depression, to teach you about how research problems and questions are identified, how studies are designed to provide answers, and how scientists make a difference with their work.
 
 ## The Long Road from Evidence to Practice
 

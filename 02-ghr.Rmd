@@ -116,7 +116,7 @@ Scientific research uses public methods that can be examined and replicated. A M
 
 **Replication** is a core principle of scientific research. No one study rules the day. If the results of a study are robust, another research group should be able to follow your recipe and replicate the findings. When such findings are replicated, we all have more confidence in the results. 
 
-In later chapters we will learn strategies for writing a good Method section (and appendices!) and discuss why replications are actually rare in practice—and why they can be so controversial.
+In later chapters we'll learn strategies for writing a good Method section (and appendices!) and discuss why replications are actually rare in practice—and why they can be so controversial.
 
 ### LIVING WITH UNCERTAINTY
 
@@ -496,7 +496,7 @@ A clinical trialist who works on Phase III studies is unlikely to refer to the t
 <iframe width="300" height="169" src="https://www.youtube.com/embed/HEJlT8t5ezU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>What is impact evaluation? World Bank (2016). [https://tinyurl.com/yyxbpxvd](https://tinyurl.com/yyxbpxvd)
 ```
 
-In an **impact evaluation**, the goal is to infer that some program—or some treatment, intervention, or policy—had an effect on some outcome. As we will discuss in later chapters, there are several research designs that will generate evidence of "impact". One design in particular, the randomized controlled trial common to Phase II and III clinical trials, is an important type of impact evaluation. Not all impact evaluations are RCTs, but all RCTs are impact evaluations. 
+In an **impact evaluation**, the goal is to infer that some program—or some treatment, intervention, or policy—had an effect on some outcome. As we'll discuss in later chapters, there are several research designs that will generate evidence of "impact". One design in particular, the randomized controlled trial common to Phase II and III clinical trials, is an important type of impact evaluation. Not all impact evaluations are RCTs, but all RCTs are impact evaluations. 
 
 #### Monitoring{-}
 

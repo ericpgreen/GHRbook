@@ -215,12 +215,12 @@ If you are affiliated with a university and struggle to find free access to an a
 
 If you are affiliated with a university, you (probably) have access to a wide range of journals. Here is what you can do if find yourself on the other side of a paywall looking in:
 
-* Don't pay for access until you have exhausted every other option.
 * Search for the article in Google or Google Scholar and include the search term "pdf". This might help you locate a copy outside the paywall.
 * Search free cloud services like [ResearchGate](https://www.researchgate.net/) to see if the authors have posted a pre-publication copy as many journals permit.
 * Try a browser extension like [unpaywall](http://unpaywall.org/) to see if there is an open access version of the paper you seek.
-* Try emailing the author directly or contacting them through a service like ResearchGate. You will find that most authors are willing to share their work with you. Usually searching for the author's name and university will bring up a profile with contact information.
+* Try emailing the author directly or contacting them through a service like ResearchGate. You'll find that most authors are willing to share their work with you. Usually searching for the author's name and university will bring up a profile with contact information.
 * You can also try your luck with the hashtag ["icanhazpdf" on Twitter](https://twitter.com/search?q=%23icanhazpdf&src=tyah) and see if a friend on the internet will help you out.
+* Don't pay for access until you have exhausted every other option.
 
 ### WATCH OUT FOR JUNK SCIENCE
 
