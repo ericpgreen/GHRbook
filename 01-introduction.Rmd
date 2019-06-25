@@ -29,7 +29,7 @@ It would be a few more months until the CDC used the term AIDS (Acquired Immune 
 
 No one in the early 1980s could fathom that more than 70 million people worldwide would contract HIV over the next few decades, or that more than 35 million people would die [@whogho:2019].
 
-## The HIV/AIDS Pandemic: A Microcosm of Global Health Research
+## The HIV/AIDS Pandemic: A Microcosm of Global Health Research {-}
 
 The scientific story of the HIV/AIDS pandemic can teach us a lot about the full spectrum of global health research, and in particular highlights the typical sequence of work that follows the outbreak of a new disease. 
 
@@ -85,7 +85,7 @@ pubs %>%
 
 Throughout this book, I'll return to the HIV/AIDS pandemic as well as introduce many other global health challenges, such as Zika, malaria, and depression, to teach you about how research problems and questions are identified, how studies are designed to provide answers, and how scientists make a difference with their work.
 
-## The Long Road from Evidence to Practice
+## The Long Road from Evidence to Practice {-}
 
 This last idea—making your work have an impact—is one that we will revisit throughout this book. Most researchers will, I assume, tell you that they did not pursue careers in science to publish papers as *the* end goal. They got into research to make a difference. To change the way we think about a topic, or to change policy or practice. To improve lives, or possibly even to save lives.
 
@@ -256,7 +256,7 @@ In his book with Stephen Inrig, *The AIDS Pandemic: Searching for a Global Respo
 
 And like that, the question of **efficacy** was put to rest. After nearly two decades—and many preventable infections and deaths—it became clear to everyone that male circumcision helps to prevent HIV transmission.
 
-## The Takeaway
+## The Takeaway {-}
 
 The road from research question to policy impact can be long. Decades, in fact, as demonstrated by the scientific history of male circumcision and HIV prevention. But for researchers and advocates who are willing doggedly follow the data wherever it leads, real change is possible. As of 2017, nearly 15 million men living in the AIDS Belt have been circumcised, potentially averting more than 500,000 new HIV infections through 2030 [@whomc2017].
 
