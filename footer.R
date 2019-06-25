@@ -11,7 +11,7 @@ write_custom_footer <- function() {
       "<img src=\"images/logo_dark.png\" style=\"width: 100px; padding: 0; display: inline; vertical-align: top\">",
       "<span style=\"display: inline-block; margin-left: 2em; margin-top: 10px;\">",
       "<span style=\"font-weight: bold;\">Eric P. Green</span><br/>",
-      "themethodsection.com<br/>",
+      "<a href=\"https://themethodsection.com\">themethodsection.com</a><br/>",
       paste("page built ", as.character(Sys.Date())),
       "</span>",
       "</p>",
