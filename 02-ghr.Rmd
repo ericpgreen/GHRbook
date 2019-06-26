@@ -2,7 +2,14 @@
 knit: "bookdown::preview_chapter"
 ---
 
-# PART I: Getting Started {-}
+# MODULE 1 Getting Started With Global Health Research {-}
+
+By the end of this module, you should be able to:
+
+* describe the landscape of global health research
+* begin developing research ideas
+* effectively search the literature and make use of systematic reviews and meta-analyses
+* critically appraise scientific work
 
 # Global Health Research {#ghr}
 

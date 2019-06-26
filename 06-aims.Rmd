@@ -2,7 +2,13 @@
 knit: "bookdown::preview_chapter"
 ---
 
-# PART II: Define Your Study Aims {-}
+# MODULE 2 Define Your Study Aims {-}
+
+By the end of this module, you should be able to:
+
+* Ask a good research question and develop study aims and hypotheses 
+* Develop a theory of change and logic model
+* Identify indicators to measure throughout the causal chain
 
 # Research Questions and Aims {#aims}
 
