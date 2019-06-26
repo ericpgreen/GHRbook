@@ -103,7 +103,7 @@ What distinguishes these questions is often the research design we use to find a
 <iframe width="300" height="169" src="https://www.youtube.com/embed/_0HxMpJsm0I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> Need to develop a good qualitative research question? See this short video by Yale University (2015). Fundamentals of Qualitative Research Methods: Developing a Qualitative Research Question (Module 2). Source: [https://tinyurl.com/y5sexqwg](https://tinyurl.com/y5sexqwg).
 ```
 
-A good research question is a specific research question. I'll share two pneumonics to help you get specific: FINER and PICO. 
+A good research question is a specific research question. I'll share two mneumonics to help you get specific: FINER and PICO. 
 
 Imagine that we wanted to study the uptake or use of bed nets. We could ask a descriptive research question like, "How many children sleep under bed nets?" It's a good start, but this question is too general. Children of what age? Living where? We also need to define what we mean by sleeping under a bed net. In this line of research, it is common to ask about the previous night, as in the night before the survey. 
 
