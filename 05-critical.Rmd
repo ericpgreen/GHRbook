@@ -8,11 +8,15 @@ knit: "bookdown::preview_chapter"
 <iframe width="300" height="169" src="https://www.youtube.com/embed/Z_yiUf3f92s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>EBM Explained. Sketchy EBM (2015). [https://tinyurl.com/yyrrlqq9](https://tinyurl.com/yyrrlqq9)
 ```
 
-As health professionals and researchers, we have a duty to make recommendations and decisions based on evidence, not beliefs. The term "evidence-based" first came into use in the 1990s, nearly two decades after [Archie Cochrane](https://en.wikipedia.org/wiki/Archie_Cochrane), the father of evidence-based medicine and namesake of the Cochrane Reviews, wrote the book "[Effectiveness and Efficiency](https://amzn.to/2WEgmnr)" and pointed to the need for the medical field to learn from the highest quality studies. This struck a chord with the profession, and medical schools began teaching their students [**evidence-based medicine**](https://en.wikipedia.org/wiki/Evidence-based_medicine) (EBM), defined by @sackett:1996 as:
+As health professionals and researchers, we have a duty to make recommendations and decisions based on evidence, not beliefs. The term "evidence-based" first came into use in the 1990s, nearly two decades after [Archie Cochrane](https://en.wikipedia.org/wiki/Archie_Cochrane), the namesake of the Cochrane Reviews, wrote the book "[Effectiveness and Efficiency](https://amzn.to/2WEgmnr)" and pointed to the need for the medical field to learn from the highest quality studies. This struck a chord with the profession, and medical schools began teaching their students [**evidence-based medicine**](https://en.wikipedia.org/wiki/Evidence-based_medicine) (EBM), defined by @sackett:1996 as:
 
 > The conscientious, explicit and judicious use of current best evidence in making decisions about the care of the individual patient. It means integrating individual clinical expertise with the best available external clinical evidence from systematic research.
 
 Since then, evidence-based medicine has expanded to [evidence-based *practice*](https://en.wikipedia.org/wiki/Evidence-based_practice) (or EBP) more generally, as well as to population-level approaches such as evidence-based public health [@brownson:2009] and evidence-based global health policy [@yamey:2011]. 
+
+```{marginfigure}
+The name "evidence-based medicine" is credited to Gordon Guyatt after the name "scientific medicine" was rejected [@smith2014]. Visit [ebm.jamanetwork.com/](https://ebm.jamanetwork.com/) to watch an oral history of evidence-based medicine.
+```
 
 This focus on evidence has saved countless lives and improved health around the globe. But how does data become evidence? Each year a few million new articles enter the scientific literature [@ware2015]. Who determines what should be published and which studies should be designated as "high quality" evidence?
 
@@ -35,6 +39,10 @@ Pro tip: Include a completed checklist as an appendix when you submit manuscript
 ```
 
 These guidelines are important because they represent the consensus of the scientific community regarding the essential details that a reader needs to evaluate a manuscript, organize a replication attempt, and include the study in a systematic review or meta-analysis. When you're writing a manuscript, use the guidelines to make an outline that includes each piece of information. When you're reviewing a manuscript, use the guidelines to confirm that the authors provided a full accounting of their study.
+
+```{marginfigure}
+Systematic reviews are a great source for examples of critical appraisal because a systematic review is a critical appraisal.
+```
 
 If you find that the manuscript is lacking key details recommended by the reporting guidelines, you can enumerate these omissions for the authors and suggest that they follow `[INSERT GUIDELINE NAME]` to give the reader enough information to evaluate the work. This approach is useful even if you're reading a published article and want to decide whether the evidence presented is of high quality. 
 
@@ -241,7 +249,7 @@ Sometimes you will read a manuscript with one or more fatal flaws that no amount
 
 For instance, if the aim of the study is to estimate the national prevalence of disease in Uganda and the study is limited to a convenience sample of patients who sought care at a particular health clinic, this would be a fatal flaw. This study design cannot answer the question the authors set out to answer. When this happens, it's OK to describe this fatal flaw and recommend that the paper be rejected or the grant not be funded. You do not have to continue spending time on a manuscript that is dead on arrival.
 
-### STEP 2: DIG INTO THE DETAILS OF THE METHOD {-}
+### STEP 2: DIG INTO THE DETAILS {-}
 
 If there are no fatal flaws, read the paper again to understand the details of the scientific approach: sampling, measurement, procedures, intervention, analysis. Find the appropriate reporting guidelines from the Equator Network and use the questions above to go through each section of the paper to determine whether the authors describe the study in sufficient detail. 
 

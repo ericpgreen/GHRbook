@@ -16,7 +16,7 @@ By the end of this module, you should be able to:
 <iframe src="https://giphy.com/embed/82okbIOv8krUhwgHCz" width="300" height="169" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p>Give yourself a pat on the back. Go ahead. No one is watching. <a href="https://giphy.com/gifs/CMNHospitals-childrens-miracle-network-hospitals-kid-pediatric-patients-82okbIOv8krUhwgHCz">via GIPHY</a></p>
 ```
 
-If you're following the plan I've outlined so far, you've been seeking out research ideas by attending presentations, talking with fellow students and mentors, skimming interesting journals, searching research databases like *PubMed* for keywords you've identified, and finding relevant systematic reviews and meta-analyses. You've also been developing your critical appraisal skills and, in the process, have been taking note of gaps in our knowledge. All of this work is leading you to identify potential research problems worth solving. The next step is to take a broad research problem and narrow your focus to a more specific research question and develop study aims and (potentially) hypotheses. I'll walk you through the process and conclude the chapter with recommendations for how to write about these ideas in a proposal or manuscript.
+If you're following the plan I've outlined so far, you've been seeking out research ideas by attending presentations, talking with fellow students and mentors, skimming interesting journals, searching research databases like *PubMed* for keywords you've identified, and finding relevant systematic reviews and meta-analyses. You've also been developing your critical appraisal skills and, in the process, have been taking note of gaps in our knowledge. All of this work is leading you to identify potential research problems worth solving. The next step is to take a broad research problem and narrow your focus to a more specific research question and develop study aims and (potentially) hypotheses. I'll walk you through the process and showcase the lifecycle of a good research question.
 
 ## Types of research questions
 
@@ -160,6 +160,42 @@ We combine all of these elements into a single research question:
 
 > Among children under 5 years of age living around the Lake Victoria basin in Kenya, are insecticide-treated mosquito nets more effective than untreated nets at preventing parasitaemia?
 
+## Outlining research aims
+
+Your research question should drive your overall study objectives, known in some circles as **specific aims**. Aims are the work products you will complete within a given project period. "Prevent malaria" is not an aim. "Cure cancer" is not an aim. These might be the goals that motivate you to come to work every day, but they do not describe the work you propose to complete as part of a specific project.
+
+```{marginfigure}
+For some formative work (especially studies that use qualitative methods), you might propose to *describe* some phenomenon. This will often be seen as a weak aim for larger grant proposals. Reviewers might expect you to have already completed this formative work and discuss it under preliminary evidence.
+```
+
+When formulating aims, the [typical advice](https://www.niaid.nih.gov/grants-contracts/write-research-plan#A6) is to use strong verbs, such as identify, define, quantify, establish, estimate. Write your aims as headlines and follow-up with a description of how you will achieve the aim. Using the example research question above, you might develop the following aim: 
+
+> **Aim 1**: *Estimate* the effect of insecticide-treated mosquito nets for preventing parasitaemia. 
+
+You would then go on describe the experiment you plan to conduct as part of this aim, as well as specify a hypothesis.
+
+It's common to propose multiple aims in a project proposal. Small grant proposals could reasonably have 1 or 2 aims, which might correspond to 1 to 2 studies. Larger proposals might outline 2 to 4 aims. More than this and your project probably is not feasible (or at least will be perceived by reviewers as not feasible). If you do propose multiple aims, make sure that failure in one aim does not prevent you from achieving other aims. For instance, if your first aim is to develop a new process for analyzing biological samples and you fail to achieve this aim, any other aims that depend on this new process are impossible to complete. This makes your entire proposal ride on a reviewer's assessment of your chances of succeeding on the first aim. 
+
+### WRITING A CONCEPT NOTE OR SPECIFIC AIMS PAGE
+
+Ideas don't sell themselves. Before you can change the world, you have to convince collaborators to join your team and funders to believe in the work. One of the best ways to strengthen your pitch is to develop a short concept note. If you are applying for NIH funds, concept notes are known as **Specific Aims** documents and are always limited to 1 page. 
+
+```{r specaimsanatomy, fig.cap="Anatomy of a specific aims page. Source: Inspired by @sneck2015. To view a full resolution version of this figure, visit [https://tinyurl.com/y5s35jo5](https://tinyurl.com/y5s35jo5).", echo=F, fig.margin=TRUE, fig.fullwidth = FALSE}
+knitr::include_graphics("images/specificaimsanatomy.png", dpi = NA)
+```
+
+Most people will tell you that it pays to follow a known format when writing your Specific Aims page. Grant writing is not creative writing. Your 1-page Specific Aims page is all that some reviewers will read, often while flying at 30,000 feet, cramped in economy with no space for their laptop. Or after a full day's work and kid bedtimes. You get the picture. Make your reviewer's job easy by drafting a tight 1-pager following some conventions.  
+
+#### Example specific aims page {-}
+
+Here is an example specific aims page from my work, broken down in a common 4-paragraph format. It's not a perfect example, but along with others (see [here](https://www.niaid.nih.gov/grants-contracts/sample-applications)) it might help to guide your work.
+
+In this example, my opening paragraph tries to hook you as the reader, tells you what we know, the gaps in our knowledge, and why filling this gap is a critical need. The next paragraph gives an overview of what I propose to do in the context of my long-term goals. Then come two specific aims with supporting details, followed by a short payoff paragraph that tells people why it makes sense to fund this proposal.
+
+```{r specificaimsdisclosure, fig.cap="Specific aims example from a study of caregiver readiness to disclose a child's HIV status to the child (7R21HD076695-020).", echo=F, fig.margin=FALSE, fig.fullwidth = TRUE}
+knitr::include_graphics("images/specificaims.png", dpi = NA)
+```
+
 ## Developing hypotheses
 
 ```{r bird, fig.cap="Can you see yourself in [little Jimmy](https://knowyourmeme.com/photos/204893-fake-science-fair-projects)?", echo=F, fig.margin=FALSE, fig.fullwidth = FALSE}
@@ -175,7 +211,7 @@ Chances are you've presented a poster like this at a science fair at some point 
 5. Make conclusions based on the data
 6. Replicate the study 
 
-Some people call this the hypothetico-deductive model because we develop a ***hypothesis*** (a conjecture) and *deduce* the consequences that should follow from this hypothesis. Stating what we expect based on a hypothesis makes it falsifiable. We can collect data and determine whether the data are consistent with or opposed to this prediction. If the data conflict with the hypothesis, we *reject* the hypothesis. If the data are consistent with the hypothesis, we say that we have 'corroborated' our hypothesis. In this model of hypothesis testing, data never 'prove' a hypothesis, and we never 'accept' our hypothesis because it's possible that new data could falsify it. 
+We call this the hypothetico-deductive model because we develop a ***hypothesis*** (a conjecture) and *deduce* the consequences that should follow from this hypothesis. Stating what we expect based on a hypothesis makes it falsifiable. We can collect data and determine whether the data are consistent with or opposed to this prediction. If the data conflict with the hypothesis, we *reject* the hypothesis. If the data are consistent with the hypothesis, we say that we have 'corroborated' our hypothesis. In this model of hypothesis testing, data never 'prove' a hypothesis, and we never 'accept' our hypothesis because it's possible that new data could falsify it. 
 
 ```{marginfigure}
 [Daniël Lakens](https://twitter.com/lakens), the creator of the excellent Coursera course, "[Improving your statistical inferences](https://www.coursera.org/learn/statistical-inferences/home/info)", turned me on to a great book called "[Understanding Psychology as a Science](https://amzn.to/2RthGEH)" by @dienes2008. I highly recommend this book (and Lakens' course) to build a strong foundation in your own philosophy of science.
@@ -212,7 +248,7 @@ This is a falsifiable hypothesis because if we found that children who slept und
 
 But this is not actually the hypothesis that we test.
 
-In hypothesis testing, we set up two precise **scientific hypotheses**: a null hypothesis (H~0~) and an alternative hypothesis (H~1~). Most often the null hypothesis is stated as the hypothesis of no difference:
+In hypothesis testing, we set up two precise scientific hypotheses: a **null hypothesis** (H~0~) and an **alternative hypothesis** (H~1~). Most often the null hypothesis is stated as the hypothesis of no difference:
 
 ```{marginfigure}
 The "null" hypothesis doesn't have to be a hypothesis of no difference [@dienes2008]. The null could be a specific difference that is a value other than 0, e.g., μ~1~ `-` μ~2~ `=` 3, or a band of differences.
@@ -240,33 +276,73 @@ To be clear: it's 100% OK to collect data, analyze the results, and generate new
 
 But it's not OK—in fact it's dishonest and a form of fraud—to look at your data, develop hypotheses that conform to the data, and pass your new ideas off as *a priori* hypotheses that you tested. That's lying. And it's not science. You can't falsify a hypothesis that you create after looking at the data.
 
-I'm going to refrain from hitting you with some depressive statistics about the state of science today. It's only Chapter 5. I'm still working on building your enthusiasm for research. We'll revisit research sins like HARKing in **[Chapter 18](openscience)**, along with strategies for preventing such bad behavior. 
+I'm going to refrain from hitting you with some depressive statistics about the state of science today. It's only Chapter 5. I'm still working on building your enthusiasm for research. We'll revisit research sins like HARKing in **[Chapter 18](openscience)**, along with strategies for preventing such bad behavior.
 
-## Manuscripts: Writing the Introduction 
+## The lifecycle of a research question
 
-Let's take a look at how research problems, questions, and hypotheses come together in the *Introduction* of a scientific manuscript. Take a moment and [download this article](https://www.thelancet.com/journals/langlo/article/PIIS2214-109X(18)30126-8/fulltext) in *The Lancet Global Health* by @staedke2018. I've highlighted the authors' descriptions of the research problem, what is known about the problem, the research question, and the hypothesis.
-
-```{r startipt, fig.cap="Example *Introduction* section published in *The Lancet Global Health*. Source: @staedke2018", echo=F, fig.margin=FALSE, fig.fullwidth = TRUE}
-knitr::include_graphics("images/startipt.png", dpi = NA)
+```{r omeara, eval=FALSE, fig.cap="Wendy O'Meara. Source: [https://sites.duke.edu/wpomeara/](https://sites.duke.edu/wpomeara/)", echo=F, fig.margin=TRUE, fig.fullwidth = FALSE}
+knitr::include_graphics("images/wendy.jpg", dpi = NA)
 ```
 
-The research problem is that malaria control remains a persistent challenge and existing remedies are expensive and hard to sustain. We know that [intermittent preventive treatment](https://en.wikipedia.org/wiki/Intermittent_preventive_therapy) has benefits to individuals, but there is little evidence of community-level benefits.
+Research questions have a way of sticking with us. When you read an article published in your favorite journal, chances are that the authors have been living and breathing the motiving research question for years. To make this point and demonstrate the lifecycle of a research question, I will walk you through an example from [Dr. Wendy O'Meara's](https://globalhealth.duke.edu/people/faculty/prudhomme-omeara-wendy) research group on subsidies for malaria testing and treatment. 
+
+```{r omearastudy, fig.cap="Example timeline.", echo=F, fig.margin=FALSE, fig.fullwidth = TRUE}
+knitr::include_graphics("images/omearastudy.png", dpi = NA)
+```
+
+### GRANT PROPOSAL
+
+```{r omearaaims, fig.cap="Specific aims page from the O'Meara lab. For a full resolution version, visit [https://tinyurl.com/y2k6jsa4](https://tinyurl.com/y2k6jsa4).", echo=F, fig.margin=TRUE, fig.fullwidth = FALSE}
+knitr::include_graphics("images/omearaaims.png", dpi = NA)
+```
+
+Once you have your core team in place, it's time to get funding to make your idea a reality. In the O'Meara lab's example, they developed a proposal in response to [this Funding Opportunity Announcement](https://grants.nih.gov/grants/guide/pa-files/PAR-13-055.html) (FOA) from the NIH:
+
+> The purpose of this dissemination and implementation research funding opportunity announcement (FOA) is to support innovative approaches to identifying, understanding, and overcoming barriers to the adoption, adaptation, integration, scale-up and sustainability of evidence-based interventions, tools, policies, and guidelines.  Conversely, there may be a benefit in understanding circumstances that create a need to “de-implement” or reduce the use of strategies and procedures that are not evidence-based, have been prematurely widely adopted, or are harmful or wasteful.
+
+```{marginfigure}
+[The NIH offers different sized research grants](https://www.niaid.nih.gov/grants-contracts/research-project-grants). The R03 is the smallest grant with $100,000 in direct costs over 2 years. This mechanism is good for pilot or feasibility studies. The R21 comes with up to $275,000 in direct costs over 2 years. Researchers apply for an R21 when they want to test a new idea with some preliminary evidence. The R01 is the largest grant with an unlimited budget for work to be carried out over 5 years.
+```
+
+They directed their proposal to the National Institute of Allergy and Infectious Diseases (NIAID), one of the many NIH institutes participating in this funding opportunity. The team proposed two aims as part of an R01 grant:
+
+> **Aim 1: Estimate the effect of antimalarial subsidy level on ACT purchase and adherence to RDT results.** In the first phase of the project, we will test the effect of a range of subsidy levels on the demand for ACTs, and also test how the response to subsidy varies with or without information from diagnostic testing.
+
+> **Aim 2: Evaluate the public health impact of targeted antimalarials subsidies through scale-up.** In the second phase, we will determine the community-wide effects of targeting the antimalarial subsidy in both a high and a low malaria transmission region of Kenya through a partnership between CHWs and the private retail sector.
+
+In 2014 when [this proposal was funded](https://projectreporter.nih.gov/project_info_description.cfm?aid=8673670&icde=45309822), [the payline for new R01s at NIAID was the 13th percentile](https://www.niaid.nih.gov/grants-contracts/archive-paylines-fiscal-year). That means the O'Meara lab's proposal scored within the top 13% of all proposals submitted. Think of how crushed you would be to have a proposal sitting at the 14th percentile!
+
+### FORMATIVE WORK, AIM 1
+
+The O'Meara lab conducted two studies as part of this project. The first was a formative study to determine the optimal subsidy level for malaria treatment. Let's use the paper they published on this Aim 1 work to examine how research problems, questions, and hypotheses come together in the *Introduction* of a scientific manuscript. Take a moment and [download this article](https://gh.bmj.com/content/1/2/e000101) in *BMJ Global Health* by @omeara:2016. I've highlighted the authors' descriptions of the research problem, what is known about the problem, the research question, and the hypothesis.
+
+```{r omearabmj, fig.cap="Example *Introduction* section published in *BMJ Global Health*. Source: @omeara:2016", echo=F, fig.margin=FALSE, fig.fullwidth = TRUE}
+knitr::include_graphics("images/omearabmj.png", dpi = NA)
+```
+
+The research problem is that we don't know how to combine diagnostic testing for malaria with drug subsidy programs in order to expand access to first-line treatments while ensuring that the medication is not overused by individuals without malaria. As noted in the Abstract: 
+
+> There is an urgent need to understand how to improve targeting of artemisinin combination therapy (ACT) to patients with confirmed malaria infection, including subsidised ACTs sold over-the-counter.
 
 The authors framed the objective of the study as follows: 
 
-> In the School-based Treatment with ACTs to Reduce Transmission of malaria (START-IPT) trial, we investigated whether IPT for malaria with dihydroartemisinin-piperaquine (DP) in schoolchildren would affect community-level indicators of malaria transmission in Jinja district, Uganda.
+> We sought to study the relationship between a subsidised diagnostic test and a conditionally subsidised treatment intervention in order to understand how ACTs can be targeted to malaria cases in the retail sector. We designed an individually randomised experiment to determine the effect of a conditional subsidy for ACT on the decision to be tested for malaria when the test is subsidised or not, and the subsequent effect of the test on drug purchasing decisions. 
 
-We can work backwards (with a little help from the hypothesis) and use PICO to construct the implied research question:
+```{marginfigure}
+While most scientific papers follow the pattern of describing the research problem and outlining the objectives of the paper, you will find that it's relatively uncommon, at least in the health sciences, to explicitly state the research question as a question. If you look at recent issues of a journal like [*The Lancet Global Health*](https://www.thelancet.com/journals/langlo/home), you'll also find that many articles do not even state explicit hypotheses.
+```
 
-```{r picoipt, echo=FALSE}
-  picoipt <- data.frame(label=c("Population",
+We can use PICO to construct the implied research question:
+
+```{r picoact, echo=FALSE}
+  picoact <- data.frame(label=c("Population",
                              "Intervention",
                              "Comparison",
                              "Outcome"),
-                       details=c("schoolchildren in Jinga, Uganda", "IPT with dihydroartemisinin-piperaquine", "no IPT", "community-level indicators of malaria transmission (i.e., prevalence of asexual parasitaemia in the community and the annual entomological inoculation rate)"))
-  names(picoipt) <- NULL
-  knitr::kable(picoipt, col.names=NA, format = "html", 
-caption = 'Reframing the research question in @staedke2018.'
+                       details=c("individuals (>1 year) in Bungoma County, Kenya with untreated symptoms of malaria", "conditional subsidy for ACT", "no subsidy", "uptake of malaria testing and rational use of ACTs"))
+  names(picoact) <- NULL
+  knitr::kable(picoact, col.names=NA, format = "html", 
+caption = 'Reframing the research question in @omeara:2016.'
 ) %>%
   html_table_width(c(100,500)) %>%
   kable_styling(bootstrap_options = c("striped"), full_width = FALSE, position = "left")
@@ -274,23 +350,57 @@ caption = 'Reframing the research question in @staedke2018.'
 
 <br>
 
-> Among schoolchildren in Jinga, Uganda, does IPT with dihydroartemisinin-piperaquine reduce the prevalence of asexual parasitaemia in the community and increase the annual entomological inoculation rate compared to no IPT controls?
+> Among individuals (>1 year) in Bungoma County, Kenya, does offering a subsidy for ACT conditional on testing positive for malaria increase the uptake of malaria testing and the rational use of ACTs compared to no subsidy? 
 
-If you're coming from a discipline like economics, you might wonder if I forgot to paste the full *Introduction* of @staedke2018. I did not. This is it. It's common in the health sciences to publish very brief *Introduction* sections. 
+If you're coming from a discipline like economics, you might wonder if I forgot to paste the full *Introduction* of @omeara:2016. I did not. This is it. It's common in the health sciences to publish very brief *Introduction* sections. 
 
-For comparison, here's an example *Introduction* from @blattman2017 published in *American Economic Review*. The first thing you notice is the difference in length. The complete typeset paper is 42 pages, compared to only 12 pages for the above example published in *The Lancet Global Health*. The *AER* article is gated, but if you [download the pre-print](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2594868) and read the *Introduction*, you'll also get a sense for how economists structure scientific papers differently. 
+For comparison, here's an example *Introduction* from @blattman2017 published in *American Economic Review*. The first thing you notice is the difference in length. The complete typeset paper is 42 pages, compared to only 10 pages for the above example published in *BMJ Global Health*. The *AER* article is gated, but if you [download the pre-print](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2594868) and read the *Introduction*, you'll also get a sense for how economists structure scientific papers differently. 
 
 ```{r liberiacbt, fig.cap="Example *Introduction* section published in *American Economic Review*. Source: @blattman2017", echo=F, fig.margin=FALSE, fig.fullwidth = TRUE}
 knitr::include_graphics("images/liberiacbt.png", dpi = NA)
 ```
 
-## Proposals: Writing Specific Aims
+### PUBLIC HEALTH IMPACT, AIM 2
 
-While most scientific papers follow the pattern of describing the research problem and outlining the objectives of the paper, you will find that it's relatively uncommon, at least in the health sciences, to explicitly state the research question as a question. If you look at recent issues of a journal like [*The Lancet Global Health*](https://www.thelancet.com/journals/langlo/home), you'll also find that many articles do not even state explicit hypotheses.  
+With the formative work completed, the O'Meara lab moved on to the second aim to evaluate the public health impact of targeted antimalarials subsidies through scale-up. They designed and conducted a stratified cluster-randomised controlled trial in Western Kenya with 32 communities assigned to get usual care or free malaria testing and a partially subsidized voucher to purchase ACTs if testing positive.
 
-TO ADD
+#### Study protocol {-}
+
+As we'll discuss in [**Chapter 18**](openscience), it is becoming more common to publish a study protocol prior to starting data collection (or at least prior to viewing the data) that outlines your research question, hypothesis, study design, data collection methods, and analysis plan. Download the O'Meara lab's protocol [@laktabai2017] from [*BMJ Open*](https://bmjopen.bmj.com/content/7/3/e0139720 and notice how a study protocol, like a grant, uses future tense to describe what will be done.
+
+```{r omearaprotocol, fig.cap="Aim 2 study protocol. Source: @laktabai2017", echo=F, fig.margin=FALSE, fig.fullwidth = TRUE}
+knitr::include_graphics("images/omearaprotocol.png", dpi = NA)
+```
+
+#### Trial registration {-}
+
+Regulatory bodies require that drug trials be prospectively registered with a database like [ClinicalTrials.gov](https://clinicaltrials.gov). Registration of non-drug trials is not mandatory in the same way, but [most journals require it](http://icmje.org/recommendations/browse/publishing-and-editorial-issues/clinical-trial-registration.html) as a condition of publication of clinical trials.[^clinicaltrialdef] There are [many registries to choose from](https://en.wikipedia.org/wiki/Clinical_trial_registration), but ClinicalTrials.gov is the oldest and most widely used. This is where the O'Meara lab registered their study for Aim 2 ([NCT02461628](https://clinicaltrials.gov/ct2/show/NCT02461628)).
+
+```{r omearaclinicaltrials, fig.cap="Aim 2 trial registration. Source: [ClinicalTrials.gov, https://tinyurl.com/yxundeds](https://tinyurl.com/yxundeds).", echo=F, fig.margin=FALSE, fig.fullwidth = FALSE}
+knitr::include_graphics("images/omearaclinicaltrials.png", dpi = NA)
+```
+
+[^clinicaltrialdef]: According to the NIH, a clinical trial is defined as, "A research study in which one or more human subjects are prospectively assigned to one or more interventions (which may include placebo or other control) to evaluate the effects of those interventions on health-related biomedical or behavioral outcomes." Go [here](https://grants.nih.gov/policy/clinical-trials/definition.htm) to see if your study is a clinical trial. 
+
+#### Published paper {-}
+
+```{r omearaaim2fig, fig.cap="Adjusted modeled RRs and 95% CIs for the primary outcome of uptake of testing and 3 composite outcomes. Source: @omeara2018.", echo=F, fig.margin=TRUE, fig.fullwidth = FALSE}
+knitr::include_graphics("images/omearaaim2fig.png", dpi = NA)
+```
+
+Approximately 5 years after seeking funding to estimate the impact of targeted subsidies for antimalarials in the retail sector, @omeara2018 published the results of their Aim 2 study. They reported that 18 months after introducing the program to the intervention communities, the proportion of people opting for testing prior to treatment increased by 25%, and the proportion of antimalarials dispensed to true cases of malaria improved by 40% relative to the control communities. The authors conclude:
+
+> In summary, we demonstrate that it is possible to target ACT subsidies to diagnostically confirmed malaria cases. Allocation of subsidy dollars between testing and treatment for test- positive individuals may present a better use of programmatic resources than unconditional private sector subsidies.
 
 ## The Takeaway
 
-TO ADD
+The first step in asking a good research question is knowing what type of question you want to ask. Some questions are descriptive (e.g., What is the prevalence of condom use among adolescent males in Nigeria?). Other questions are predictive or relational (e.g., To what degree are wealth and smartphone ownership correlated?). But a lot of questions that drive policy are causal in nature (e.g., What is the impact of text message reminders on medication adherence?). Once you know what type of question you want to ask, a mnemonic like PICO or FINER can guide how you construct the question. The next step is to turn your research question into a study proposal anchored in a few specific aims that represent the work products you will complete within a given project period. Crafting a tight concept note or Specific Aims page early on can help clarify your thinking, recruit colleagues, and secure funding. Depending on your aims, you might outline specific hypotheses to test. By registering these hypotheses along with your aims and procedures, you will establish a public record and demonstrate your commitment to practicing good science.
+
+###### Share Your Feedback{-}
+
+This book is a work in progress, so I'd really appreciate your feedback on this chapter.
+
+<iframe height="600" width="690" src="https://duke.qualtrics.com/jfe/form/SV_dao7348UuKFkPOZ" frameborder="0"></iframe>
+
+
 
