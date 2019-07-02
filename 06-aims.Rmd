@@ -366,7 +366,7 @@ With the formative work completed, the O'Meara lab moved on to the second aim to
 
 #### Study protocol {-}
 
-As we'll discuss in [**Chapter 18**](openscience), it is becoming more common to publish a study protocol prior to starting data collection (or at least prior to viewing the data) that outlines your research question, hypothesis, study design, data collection methods, and analysis plan. Download the O'Meara lab's protocol [@laktabai2017] from [*BMJ Open*](https://bmjopen.bmj.com/content/7/3/e0139720 and notice how a study protocol, like a grant, uses future tense to describe what will be done.
+As we'll discuss in [**Chapter 18**](openscience), it is becoming more common to publish a study protocol prior to starting data collection (or at least prior to viewing the data) that outlines your research question, hypothesis, study design, data collection methods, and analysis plan. Download the O'Meara lab's protocol [@laktabai2017] from [*BMJ Open*](https://bmjopen.bmj.com/content/7/3/e0139720) and notice how a study protocol, like a grant, uses future tense to describe what will be done.
 
 ```{r omearaprotocol, fig.cap="Aim 2 study protocol. Source: @laktabai2017", echo=F, fig.margin=FALSE, fig.fullwidth = TRUE}
 knitr::include_graphics("images/omearaprotocol.png", dpi = NA)
