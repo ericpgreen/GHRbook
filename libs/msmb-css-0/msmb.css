@@ -157,7 +157,10 @@ blockquote {
 }
 
 blockquote p {
-  width: 100%
+  width: 100%;
+  background-color: #F7F7F7;
+  font-size: 1.3rem;
+  font-style: italic;
 }
 
 blockquote .marginnote, blockquote .sidenote {
@@ -261,6 +264,9 @@ div.sourceCode {
     width: 56%;
 }
 
+/* 
+changes to bookdown HTML render this 
+obsolete for now 
 pre.sourceCode {
     width: auto;
     padding: 2px;
@@ -271,16 +277,20 @@ pre.sourceCode {
 }
 
 pre {
-    width: auto;
-    padding: 2px;
-    padding-left: 10px;
-    background-color: #F7F7F7;
-    margin-bottom: 10px;
-    margin-top: 3px; 
+  width: 56%;
 }
+*/
 
 pre {
-  width: 56%;
+    width: 53%;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 1%;
+    padding-right: 1%;
+    background-color: #F7F7F7;
+    margin-bottom: 4px;
+    margin-top: 4px; 
+    overflow-x: scroll;
 }
 
 .build-date {
