@@ -65,4 +65,24 @@ One limitation of this book is it does not teach statistics. Statistical concept
 
 Visit [themethodsection.com](http://themethodsection.com/) for additional materials.
 
+# Acknowledgements {-}
 
+If you find something you like in this book, I can probably trace its origin to one of the many people who helped me pull it all together. I want to thank them for this good work and absolve them from responsibility for any errors.
+
+I'll start with my students. A big thank you to my graduate student teaching assistants who reviewed early drafts, including Kaitlin Saxton, Kathleen Perry, Olivia Fletcher, and Jenae Logan, as well as students in my courses who provided feedback—anonymously or not (Kelsey Sumner, Karly Gregory, Qian Yudong, Christina Schmidt).
+
+Next I'd like to thank my colleagues at Duke who provided a lot of support. Duke librarians Megan Von Isenburg and Hannah Rozear for setting me straight on literature searches. Biostatistican Liz Turner for fielding lots of technical questions. Gavin Yamey for helping me understand what we do and don't know about funding for global health research.
+
+On the institutional side, I'm grateful to the Learning Innovations team for coming on this journey with me, including Andrea Novicki, Heather Hans, William Williamson, Ben Richardson, Michael Blair, and Quentin Ruiz-Esparza. Thanks as well to Mary Story and Sarah Martin for supporting me from within the Duke Global Health Institute, and to Duke OIT staff, including Zach Hill, Jeremy Hopkins, and Richard Biever, who helped me to get domains and servers working, despite my efforts to thwart their progress.
+
+I used R and numerous tools from RStudio to create this book and course materials. I'm very thankful for their support to educators like me. The same goes for members of the open source community who create and maintain awesome software, including Yihui Xie (`bookdown`), Mike Smith (`msmbstyle`), Jonathan Weisberg (css help), and many others.
+
+Several scholars were very generous with their time and agreed to let me interview them. Thanks to Daniel Halperin, Salim Abdulla, Paul Garner, and Wendy O'Meara (so far).
+
+Finally, I appreciate my wife Eve for listening to boring stories about why I deleted certain paragraphs (and suggesting I delete many others), son Tucker for asking, "Really, dad, will you ever finish this book?", daughter Annie for napping occasionally during paternity leave, and my parents for always encouraging me and, more practically, for watching Annie from time to time so I could not disappoint my son.
+
+* * *
+
+[Jef Brown](http://www.jefbrown.com), an Artist & Illustrator living in Seattle, WA, created the cover illustration. 
+
+> Creating the cover for this book, I wanted to create imagery that reflected the “action” of research in Global Health. Rather than depict a portrait of impoverished villages, a nebulous globe, or still life of medicine- I created a representation of the data that drives the change. I was inspired by the bubble charts of Hans Rosling and the aesthetic philosophy of Wassily Kandinsky. For both, “shape” was an important tool for expression. In creating the constellation of circles I was able to convey a dynamic representation for a larger living idea.
