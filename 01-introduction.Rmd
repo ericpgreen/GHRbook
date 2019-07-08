@@ -256,7 +256,7 @@ In his book with Stephen Inrig, *The AIDS Pandemic: Searching for a Global Respo
 
 And like that, the question of **efficacy** was put to rest. After nearly two decades—and many preventable infections and deaths—it became clear to everyone that male circumcision helps to prevent HIV transmission.
 
-## The Takeaway {-}
+## The takeaway {-}
 
 The road from research question to policy impact can be long. Decades, in fact, as demonstrated by the scientific history of male circumcision and HIV prevention. But for researchers and advocates who are willing doggedly follow the data wherever it leads, real change is possible. As of 2017, nearly 15 million men living in the AIDS Belt have been circumcised, potentially averting more than 500,000 new HIV infections through 2030 [@whomc2017].
 

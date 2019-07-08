@@ -79,7 +79,7 @@ I used R and numerous tools from RStudio to create this book and course material
 
 Several scholars were very generous with their time and agreed to let me interview them. Thanks to Daniel Halperin, Salim Abdulla, Paul Garner, and Wendy O'Meara (so far).
 
-Finally, I appreciate my wife Eve for listening to boring stories about why I deleted certain paragraphs (and suggesting I delete many others), son Tucker for asking, "Really, dad, will you ever finish this book?", daughter Annie for napping occasionally during paternity leave, and my parents for always encouraging me and, more practically, for watching Annie from time to time so I could not disappoint my son.
+Finally, I appreciate my wife Eve for listening to boring stories about why I deleted certain paragraphs (and suggesting I delete many others), son Tucker for asking, "Really, dad, will you ever finish this book?", daughter Annie for napping occasionally during paternity leave, and my parents for always encouraging me and, more practically, for watching Annie from time to time so I might not disappoint my son.
 
 * * *
 

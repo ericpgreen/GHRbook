@@ -195,7 +195,7 @@ Calculating this pooled effect size is not as simple as averaging the effects of
 
 A single forest plot provides a summary of the best available evidence and an estimate of the overall effect size, along with uncertainty intervals. A Google search cannot begin to offer that!
 
-## The Takeaway
+## The takeaway
 
 Systematic reviews and meta-analyses are great resources for discovering the best scientific evidence about the impact of an intervention on specific clinical, behavioral, or social outcomes. Finding a good review can save you hours of searching and will give you a ready-made search strategy to update or modify. 
 
