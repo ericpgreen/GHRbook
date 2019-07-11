@@ -15,3 +15,5 @@ bookdown::pdf_book:
   citation_package: natbib
 bookdown::html_book:
   css: [style.css, toc.css, font-awesome.min.css, center.css]
+  includes:
+    in_header: google_analytics.html
