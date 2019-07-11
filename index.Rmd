@@ -23,6 +23,7 @@ output:
     margin_references: FALSE
     css: [style.css, center.css, custom-msmbstyle.css]
     includes:
+      in_header: google_analytics.html
       after_body: footer.html
 ---
 
