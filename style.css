@@ -34,7 +34,7 @@ li.part span {
   opacity: 1;
 }
 
-p {
+p,ul,ol {
     font-size: 1.3em;
     line-height: 1.6;
     font-family: 'Libre Franklin', sans-serif;
@@ -57,23 +57,25 @@ h5 {
     font-style: italic;
 }
 
-ul li{
-  line-height: 1;
-  font-family: 'Source Sans Pro', sans-serif;
-  font-weight: 200;
-  font-size: 1em;
-}
-
 
 img {
   padding-top: 20px;
   padding-bottom: 20px;
 }
 
+
+
+blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+
 blockquote p {
-  width: 100%;
-  font-size: 1em;
-  color: grey;
+  display: inline;
+  font-style: normal !important;
 }
 
 b, strong, blockquote {
