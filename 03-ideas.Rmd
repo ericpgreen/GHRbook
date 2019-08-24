@@ -249,7 +249,7 @@ You can choose from several reference managers. [Zotero](https://www.zotero.org/
 * Shares collections by automatically sync-ing via the Cloud to facilitate collaboration.
 * Easily exports references to other reference managers
 
-## The takeaway
+## The Takeaway
 
 Research ideas take time to develop. Be kind to yourself on days where it feels like your slow hunches are a bit too slow, and every door you open seems like a dead end rather than a portal to the adjacent possible. You will get there.
 

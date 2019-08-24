@@ -273,7 +273,7 @@ Figure \@ref(fig:sugar2) shows what a logic model might look like for the relati
 knitr::include_graphics("images/sugarlogic.png", dpi = NA)
 ```
 
-## The takeaway 
+## The Takeaway 
 
 It's been said that global health is more a bunch of problems than a discipline. If you pick up a recent article on a global health topic, chances are good that you won't find much, if any, reference to theory. Instead, black box evaluations are the norm. These studies ask "does my intervention work, and to what degree", but not why, why not, or how. There are compelling reasons to think that more fully integrating theory into our work would benefit our studies in terms of design and inference, while also advancing the progress of science. As shown in the Kenya relative risk reduction evaluation, a good conceptual framework can clarify the theoretical motivation underlying your intervention. One common form of conceptual model in the evaluation literature is called a theory of change. A theory of change lifts the lid on the black box and states how intervention activities are hypothesized to generate outcomes, and what assumptions must hold for this to happen. Another way to draw these assumptions is called a logic model. Both models serve as an excellent bridge to our next topic: measurement.
 

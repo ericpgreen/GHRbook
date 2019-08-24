@@ -277,7 +277,7 @@ The rest of the report should support your overall recommendation. It's customar
 
 Minor concerns, on the other hand, include issues that you believe detract from the paper's potential, but do not represent core matters of science. You do not need to copyedit the draft, but you might include suggestions for improving the readability of the paper under minor concerns. Likewise, you might offer additional references the authors could consider adding to provide more context for the results. When you're writing minor concerns, you're offering ideas for how to make the paper better.
 
-## The takeaway
+## The Takeaway
 
 Critical appraisal is an important part of the scientific process. It's what we do when asked to review a manuscript prior to publication, evaluate a grant proposal, read a new paper published in our field, and prepare a systematic review or meta-analysis. You might feel unprepared to provide critical feedback on someone else's work until you know more about research methods, designs, and analysis, but it's easy to get started if you use a framework like the reporting guidelines published by the Equator Network or some of the tools listed below in additional resources. When it's time to communicate your feedback, be nice. Be critical, be honest about the flaws you perceive, but always be nice and assume that the authors did their best. If their best is not publishable and cannot be fixed with revision, then recommend that the paper be rejected or the grant not funded. It happens. Even in rejecting someone's work you can offer ideas for improvement. It's common to structure your feedback according to the major concerns you see, followed by minor comments that could improve the accuracy or clarity of the paper.
 

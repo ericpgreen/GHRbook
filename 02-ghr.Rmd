@@ -328,6 +328,10 @@ In the world of malaria research, an applied research question might be, "How ca
 
 #### Clinical Research{-}
 
+```{marginfigure}
+Read about Aunt Debbie's journey: [https://tinyurl.com/y5ae459m](https://tinyurl.com/y5ae459m).
+```
+
 Applied science takes many different forms, including [**clinical research**](https://en.wikipedia.org/wiki/Clinical_research). Clinical research is a broad field that encompasses patient-oriented research, epidemiological and behavioral studies, outcomes research, and health services research. Basic research provides the foundation for all clinical research.
 
 ```{r ctrial, fig.cap="Pipeline from basic research to FDA approval. Source: [http://www.phrma.org/advocacy/research-development/clinical-trials](http://www.phrma.org/advocacy/research-development/clinical-trials).", echo=F, fig.fullwidth = TRUE}
@@ -553,9 +557,9 @@ Interesting hybrid models include the Abdul Latif Jameel Poverty Action Lab (JPA
 
 Global health research is published in medical journals (e.g., [*The Lancet*](http://www.thelancet.com/) and [*JAMA*](http://jamanetwork.com/journals/jama)), general science journals (e.g., [*Science*](http://science.sciencemag.org/) and [*PLOS ONE*](http://journals.plos.org/plosone/)), discipline-specific journals (e.g., [*The Journal of Immunology*](http://www.jimmunol.org/content/198/1/184.short) and [*Epidemiology*](http://journals.lww.com/epidem/pages/default.aspx)), and disease-specific journals (e.g., [*AIDS*](http://journals.lww.com/aidsonline/Pages/default.aspx) and [*Malaria Journal*](https://malariajournal.biomedcentral.com/)). Journals specializing in global health include [*The Lancet Global Health*](http://www.thelancet.com/journals/langlo/latestcontent), [*BMJ Global Health*](http://gh.bmj.com/), [*Global Public Health*](http://www.tandfonline.com/toc/rgph20/current), and [*Global Health: Science and Practice*](http://www.ghspjournal.org/).
 
-## The takeaway
+## The Takeaway
 
-Research is defined as a systematic investigation whose goal is to develop or contribute to generalizable knowledge. As global health is the study and practice of improving health and achieving equity in health, **global health research** research includes all systematic efforts to create generalizable knowledge of how we can improve health and achieve equity in health for everyone, everywhere. 
+Research is defined as a systematic investigation whose goal is to develop or contribute to generalizable knowledge. As global health is the study and practice of improving health and achieving equity in health, **global health research** includes all systematic efforts to create generalizable knowledge of how we can improve health and achieve equity in health for everyone, everywhere. 
 
 ```{marginfigure}
 Usually when people speak of "the literature," they mean [scholarly](https://en.wikipedia.org/wiki/Academic_publishing) or [peer-reviewed](https://en.wikipedia.org/wiki/Peer_review) journal articles. In addition, a body of work called "[grey literature](https://en.wikipedia.org/wiki/Grey_literature)" is more encompassing and harder to search systematically. Grey literature sources are typically disseminated through channels other than peer-reviewed journals. Examples include technical reports or [white papers](https://en.wikipedia.org/wiki/White_paper) published on the web.

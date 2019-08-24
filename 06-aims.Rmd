@@ -392,7 +392,7 @@ Approximately 5 years after seeking funding to estimate the impact of targeted s
 
 > In summary, we demonstrate that it is possible to target ACT subsidies to diagnostically confirmed malaria cases. Allocation of subsidy dollars between testing and treatment for test- positive individuals may present a better use of programmatic resources than unconditional private sector subsidies.
 
-## The takeaway
+## The Takeaway
 
 The first step in asking a good research question is knowing what type of question you want to ask. Some questions are descriptive (e.g., What is the prevalence of condom use among adolescent males in Nigeria?). Other questions are predictive or relational (e.g., To what degree are wealth and smartphone ownership correlated?). But a lot of questions that drive policy are causal in nature (e.g., What is the impact of text message reminders on medication adherence?). Once you know what type of question you want to ask, a mnemonic like PICO or FINER can guide how you construct the question. The next step is to turn your research question into a study proposal anchored in a few specific aims that represent the work products you will complete within a given project period. Crafting a tight concept note or Specific Aims page early on can help clarify your thinking, recruit colleagues, and secure funding. Depending on your aims, you might outline specific hypotheses to test. By registering these hypotheses along with your aims and procedures, you will establish a public record and demonstrate your commitment to practicing good science.
 
