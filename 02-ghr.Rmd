@@ -410,6 +410,8 @@ The final results of a large **Phase III** trial with more than 15,000 infants a
 
 On the basis of these results, the European Medicines Agency issued a "European scientific opinion" to help inform the decision of the WHO and African national regulatory authorities regarding their recommendation of the vaccine. If RTS,S is approved for use and eventually hits the market, researchers will likely conduct **Phase IV** trials to evaluate the vaccine's long-term effects. 
 
+<iframe src="https://webplayer.whooshkaa.com/episode/417875?theme=dark&visual=true&background-color=%231F9AC9&waveform-base-color=%23E69138&waveform-progress-color=%23FFFFFF" height="190" width="50%" scrolling="no" frameborder="0" allow="autoplay"></iframe>
+
 #### Implementation Research and Translational Research{-}
 
 ```{marginfigure}
