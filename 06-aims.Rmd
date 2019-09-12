@@ -312,6 +312,8 @@ They directed their proposal to the National Institute of Allergy and Infectious
 
 In 2014 when [this proposal was funded](https://projectreporter.nih.gov/project_info_description.cfm?aid=8673670&icde=45309822), [the payline for new R01s at NIAID was the 13th percentile](https://www.niaid.nih.gov/grants-contracts/archive-paylines-fiscal-year). That means the O'Meara lab's proposal scored within the top 13% of all proposals submitted. Think of how crushed you would be to have a proposal sitting at the 14th percentile!
 
+<iframe src="https://webplayer.whooshkaa.com/show/8168?theme=dark&button-color=%23FFFFFF&background-color=%231F9AC9&waveform-base-color=%23E69138&waveform-progress-color=%23FFFFFF" height="200" width="50%" scrolling="no" frameborder="0" allow="autoplay"></iframe>
+
 ### FORMATIVE WORK, AIM 1
 
 The O'Meara lab conducted two studies as part of this project. The first was a formative study to determine the optimal subsidy level for malaria treatment. Let's use the paper they published on this Aim 1 work to examine how research problems, questions, and hypotheses come together in the *Introduction* of a scientific manuscript. Take a moment and [download this article](https://gh.bmj.com/content/1/2/e000101) in *BMJ Global Health* by @omeara:2016. I've highlighted the authors' descriptions of the research problem, what is known about the problem, the research question, and the hypothesis.
