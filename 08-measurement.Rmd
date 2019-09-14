@@ -58,6 +58,8 @@ Noncompliance to randomization on the treatment side is called **one-sided nonco
 
 @patel:2016 randomly assigned 495 eligible adults to the HAP plus enhanced usual care group (n=247) or the enhanced usual care condition alone group (n=248). No one in the control group (EUC-only) was treated with HAP, but 31% of the HAP group had an unplanned discharge and did not complete the treatment. Analysis strategies for one- and two-sided noncompliance are discussed in a later chapter.
 
+<iframe src="https://webplayer.whooshkaa.com/episode/426354?theme=dark&button-color=%23FFFFFF&background-color=%231F9AC9&waveform-base-color=%23E69138&waveform-progress-color=%23FFFFFF" height="190" width="50%" scrolling="no" frameborder="0" allow="autoplay"></iframe>
+
 ### OUTCOMES AND IMPACTS
 
 The hypothesized outcome in @patel:2016 was a reduction in severe depression:
