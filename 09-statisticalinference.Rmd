@@ -490,7 +490,11 @@ Statistical inference is hard. Here are a few resources to keep learning:
 * **New Statistics**: [Understanding the New Statistics](https://amzn.to/2VGek3H), by Geoff Cumming
 * **Bayesian Approach**: [*Statistical Rethinking*](https://amzn.to/2XMHLDP) by Richard McElreath
 
+###### Share Your Feedback{-}
 
+This book is a work in progress, so I'd really appreciate your feedback on this chapter.
+
+<iframe height="600" width="690" src="https://duke.qualtrics.com/jfe/form/SV_43cfvpOISSY6guh" frameborder="0"></iframe>
 
 
 
