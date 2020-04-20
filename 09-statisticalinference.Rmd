@@ -42,7 +42,7 @@ Here's a sample of news reports about the results:
 
 Technically they are correct. While the supplement group had a 30% lower risk for cancer compared to the placebo group (a hazard ratio of 0.70), the 95% confidence interval around this estimate spanned from 0.47 (a 53% reduction) to 1.02 (a 2% increase), thus crossing the line of "no effect" for ratios at 1.0. The *p*-value was 0.06 and their a priori significance cutoff was 0.05, so the result was deemed "not significant" and the conclusion was that supplements do not lower cancer risk. 
 
-But is that the best take? Not everyone thought so. Here's what [Dr. Ken Rothman](https://www.bu.edu/sph/profile/kenneth-rothman/) and his colleagues wrote to the journal editors:
+But is that the best take? Not everyone thought so. Here's what [Ken Rothman](https://www.bu.edu/sph/profile/kenneth-rothman/) and his colleagues wrote to the journal editors:
 
 ```{marginfigure}
 JAMA published a different letter to the editor that raised similar issues [@jaroudi:2017], and the authors of the original paper responded [@lappe:2017b]: 
@@ -125,7 +125,7 @@ It might seem confusing because H~1~ is the hypothesis we talk about and write a
 In her great book [*Learning Statistics with R*](https://learningstatisticswithr.com/book/hypothesistesting.html), Danielle Navarro frames this as "the trial of the null hypothesis". 
 ```
 
-**The null is where statistical inference happens.** The Frequentist rejects or retains the null hypothesis, but does not direcltly prove the alternative. They simply decide whether there is sufficient evidence to convict (i.e., reject) the null.
+**The null is where statistical inference happens.** The Frequentist rejects or retains the null hypothesis, but does not directly prove the alternative. They simply decide whether there is sufficient evidence to convict (i.e., reject) the null.
 
 #### Step 2: Imagine a world in which H~0~ is true (i.e., innocent) {-}
 
@@ -444,7 +444,7 @@ Panel C focuses on estimation. It displays the point estimate of the average tre
 
 **But here's the catch with confidence intervals: they are still bound by Frequentists ideas of probability.** Therefore, a confidence interval is a long-run metric. If you were to repeat your study over and over and estimate confidence intervals each time, 95% of the time the true value would fall inside the interval. But we don't know if in this study—the one we actually conducted—the true value falls inside this specific interval. 95% of the time the interval will contain the true value, but this might be one of those times it doesn't.
 
-Bottomline: Frequentist confidence intervals are an improvement over *p*-values, but they still do not tell you the probability that your hypothesis is correct. For that we need the Bayesian approach.
+Bottom line: Frequentist confidence intervals are an improvement over *p*-values, but they still do not tell you the probability that your hypothesis is correct. For that we need the Bayesian approach.
 
 ## Bayesian Approach
 
