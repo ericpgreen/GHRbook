@@ -52,6 +52,49 @@ write_custom_footer()  # overwrite footer.html with today's page built date
 
 ISBN 978-0-578-44376-8
 
+# Contents{-}
+
+Introduction
+
+Module 1: Getting Started With Global Health Research
+
+- [Chapter 1: Global Health Research](#ghr)
+- [Chapter 2: Developing Research Ideas](#ideas)
+- [Chapter 3: Systematic Reviews and Meta-Analyses](#filtered)
+- [Chapter 4: Critical Appraisal](#critical)
+
+Module 2: Define Your Study Aims
+
+- [Chapter 5: Research Questions and Aims](#aims)
+- [Chapter 6: The Role of Theory in Global Health](#theory)
+- [Chapter 7: Outcomes and Indicators](#measurement)
+
+Module 3: Understand Inference
+
+- [Chapter 8: Statistical Inference](#statisticalinference)
+- [Chapter 9: Causal Inference](#causalinference)
+
+Module 4: Select a Research Design
+
+- [Chapter 10: Experimental](#experimental)
+- [Chapter 11: Quasi-Experimental](#quasiexperimental)
+- [Chapter 12: Observational](#observational)
+
+Module 5: Specify Your Methods
+
+- [Chapter 13: Sampling and Power](#sampling)
+- Chapter 14: Quantitative Data Collection
+- Chapter 15: Qualitative Data Collection
+
+Module 6: Practice Good Science and Make an Impact
+
+- Chapter 16: Collaborations
+- Chapter 17: Research Ethics
+- Chapter 18: Open Science
+- Chapter 19: Sharing Your Work
+- Chapter 20: Impacting Policy and Practice
+
+
 # Preface{-}
 
 This book will introduce you to research designs and methods in global health. I wrote this text for undergraduate and graduate students taking my [introductory course at Duke University](http://www.globalhealthresearch.co/). Therefore, it shares the two central aims of my course: to make you a better consumer of research and to help you design your first study.
@@ -80,7 +123,7 @@ I used R and numerous tools from RStudio to create this book and course material
 
 Several scholars were very generous with their time and agreed to let me interview them. Thanks to Daniel Halperin, Salim Abdulla, Paul Garner, and Wendy O'Meara (so far).
 
-Finally, I appreciate my wife Eve for listening to boring stories about why I deleted certain paragraphs (and suggesting I delete many others), son Tucker for asking, "Really, dad, will you ever finish this book?", daughter Annie for napping occasionally during paternity leave, and my parents for always encouraging me and, more practically, for watching Annie from time to time so I might not disappoint my son.
+Finally, I appreciate my wife Eve for listening to boring stories about why I deleted certain paragraphs (and for suggesting I delete many others), my son Tucker for asking, "Really, dad, will you ever finish this book?", my daughter Annie for napping occasionally during paternity leave, and my parents for always encouraging me and, more practically, for watching Annie from time to time so I might not disappoint my son.
 
 * * *
 

@@ -232,38 +232,6 @@ It's also worth noting that a study can include elements of both qualitative and
 
 We can also begin with our observations of the world and generate hypotheses to test. This can be an informal process, or it can take the form of formal qualitative research. Whereas quantitative studies are often deductive—state a hypothesis, deduce the consequences that would be consistent with the hypothesis, and collect data to test this hypothesis—qualitative studies are more often inductive or exploratory. In qualitative research, we make observations about the world and use these observations to describe why or how the world appears to operate the way it does. From these observations we can create testable hypotheses for future studies that, if not rejected, can generate theory. 
 
-### THE STRUCTURE OF HYPOTHESES
-
-Let's return to our example research question from above:
-
-> Among children under 5 years of age living around the Lake Victoria basin in Kenya, are insecticide-treated mosquito nets more effective than untreated nets at preventing parasitaemia?
-
-A question like this leads to a common type of hypothesis in global health: the new treatment (insecticide-treated nets) will be superior to   the existing treatment (untreated nets). When describing your study, it's common to state a **scientific (or research) hypothesis** like this:
-
-```{marginfigure}
-This is a falsifiable hypothesis because if we found that children who slept under treated bed nets were more likely to exhibit parasitaemia, it would lead us to reject the notion that treated bed nets are superior untreated bed nets.
-```
-
-> Sleeping under an insecticide-treated bed net is more effective at preventing pediatric malaria compared to sleeping under an untreated net.
-
-But this is not actually the hypothesis that we test.
-
-In hypothesis testing, we set up two precise scientific hypotheses: a **null hypothesis** (H~0~) and an **alternative hypothesis** (H~1~). Most often the null hypothesis is stated as the hypothesis of no difference:
-
-```{marginfigure}
-The "null" hypothesis doesn't have to be a hypothesis of no difference [@dienes2008]. The null could be a specific difference that is a value other than 0, e.g., μ~1~ `-` μ~2~ `=` 3, or a band of differences.
-```
-
-> H~0~: μ~1~ `=` μ~2~ (or μ~1~ `-` μ~2~ `=` 0), meaning there is no difference in observed cases of parasitaemia between the kids who sleep under a treated bed net and those who sleep under an untreated bed net
-
-```{marginfigure}
-In this 'prevention of a bad thing' framing, "superior" means observing fewer cases of parasitaemia.
-```
-
-> H~1~: μ~1~ `<` μ~2~ (or μ~1~ `-` μ~2~ `<` 0), meaning we observe fewer cases of parasitaemia among the kids who sleep under a treated bed net compared to those who sleep under an untreated bed net
-
-It might seem confusing because H~1~ is the hypothesis we talk about and write about, but it's actually the null hypothesis (H~0~) that we test and decide to reject or accept (technically, 'fail to reject'). We'll come back to hypothesis testing (and other goals we might have) in **[Chapter 8](causal)**. 
-
 ### WHEN ARE HYPOTHESES DEVELOPED?
 
 ```{r hark, fig.cap="The hypothetico-deductive model of the scientific method is short-circuited by a range of questionable research practices (red). HARKing, or hypothesizing after results are known, involves generating a hypothesis from the data and then presenting it as a priori. Source: [https://cos.io/rr/](https://cos.io/rr/)", echo=F, fig.margin=TRUE, fig.fullwidth = FALSE}
