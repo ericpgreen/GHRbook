@@ -121,7 +121,7 @@ On the institutional side, I'm grateful to the Learning Innovations team for com
 
 I used R and numerous tools from RStudio to create this book and course materials. I'm very thankful for their support to educators like me. The same goes for members of the open source community who create and maintain awesome software, including Yihui Xie (`bookdown`), Mike Smith (`msmbstyle`), Jonathan Weisberg (css help), and many others.
 
-Several scholars were very generous with their time and agreed to let me interview them. Thanks to Daniel Halperin, Salim Abdulla, Paul Garner, and Wendy O'Meara (so far).
+Several scholars were very generous with their time and agreed to let me interview them. Thanks to Daniel Halperin, Salim Abdulla, Paul Garner, Wendy O'Meara, and Vikram Patel (so far). Other colleagues shared comments on drafts, including Daniel Lakens and Solomon Kurz.
 
 Finally, I appreciate my wife Eve for listening to boring stories about why I deleted certain paragraphs (and for suggesting I delete many others), my son Tucker for asking, "Really, dad, will you ever finish this book?", my daughter Annie for napping occasionally during paternity leave, and my parents for always encouraging me and, more practically, for watching Annie from time to time so I might not disappoint my son.
 

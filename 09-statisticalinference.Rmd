@@ -473,7 +473,7 @@ knitr::include_graphics("images/hap_concred.png")
 With Frequentist confidence intervals, we can say that if we repeated this trial over and over, 95% of intervals would contain the true value. We don't know if the interval on the left is one of the times we got it wrong, but if we act like this interval contains the true value we will only be wrong only 5% of the time.
 
 ```{marginfigure}
-Bayesians do not conduct significance testing. The closest thing is something called a Bayes factor. I think Bayes factors take us back down the road of NHST-style dichotomous thinking, so I'll leave it for you to explore on your own.
+Bayesians do not typically frame inference in terms of significance testing. Some data analysts use so called Bayes factors in the spirit of significance testing. I think Bayes factors take us back down the road of NHST-style dichotomous thinking, so I’ll leave it for you to explore on your own.
 ```
 
 The Bayesian credible interval on the right tells us something different: we are 95% confident that the treatment effect falls in *this specific interval. We can say this because Bayesian analysis gives us a posterior probability distribution that is not conditional on the null hypothesis being true. A particularly handy feature of posterior distributions is that we can also estimate the probability of any particular point. For instance, there is a 87% chance that the effect size is less than -6. 
